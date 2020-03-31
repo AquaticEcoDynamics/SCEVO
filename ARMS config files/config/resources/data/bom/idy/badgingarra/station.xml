@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Badgingarra</comment>
+	<name>Badgingarra</name>
+	<longname>Badgingarra</longname>
+	<site>Badgingarra</site>
+	<latitude>-30.34</latitude>
+	<longitude>115.54</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.30min</address>
+		<longname>30 Min Downsampled data</longname>
+		<processingInterval>1800</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.6hr</address>
+		<longname>6 Hour Downsampled data</longname>
+		<processingInterval>21600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/badgingarra/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

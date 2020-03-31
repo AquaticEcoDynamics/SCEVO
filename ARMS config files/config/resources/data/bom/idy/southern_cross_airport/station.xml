@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - SouthernCrossAirport</comment>
+	<name>SouthernCrossAirport</name>
+	<longname>SouthernCrossAirport</longname>
+	<site>SouthernCrossAirport</site>
+	<latitude>-31.24</latitude>
+	<longitude>119.36</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.60min</address>
+		<longname>60 Min Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.12hr</address>
+		<longname>12hr Downsampled data</longname>
+		<processingInterval>4320000</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/southern_cross_airport/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

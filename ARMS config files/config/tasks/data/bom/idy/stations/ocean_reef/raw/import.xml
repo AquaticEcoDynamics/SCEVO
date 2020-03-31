@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Ocean Reef Met data</comment>
+	<localFolder>data/bom/idy/ocean_reef</localFolder>
+	<fileName>IDY03100*.axf</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>true</importLastFile>
+	<startDate>END_DATE@dpaw.data.bom.idy.ocean_reef.raw.winddir</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>dpaw.data.bom.idy.ocean_reef.raw</destinationAddress>
+	<dateFormat>yyyyMMdd HHmm</dateFormat>
+	<nHeaderLines>2</nHeaderLines>
+	<nTailLines>1</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>, </separator>
+	<dateColumn>3</dateColumn>
+	<timeColumn>4</timeColumn>
+    <tagColumn>1</tagColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/bom/idy/ocean_reef/sensors.xml</sensorsFile>
+</TextFileImport>

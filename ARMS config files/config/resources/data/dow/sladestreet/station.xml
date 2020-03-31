@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOW - Slade Street</comment>
+	<name>Slade Street</name>
+	<longname>Slade Street</longname>
+	<site>Slade Street</site>
+	<latitude>-32.924245788</latitude>
+	<longitude>115.921948817</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/sladestreet/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<!-- salinity needs to be calculated from non-normalized Cond  -->
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/sladestreet/sensor_salinity.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

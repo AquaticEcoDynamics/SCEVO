@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDistribute>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.gingin_airport.raw.rainfall</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.gingin_airport.downsampled.15min.rainfall</destinationAddress>
+		<startDate>IDY_GINGINAIRPORT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_GINGINAIRPORT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDistribute>

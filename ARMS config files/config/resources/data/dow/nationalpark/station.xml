@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOW - National Park</comment>
+	<name>National Park</name>
+	<longname>National Park</longname>
+	<site>National Park</site>
+	<latitude>-31.88396119</latitude>
+	<longitude>116.09479099</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/nationalpark/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<!-- salinity needs to be calculated from non-normalized Cond  -->
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/nationalpark/sensor_salinity.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

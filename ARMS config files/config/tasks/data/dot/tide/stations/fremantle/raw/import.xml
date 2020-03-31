@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Fremantle Tide data</comment>
+	<localFolder>data/dot/tide/fremantle</localFolder>
+	<fileName>FBV*.txt</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@dpaw.data.dot.tide.fremantle.raw.tide</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>dpaw.data.dot.tide.fremantle.raw</destinationAddress>
+	<dateFormat>yyyyMMdd.HHmm</dateFormat>
+	<nHeaderLines>18</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>2</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dot/tide/fremantle/sensors.xml</sensorsFile>
+</TextFileImport>

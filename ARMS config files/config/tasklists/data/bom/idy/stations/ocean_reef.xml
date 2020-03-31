@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+	<taskRootDir>config/tasks/data/bom/idy/stations/ocean_reef</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+
+	<TaskConfig>
+		<taskName>Text File Import</taskName>
+		<configFile>raw/import.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+
+	<!-- Timeline -->
+	<TaskConfig>
+		<taskName>Timeline Update From List</taskName>
+		<configFile>timeline/start_dataprocessing.xml</configFile>
+		<configFile>timeline/end_dataprocessing.xml</configFile>
+	</TaskConfig>
+	
+	<!-- QC sensors -->
+	<TaskConfig>
+		<taskName>data.psts.qualitycheck.PSTSQualityCheckerTaskFactory</taskName>
+		<configFile>qualitycheck/met.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Create the Wind Vector -->
+	<TaskConfig>
+		<taskName>data.pvts.create.PVTSCreatorTaskFactory</taskName>
+		<configFile>raw/create_wind_vector.xml</configFile>
+	</TaskConfig>
+	
+
+	<!-- Downsample -->
+	<TaskConfig>
+		<taskName>data.psts.downsampler.PSTSDownsamplerTaskFactory</taskName>	
+		<configFile>downsampled/met_15.xml</configFile>	
+		<configFile>downsampled/met_30.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Downsample wind vector data -->
+	<TaskConfig>
+		<taskName>data.pvts.downsampler.PVTSDownsamplerTaskFactory</taskName>
+		<configFile>downsampled/met_15.xml</configFile>
+		<configFile>downsampled/met_30.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Fill  -->
+	<TaskConfig>
+		<taskName>data.psts.filler.PSTSFillerTaskFactory</taskName>
+		<configFile>filled/met_15.xml</configFile>
+		<configFile>filled/met_30.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Fill Wind Vector -->
+	<TaskConfig>
+		<taskName>data.pvts.filler.PVTSFillerTaskFactory</taskName>
+		<configFile>filled/met_15.xml</configFile>
+		<configFile>filled/met_30.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import data</comment>
+	<localFolder>/data/dow/raw</localFolder>
+	<fileName>{regex}uwa~613036(.*)flow(.*).csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<timeZone>8</timeZone>
+	<destinationAddress>dpaw.data.dow.forresthighway_613036.raw.flow</destinationAddress>
+	<dateFormat>yyyyMMddHHmmss</dateFormat>
+	<nHeaderLines>0</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>3</dateColumn>
+	<fileColumn>4</fileColumn>
+</TextFileImport>

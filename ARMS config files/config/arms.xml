@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSConfig>
+	<comment>ARMS Configuration for DPaW</comment>
+	<forceParallelLoad>false</forceParallelLoad>
+	<name>dpaw</name>
+	<longname>DPaW ARMS</longname>
+	<latitude>-32.0</latitude>
+	<longitude>115.0</longitude>
+	<timeZone>+8.0</timeZone>
+	<levelLinkerFile>config/services/levellinker.xml</levelLinkerFile>
+	<timeLineFile>config/services/timeline.xml</timeLineFile>
+	
+	<armsContextFile>config/resources/data/bom/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dot/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dow/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/models/opendap/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/models/wrf/ContextFile.xml</armsContextFile>
+</ARMSConfig>

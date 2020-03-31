@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WRFVariableFile>
+	<WRFVariable>
+		<name>WIND_SPEED</name>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 15]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>WIND_Direction</name>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 360]</colorLimits>
+				<contourLevels>[45]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>T2</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TH2</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>PSFC</name>
+		<units>Pa</units>
+			
+		<PlotProperties>
+			<ColorBar>
+				<nIntervals>256</nIntervals>
+			</ColorBar>
+			<Limits>
+				<colorLimits>[70000 120000]</colorLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SST</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SSTSK</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TSK</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TMN</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SOILTB</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[10 40]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>RAIN</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAINC</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAINNC</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAINSH</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>CANWAT</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+				<contourLevels>[1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>CLDFRA</name>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 1]</colorLimits>
+				<contourLevels>[0.1]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>RELHUM</name>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 100]</colorLimits>
+				<contourLevels>[5]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	
+	<SensorScript>
+		<name>Surface Pressure (hPa)</name>
+		<longname>Surface Pressure (hPa)</longname>
+		<SensorInfo>
+			<title>Surface Pressure (hPa)</title>
+			<units>hPa</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<process2DUsingScript>true</process2DUsingScript>
+			<ScriptStream>
+				<name>pressure</name>
+				<address>$PARENT.PSFC</address>
+			</ScriptStream>
+			
+			<script>
+				var i, j;
+
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						result[i][j] = pressure[i][j] / 100.0;
+					}
+				}
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[700 1200]</colorLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>Net Radiation</name>
+		<longname>Net Radiation</longname>
+		<SensorInfo>
+			<title>Net Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<process2DUsingScript>true</process2DUsingScript>
+			<ScriptStream>
+				<name>downLW</name>
+				<address>$PARENT.GLW</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>outLW</name>
+				<address>$PARENT.OLR</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>downSW</name>
+				<address>$PARENT.SWDOWN</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>albedo</name>
+				<address>$PARENT.ALBEDO</address>
+			</ScriptStream>
+			
+			<script>
+				var i, j;
+
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						result[i][j] = (downLW[i][j] + downSW[i][j]) - (outLW[i][j] + (downSW[i][j] * albedo[i][j]));
+					}
+				}
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[-500 1000]</colorLimits>
+				<contourLevels>[-500:40:1000]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>Net LW Radiation</name>
+		<longname>Net Long Wave Radiation</longname>
+		<SensorInfo>
+			<title>Net LW Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<process2DUsingScript>true</process2DUsingScript>
+			<ScriptStream>
+				<name>downLW</name>
+				<address>$PARENT.GLW</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>outLW</name>
+				<address>$PARENT.OLR</address>
+			</ScriptStream>
+			
+			<script>
+				var i, j;
+
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						result[i][j] = downLW[i][j] - outLW[i][j];
+					}
+				}
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[-200 800]</colorLimits>
+				<contourLevels>[-200:40:800]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>Net SW Radiation</name>
+		<longname>Net Short Wave Radiation</longname>
+		<SensorInfo>
+			<title>Net SW Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<process2DUsingScript>true</process2DUsingScript>
+			<ScriptStream>
+				<name>downSW</name>
+				<address>$PARENT.SWDOWN</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>albedo</name>
+				<address>$PARENT.ALBEDO</address>
+			</ScriptStream>
+			
+			<script>
+				var i, j;
+
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						result[i][j] = downSW[i][j] - (downSW[i][j] * albedo[i][j]);
+					}
+				}
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 1400]</colorLimits>
+				<contourLevels>[0:50:1400]</contourLevels>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+</WRFVariableFile>

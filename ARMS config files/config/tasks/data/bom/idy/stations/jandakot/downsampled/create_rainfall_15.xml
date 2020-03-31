@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDistribute>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.jandakot.raw.rainfall</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.jandakot.downsampled.15min.rainfall</destinationAddress>
+		<startDate>IDY_JANDAKOT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_JANDAKOT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDistribute>

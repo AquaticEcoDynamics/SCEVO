@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - GinginAirport</comment>
+	<name>GinginAirport</name>
+	<longname>GinginAirport</longname>
+	<site>GinginAirport</site>
+	<latitude>-31.46</latitude>
+	<longitude>115.86</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.15min</address>
+		<longname>15 Min Downsampled data</longname>
+		<processingInterval>900</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.60min</address>
+		<longname>60 Min Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/gingin_airport/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

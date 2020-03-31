@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemExecute>
+  <comment>Execute R</comment>
+  <workingDir>/models/machine_learning</workingDir>
+  <command>Rscript /ARMS/Workspaces/dpaw/dpaw/models/machine_learning/swan_simulation.R</command>
+</SystemExecute>

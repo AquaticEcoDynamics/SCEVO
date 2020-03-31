@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TuflowRun>
+	<topLevel>models/tuflow/swan_arms</topLevel>
+
+	<startDate>TUFLOW_SCENARIOFULL2016OXYTEST-START@timeline</startDate>
+	<endDate>TUFLOW_SCENARIOFULL2016OXYTEST-END@timeline</endDate>
+
+	<runTimeMinMinutes>180</runTimeMinMinutes>
+	<runTimeMaxMinutes>-1</runTimeMaxMinutes>
+
+	<timezone>8</timezone>
+
+	<RunConfiguration>
+		<interval>-1</interval>
+
+		<restart>true</restart>
+		<restartDateSearchOption>START</restartDateSearchOption>
+		<restartOutputOverwrite>false</restartOutputOverwrite>
+		<restartOutputInterval>24</restartOutputInterval>
+	</RunConfiguration>
+	<ArchiveLocations>
+		<RestartDomain>
+			<filter>swan_\d{6}.\d{6}.rst$</filter>
+			<destinationDirectory>Archive/Restart</destinationDirectory>
+		</RestartDomain>
+		<ArchiveDomain>
+			<filter>.*\.nc$</filter>
+			<destinationDirectory>Archive/Output</destinationDirectory>
+		</ArchiveDomain>
+	</ArchiveLocations>
+	<CoreFileLocations>
+		<fvcTuflow>swan.fvc</fvcTuflow>
+		<exeTuflow>tfv_aed_swan</exeTuflow>
+		<rstTuflow>restart.rst</rstTuflow>
+	</CoreFileLocations>
+</TuflowRun>

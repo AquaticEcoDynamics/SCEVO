@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WRFVariableFile>
+	<WRFVariable>
+		<name>T2</name>
+		<title>Air Temperature at 2m</title>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TH2</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SST</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SSTSK</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TSK</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>TMN</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>SOILTB</name>
+		<units>Deg C</units>
+		
+		<DataManipulation>
+			<!-- Convert from Kelvin to Celsius -->
+			<addition>-273.15</addition>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[10 40]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>RAINC</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 10]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAINNC</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 10]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAINSH</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 10]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>CANWAT</name>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 10]</colorLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>CLDFRA</name>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 1]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<WRFVariable>
+		<name>WIND_SPEED</name>
+		<units>m/s</units>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 15]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>WIND_DIRECTION</name>
+		<units>deg</units>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 360]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RELHUM</name>
+		<units>%</units>
+		
+		<DataManipulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 100]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>RAIN</name>
+		<units>mm</units>
+		
+		<DataManipulation>
+			<undoAccumulation>true</undoAccumulation>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 10]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	
+	<SensorScript>
+		<name>Net Radiation</name>
+		<longname>Net Radiation</longname>
+		<SensorInfo>
+			<title>Net Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>downLW</name>
+				<address>$PARENT.GLW</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>outLW</name>
+				<address>$PARENT.OLR</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>downSW</name>
+				<address>$PARENT.SWDOWN</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>albedo</name>
+				<address>$PARENT.ALBEDO</address>
+			</ScriptStream>
+			
+			<script>
+				(downLW + downSW)-(outLW + (downSW * albedo));
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[-500 1000]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>Net LW Radiation</name>
+		<longname>Net Long Wave Radiation</longname>
+		<SensorInfo>
+			<title>Net LW Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>downLW</name>
+				<address>$PARENT.GLW</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>outLW</name>
+				<address>$PARENT.OLR</address>
+			</ScriptStream>
+			
+			<script>
+				downLW - outLW;	
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[-200 800]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>Net SW Radiation</name>
+		<longname>Net Short Wave Radiation</longname>
+		<SensorInfo>
+			<title>Net SW Radiation</title>
+			<units>W m-2</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>downSW</name>
+				<address>$PARENT.SWDOWN</address>
+			</ScriptStream>
+			<ScriptStream>
+				<name>albedo</name>
+				<address>$PARENT.ALBEDO</address>
+			</ScriptStream>
+			
+			<script>
+				downSW - (downSW * albedo);
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 1400]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	<SensorScript>
+		<name>RELHUMFACTOR</name>
+		<longname>Relative Humidity - Factor</longname>
+		<SensorInfo>
+			<title>Relative Humidity</title>
+			<units>Factor</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>relhum</name>
+				<address>$PARENT.RELHUM</address>
+			</ScriptStream>
+			
+			<script>
+				relhum * 0.01;
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 1]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+</WRFVariableFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>IDY_BICKLEY_DATAPROCESSING-START</timeLineKeyword>
+	
+	<time>
+		<comment>Start of Raw</comment>
+		<date>START-DATE@dpaw.data.bom.idy.bickley.raw.Rainfall_9am</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+  
+	<time>
+		<comment>Start of Raw</comment>
+		<date>END-DATE@dpaw.data.bom.idy.bickley.raw.rainfall</date>
+		<method>max</method>
+		<offset>-0.1</offset>
+	</time>
+	
+	<time>
+		<comment>Start of Raw</comment>
+		<date>END-DATE@dpaw.data.bom.idy.bickley.downsampled.1hr.rainfall</date>
+		<method>max</method>
+		<offset>-1</offset>
+	</time>
+	
+</TimeLineUpdate>

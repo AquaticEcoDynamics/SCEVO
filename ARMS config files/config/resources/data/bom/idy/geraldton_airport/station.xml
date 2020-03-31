@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - GeraldtonAirport</comment>
+	<name>GeraldtonAirport</name>
+	<longname>GeraldtonAirport</longname>
+	<site>GeraldtonAirport</site>
+	<latitude>-28.8</latitude>
+	<longitude>114.7</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.30min</address>
+		<longname>30 Min Downsampled data</longname>
+		<processingInterval>1800</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.12hr</address>
+		<longname>12hr Downsampled data</longname>
+		<processingInterval>4320000</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/geraldton_airport/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

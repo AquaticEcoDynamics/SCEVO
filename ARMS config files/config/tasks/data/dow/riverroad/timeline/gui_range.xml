@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GUITimeLineRange>
+	<startDate>DOW_RIVERROAD_DATAPROCESSING-START</startDate>
+	<endDate>DOW_RIVERROAD_DATAPROCESSING-END</endDate>
+</GUITimeLineRange>

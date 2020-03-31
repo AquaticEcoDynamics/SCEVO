@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>DOW_BENARAROAD_DATAPROCESSING-START</timeLineKeyword>
+	<!-- 
+	<time>
+		<comment>Start of Raw</comment>
+		<date>2011-03-19 06:00:00</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+ -->
+	 
+
+	<time>
+		<comment>Start of Raw</comment>
+		<date>START-DATE@dpaw.data.dow.benararoad_616084.raw.flow</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+	<time>
+		<comment>Start of Raw</comment>
+		<date>END-DATE@dpaw.data.dow.benararoad_616084.raw.flow</date>
+		<method>max</method>
+		<offset>0.0</offset>
+	</time>
+</TimeLineUpdate>

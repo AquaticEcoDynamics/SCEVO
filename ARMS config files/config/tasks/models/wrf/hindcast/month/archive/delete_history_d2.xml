@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeleteFiles>
+  <comment>SWAN WRF HINDCAST Monthly model</comment>
+  <sourceFolder>models/wrf/hindcast/month/Archive/Domain2</sourceFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+</DeleteFiles>

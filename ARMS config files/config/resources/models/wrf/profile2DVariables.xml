@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WRFVariableFile>
+	<WRFVariable>
+		<name>CLDFRA</name>
+		<title>Cloud Fraction</title>
+		<units>Fraction</units>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>QCLOUD</name>
+		<title>Cloud Water Mixing Ratio</title>
+		<units>Fraction</units>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<WRFVariable>
+		<name>QRAIN</name>
+		<title>Rain Water Mixing Ratio</title>
+		<units>Fraction</units>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				
+			</Limits>
+		</PlotProperties>
+	</WRFVariable>
+	<SensorScript>
+		<name>Max Cloud Fraction</name>
+		<longname>Max Cloud Fraction</longname>
+		<SensorInfo>
+			<title>Max Cloud Fraction</title>
+			<units>Fraction</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<process2DUsingScript>true</process2DUsingScript>
+			<ScriptStream>
+				<name>cf</name>
+				<address>$PARENT.CLDFRA</address>
+			</ScriptStream>
+			
+			<script>
+				var i, j, max;
+
+				max = 0;
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						if (!isNaN(cf[i][j])) {
+							max = Math.max(cf[i][j]);
+						}
+					}
+				}
+				for (i=0; i &lt; result.length; i++) {
+					for (j=0; j &lt; result[0].length; j++) {
+						result[i][j] = max;
+					}
+				}
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<colorLimits>[0 1]</colorLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+</WRFVariableFile>

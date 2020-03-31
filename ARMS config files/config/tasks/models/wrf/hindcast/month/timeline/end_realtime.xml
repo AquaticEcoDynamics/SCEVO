@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeLineUpdate>
+  <comment>Timeline Update</comment>
+  <timeLineKeyword>DPAW_WRF_HINDCAST_MONTHLY-END</timeLineKeyword>
+  <time>
+    <comment>from model End Time</comment>
+    <date>monthstart</date>
+    <method>=</method>
+    <offset>0</offset>
+  </time>
+  <time>
+    <comment>from model End Time</comment>
+    <date>DPAW_WRF_HINDCAST_MONTHLY-START@timeline</date>
+    <method>min</method>
+    <offset>10</offset>
+  </time>
+</TimeLineUpdate>

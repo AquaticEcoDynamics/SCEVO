@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<taskRootDir>config/tasks/system/postgres</taskRootDir>
+	
+	<!-- Uploads Configuration files into the database for remote access -->
+	<TaskConfig>
+		<taskName>ExportConfigToDBTask</taskName>
+		<configFile>uploadDB.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>

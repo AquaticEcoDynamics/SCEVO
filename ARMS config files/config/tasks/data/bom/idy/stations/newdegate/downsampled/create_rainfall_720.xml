@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSSum>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.newdegate.raw.rainfall</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.newdegate.downsampled.12hr.rainfall</destinationAddress>
+		<startDate>IDY_NEWDEGATE_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_NEWDEGATE_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>43200</processingTimestep>
+	</TimeSeries>
+</PTSSum>

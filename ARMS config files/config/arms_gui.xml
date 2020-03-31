@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSGui>
+	<armsConfigFile>arms.xml</armsConfigFile>
+	<title>DPaW ARMS</title>
+	<aboutImage />
+	<summaryFile>config/services/sensorsummary.xml</summaryFile>
+	<taskRootDir>config/tasklists/</taskRootDir>
+
+	<taskMenu>
+		<address>elcom.refresh</address>
+		<taskListFile>elcom/ELCOM - ELCD - Refresh.xml</taskListFile>
+	</taskMenu>
+
+	<plotRootDir>config/plots</plotRootDir>
+	<plotMenu>
+		<address>lds.t1.addess.last 2 days</address>
+		<plotFile>/lds/t1/last_two_days.xml</plotFile>
+	</plotMenu>
+</ARMSGui>

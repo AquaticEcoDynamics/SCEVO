@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+	<comment>DOW</comment>
+	<Sensor1D>
+		<name>flow</name>
+		<longname>Flow</longname>
+		<SensorInfo>
+			<title>Flow (m3/s)</title>
+			<units>m3/s</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>5</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>temperature</name>
+		<longname>Temperature</longname>
+		<SensorInfo>
+			<title>Temperature</title>
+			<units>º C</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>conductivity</name>
+		<longname>Conductivity</longname>
+		<SensorInfo>
+			<title>Conductivity</title>
+			<units>psu</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>1000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+</SensorFile>

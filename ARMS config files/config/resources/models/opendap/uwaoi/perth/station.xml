@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPENDAPConfig>
+	<comment>HYCOM Configuration</comment>
+	<timeZone>0</timeZone>
+	<datum>ROMS</datum>
+	<url>http://130.95.29.59:8080/thredds/dodsC/realtime/perth_agg_his.ncml</url>
+	
+	<OPENDAPModelProperties>
+	  <OPENDAPModelAttributes>
+	  </OPENDAPModelAttributes>
+      <OPENDAPModelDefaults>
+          <!-- 
+            Currently the DDX of this OpenDap server is corrupt.
+            Until corrected the date origin must be manually set
+            which is less than ideal.
+           -->
+          <dateMTOrigin>2000-01-01 00:00:00</dateMTOrigin>
+          
+          <dateMTOriginFormat>yyyy-MM-dd HH:mm:ss</dateMTOriginFormat>
+          <!-- <dateMTOriginFormat>yyyy-MM-dd'T'HH:mm:ss'Z'</dateMTOriginFormat> -->
+          
+          <!-- 
+            Currently the DDX of this OpenDap server is corrupt.
+            Until corrected the date origin must be manually set
+            which is less than ideal.
+            This is a scale, so as the source is in seconds this is 1:1.
+           -->
+          <dateMTIncrementInSeconds>1</dateMTIncrementInSeconds>
+          
+          <!-- 
+            Currently the DDX of this OpenDap server is corrupt.
+            Until corrected the fill value must be manually set
+            which is less than ideal.
+           -->
+          <fillValue>1.0E37</fillValue>
+      </OPENDAPModelDefaults>
+	  <OPENDAPModelDimensions>
+            <date>ocean_time</date>
+            <depth>s_rho</depth>
+            <i>eta_rho</i>
+            <j>xi_rho</j>
+	  </OPENDAPModelDimensions>
+	  <OPENDAPModelVariables>
+			<date>ocean_time</date>
+			<depth>s_rho</depth>
+			<surface>zeta</surface>
+            <latitude>lat_rho</latitude>
+            <longitude>lon_rho</longitude>
+			<u>u</u>
+			<v>v</v>
+	  </OPENDAPModelVariables>
+		<OPENDAPModelSettings>
+			<OPENDAPGridLayout>
+				<transposeSheet>true</transposeSheet>
+				<reverseSheetX>true</reverseSheetX>
+				<reverseSheetY>false</reverseSheetY>
+			</OPENDAPGridLayout>
+		</OPENDAPModelSettings>
+	</OPENDAPModelProperties>
+
+	
+	<!-- TIMESERIES 1D LOCATIONS -->
+	<Timeseries1D>
+		<name>Sample Point</name>
+		<latitude>-32.0430</latitude>
+		<longitude>115.6427</longitude>
+	</Timeseries1D>
+    <Timeseries1D>
+        <name>BD Point</name>
+        <latitude>-32.057492</latitude>
+        <longitude>115.738595</longitude>
+    </Timeseries1D>
+	
+	<!-- PROFILE 1D LOCATIONS -->
+	<Profile1D>
+		<name>Sample Point</name>
+        <latitude>-32.0430</latitude>
+        <longitude>115.6427</longitude>
+	</Profile1D>
+	
+	<!-- CURTAIN 1D LOCATIONS 
+	<Curtain1D>
+		<name>PCM Ocean Boundary</name>
+		<LatLngBox>
+			<boxNorth>-31.58</boxNorth>
+			<boxSouth>-32.42</boxSouth>
+			<boxEast>115.6</boxEast>
+			<boxWest>115.6</boxWest>
+		</LatLngBox>
+	</Curtain1D> -->
+	
+	<!-- PROFILE 2D LOCATIONS -->
+	<Profile2D>
+		<name>Sample Point</name>
+        <latitude>-32.0430</latitude>
+        <longitude>115.6427</longitude>
+	</Profile2D>
+	
+	<!-- SHEET 2D LOCATIONS -->
+	<Sheet2D>
+		<name>SWAN</name>
+		<LatLngBox>
+			<boxNorth>-31.492</boxNorth>
+			<boxSouth>-32.64</boxSouth>
+			<boxEast>115.87</boxEast>
+			<boxWest>115.253</boxWest>
+		</LatLngBox>
+	</Sheet2D>
+	
+	<!-- CURTAIN 2D LOCATIONS 
+	<Curtain2D>
+		<name>PCM Ocean Boundary</name>
+		<LatLngBox>
+			<boxNorth>-31.58</boxNorth>
+			<boxSouth>-32.42</boxSouth>
+			<boxEast>115.6</boxEast>
+			<boxWest>115.6</boxWest>
+		</LatLngBox>
+	</Curtain2D> -->
+	
+	<OPENDAPTimeseries1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPTimeseries1DVariableFile>
+	<OPENDAPProfile1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPProfile1DVariableFile>
+	<OPENDAPCurtain1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPCurtain1DVariableFile>
+	<OPENDAPProfile2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPProfile2DVariableFile>
+	<OPENDAPSheet2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPSheet2DVariableFile>
+	<OPENDAPCurtain2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPCurtain2DVariableFile>
+</OPENDAPConfig>

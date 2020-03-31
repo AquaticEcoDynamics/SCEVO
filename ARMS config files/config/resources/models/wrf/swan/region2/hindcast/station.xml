@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WRFConfig>
+	<comment>WRF Hindcast Station</comment>
+	<directory>models/wrf/hindcast/month/Archive/Domain2/Archive</directory>
+	<firstFileTimestep>0</firstFileTimestep>
+	
+	
+	<!-- SA Murray Darling Stations
+	<Profile1D>
+		<name>SAMD - Cambrai</name>
+		<latitude>-34.67</latitude>
+		<longitude>139.29</longitude>
+	</Profile1D>
+	 -->
+	
+	<!-- 2D Profiles
+	<Profile2D>
+		<name>Bay of Campeche</name>
+		<latitude>22.20205</latitude>
+		<longitude>-94</longitude>
+	</Profile2D>
+	 -->
+	
+	<WRFProfile1DVariableFile>config/resources/models/wrf/profile1DVariables.xml</WRFProfile1DVariableFile>
+	<WRFProfile2DVariableFile>config/resources/models/wrf/profile2DVariables.xml</WRFProfile2DVariableFile>
+	<WRFSheetVariableFile>config/resources/models/wrf/sheetVariables.xml</WRFSheetVariableFile>
+</WRFConfig>

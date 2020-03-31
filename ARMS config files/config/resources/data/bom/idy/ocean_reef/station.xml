@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Ocean Reef</comment>
+	<name>Ocean Reef station</name>
+	<longname>Ocean Reef</longname>
+	<site>Ocean Reef</site>
+	<latitude>-31.8647487</latitude>
+	<longitude>115.7618132</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.15min</address>
+		<longname>downample 15 min</longname>
+		<processingInterval>900</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.30min</address>
+		<longname>downample 30 min</longname>
+		<processingInterval>1800</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/ocean_reef/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/ocean_reef/derived.xml</sensorsFile>	
+	</StationSensorsGroup>
+</Station>

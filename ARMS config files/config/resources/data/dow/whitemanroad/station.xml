@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOW - Whiteman Road</comment>
+	<name>Whiteman Road</name>
+	<longname>Whiteman Road</longname>
+	<site>Whiteman Road</site>
+	<latitude>-31.900081093</latitude>
+	<longitude>116.007611462</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/whitemanroad/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<!-- salinity needs to be calculated from non-normalized Cond  -->
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/whitemanroad/sensor_salinity.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

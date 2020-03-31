@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<taskRootDir>config/tasks/system/postgres</taskRootDir>
+	
+	<!-- Creates the database structure (from nothing) -->
+	<TaskConfig>
+		<taskName>cwr.arms.tasks.database.init.InitialiseDBTaskFactory</taskName>
+		<configFile>createDB.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>

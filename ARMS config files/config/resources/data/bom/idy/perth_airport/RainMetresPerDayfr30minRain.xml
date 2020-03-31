@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+	<comment>IDY Perth Airport</comment>
+	<SensorScript>
+		<name>rain (M per Day)</name>
+		<longname>Rain (M per Day) fr 30min rainfall</longname>
+		<SensorInfo>
+			<title>Rainfall (M per Day)</title>
+			<units>m/day</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>rain</name>
+				<address>$PARENT.rainfall</address>
+			</ScriptStream>
+			
+			<script>
+				(48.0 / 1000.0) * rain;
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0 0.5]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+</SensorFile>

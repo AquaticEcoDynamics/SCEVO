@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - HopetounNorth</comment>
+	<name>HopetounNorth</name>
+	<longname>HopetounNorth</longname>
+	<site>HopetounNorth</site>
+	<latitude>-33.93</latitude>
+	<longitude>120.13</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.30min</address>
+		<longname>30 Min Downsampled data</longname>
+		<processingInterval>1800</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.12hr</address>
+		<longname>12 Hour Downsampled data</longname>
+		<processingInterval>43200</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/hopetoun_north/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

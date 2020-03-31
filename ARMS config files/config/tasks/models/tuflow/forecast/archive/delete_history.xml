@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeleteFiles>
+  <comment>SWAN WRF FORECAST model</comment>
+  <sourceFolder>models/tuflow/swan_arms/Archive/Output</sourceFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+</DeleteFiles>

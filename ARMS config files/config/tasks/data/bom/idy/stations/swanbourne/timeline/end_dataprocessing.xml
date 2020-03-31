@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>IDY_SWANBOURNE_DATAPROCESSING-END</timeLineKeyword>
+	
+
+	<time>
+		<comment>End of raw</comment>
+		<date>END-DATE@dpaw.data.bom.idy.swanbourne.raw.Rainfall_9am</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+<!--  
+	<time>
+		<comment>Compare with Ocean Reef</comment>
+		<date>END-DATE@dpaw.data.bom.idy.PerthMetro_data.downsampled.30min.wind_direction</date>
+		<method>max</method>
+		<offset>-0.042</offset>
+	</time>
+	<time>
+		<comment>Compare with Jandakot</comment>
+		<date>END-DATE@dpaw.data.bom.idy.Jandakot_data.downsampled.30min.wind_direction</date>
+		<method>max</method>
+		<offset>-0.042</offset>
+	</time>
+	
+	-->
+</TimeLineUpdate>

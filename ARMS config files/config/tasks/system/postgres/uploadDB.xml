@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImportExportConfig>
+	<directory>dpaw</directory>
+	<fileOrFolderToInclude>*.xml</fileOrFolderToInclude>
+	<fileOrFolderToExclude>tasklists/scenarios</fileOrFolderToExclude>
+	<fileOrFolderToExclude>tasks/scenarios</fileOrFolderToExclude>
+	<fileOrFolderToExclude>data</fileOrFolderToExclude>
+	<fileOrFolderToExclude>models</fileOrFolderToExclude>
+</ImportExportConfig>

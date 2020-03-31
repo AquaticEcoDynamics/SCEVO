@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeLineUpdate>
+  <comment>Timeline Update</comment>
+  <timeLineKeyword>DPAW_WRF_FORECAST-START</timeLineKeyword>
+  <time>
+    <comment>from model End Time</comment>
+    <date>midnight</date>
+    <method>=</method>
+    <offset>-5</offset>
+  </time>
+  <time>
+    <comment>from model End Time</comment>
+    <date>END-DATE@dpaw.models.wrf.swan.region2.forecast.Sheets - Fixed Height.T2</date>
+    <method>min</method>
+    <offset>0</offset>
+    <ignoreOnError>true</ignoreOnError>
+  </time>
+</TimeLineUpdate>

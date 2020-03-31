@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<taskRootDir>config/tasks/system/postgres</taskRootDir>
+	
+	<!-- Creates Database resources (Tables) for data storage -->
+	<TaskConfig>
+		<taskName>cwr.arms.tasks.database.importres.ImportResourcesTaskFactory</taskName>
+		<configFile>importDB.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>

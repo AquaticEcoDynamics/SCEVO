@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+	<taskRootDir>config/tasks/data/bom/idy/stations/perth_airport</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+	<TaskConfig>
+		<taskName>Text File Import</taskName>
+		<configFile>raw/import.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+
+	<!-- Timeline -->
+	<TaskConfig>
+		<taskName>Timeline Update From List</taskName>
+		<configFile>timeline/start_dataprocessing.xml</configFile>
+		<configFile>timeline/end_dataprocessing.xml</configFile>
+	</TaskConfig>
+	
+	<TaskConfig>
+		<taskName>Time Series Quality Checker</taskName>
+		<configFile>raw/QC.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Create the Wind Vector -->
+	<TaskConfig>
+		<taskName>data.pvts.create.PVTSCreatorTaskFactory</taskName>
+		<configFile>raw/create_wind_vector.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Create the rainfall -->
+	<TaskConfig>
+		<taskName>Time Series Difference in Time</taskName>
+		<configFile>raw/create_rainfall.xml</configFile>
+	</TaskConfig>
+	 
+	<TaskConfig>
+		<taskName>Time Series Downsampler</taskName>
+		<configFile>downsampled/met_15.xml</configFile>
+		<configFile>downsampled/met_30.xml</configFile>
+		<configFile>downsampled/met_60.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Downsample wind vector data -->
+	<TaskConfig>
+		<taskName>data.pvts.downsampler.PVTSDownsamplerTaskFactory</taskName>
+		<configFile>downsampled/met_15.xml</configFile>
+		<configFile>downsampled/met_30.xml</configFile>
+		<configFile>downsampled/met_60.xml</configFile>
+	</TaskConfig>
+	 
+	<!-- Distribute the rainfall -->
+	<TaskConfig>
+		<taskName>Time Series Distribute</taskName>	
+		<configFile>downsampled/create_rainfall_15.xml</configFile>
+	</TaskConfig>
+	<TaskConfig>
+		<taskName>Time Series Sum</taskName>
+		<configFile>downsampled/create_rainfall_60.xml</configFile>
+	</TaskConfig>
+	
+	<TaskConfig>
+		<taskName>Time Series Filler</taskName>
+		<configFile>filled/met_15.xml</configFile>
+		<configFile>filled/met_30.xml</configFile>
+		<configFile>filled/met_60.xml</configFile>
+	</TaskConfig>
+	
+	<!-- Fill Wind Vector -->
+	<TaskConfig>
+		<taskName>data.pvts.filler.PVTSFillerTaskFactory</taskName>
+		<configFile>filled/met_15.xml</configFile>
+		<configFile>filled/met_30.xml</configFile>
+		<configFile>filled/met_60.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>
+

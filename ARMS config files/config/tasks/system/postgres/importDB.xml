@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImportDB>
+	<rootAddress>dpaw.data.dow</rootAddress>
+	<readLookupKey>DPAW_DB_READ</readLookupKey>
+	<writeLookupKey>DPAW_DB_WRITE</writeLookupKey>
+</ImportDB>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+	<comment>Met 30 minute Downsample Action</comment>
+	<sourceAddress>dpaw.data.bom.idy.swanbourne.raw</sourceAddress>
+	<destinationAddress>dpaw.data.bom.idy.swanbourne.downsampled.1hr</destinationAddress>
+	<sensorsFile>config/resources/data/bom/idy/swanbourne/sensors.xml</sensorsFile>
+	<startDate>IDY_SWANBOURNE_DATAPROCESSING-START@timeline</startDate>
+	<endDate>IDY_SWANBOURNE_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

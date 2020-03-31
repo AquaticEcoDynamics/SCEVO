@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSQualityChecker>
+	<TimeSeries>
+	<sourceAddress>dpaw.data.dot.tide.fremantle.raw</sourceAddress>
+	<destinationAddress>dpaw.data.dot.tide.fremantle.raw</destinationAddress>
+	<sensorsFile>config/resources/data/dot/tide/fremantle/sensors.xml</sensorsFile>
+	<startDate>DOT_TIDE_FREMANTLE_DATAPROCESSING-START@timeline</startDate>
+	<endDate>DOT_TIDE_FREMANTLE_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+		<QualityChecker>
+		<type>min</type>
+	</QualityChecker>
+	<QualityChecker>
+		<type>max</type>
+	</QualityChecker>
+</PSTSQualityChecker>

@@ -1,0 +1,47 @@
+output == points
+	suffix == SAL_Top_1m
+	output parameters == SAL
+	output interval == 900.00 
+	vertical averaging == depth-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output
+
+output == points
+	suffix == TEMP_Top_1m
+	output parameters == TEMP
+	output interval == 900.00 
+	vertical averaging == depth-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output
+
+output == points
+	suffix == WQ_OXY_OXY_Top_1m
+	output parameters == wq_4
+	output interval == 900.00 
+	vertical averaging == depth-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output
+
+output == points
+	suffix == SAL_Bot_1m
+	output parameters == SAL
+	output interval == 900.00 
+	vertical averaging == height-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output
+
+output == points
+	suffix == TEMP_Bot_1m
+	output parameters == TEMP
+	output interval == 900.00 
+	vertical averaging == height-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output
+
+output == points
+	suffix == WQ_OXY_OXY_Bot_1m
+	output parameters == wq_4
+	output interval == 900.00 
+	vertical averaging == height-range, 0,1
+	output points file == ..\Geo\swan_points.csv
+end output

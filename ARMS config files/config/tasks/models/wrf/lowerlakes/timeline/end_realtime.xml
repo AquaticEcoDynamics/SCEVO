@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeLineUpdate>
+  <comment>Timeline Update</comment>
+  <timeLineKeyword>DPAW_WRF_LOWERLAKES-END</timeLineKeyword>
+  <time>
+    <comment>from model End Time</comment>
+    <date>2017-07-01 00:00:00</date>
+    <method>=</method>
+    <offset>0</offset>
+  </time>
+</TimeLineUpdate>

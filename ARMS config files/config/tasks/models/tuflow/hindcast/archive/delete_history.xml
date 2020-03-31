@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeleteFiles>
+  <comment>SWAN WRF HINDCAST model</comment>
+  <sourceFolder>models/tuflow/scenarioFull2016OxyTest/Archive/Output</sourceFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+</DeleteFiles>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>IDY_PERTHMETRO_DATAPROCESSING-END</timeLineKeyword>
+	
+
+	<time>
+		<comment>End of raw</comment>
+		<date>END-DATE@dpaw.data.bom.idy.perth_metro.raw.Rainfall_9am</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+	
+</TimeLineUpdate>

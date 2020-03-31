@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDifference>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.melville_water.raw.rainfall_9am</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.melville_water.raw.rainfall</destinationAddress>
+		<startDate>IDY_MELVILLEWATER_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_MELVILLEWATER_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+	
+	<resetTime>01:01:00</resetTime>
+	<minValue>0</minValue>
+</PTSDifference>

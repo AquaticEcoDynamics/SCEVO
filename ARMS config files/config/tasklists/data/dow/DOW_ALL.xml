@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+
+	<!-- Import data to ARMS resources-->
+
+	<taskRootDir>config/tasklists/data/dow/</taskRootDir>
+	
+	<taskListFile>config/tasklists/data/dow/ftp.xml</taskListFile>
+	
+	<taskListFile>config/tasklists/data/dow/walyunga.xml</taskListFile>
+
+	<taskListFile>config/tasklists/data/dow/anacondadrive.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/benararoad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/doghill.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/forresthighway.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/gtnorthanhwbridge.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/gullroad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/karnuproad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/kielman.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/nationalpark.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/oldbunburyroad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/pinjarra.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/railwayparade.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/riverroad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/seaforth.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/sladestreet.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/whitemanroad.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dow/yackaboon.xml</taskListFile>
+</TaskListConfig>

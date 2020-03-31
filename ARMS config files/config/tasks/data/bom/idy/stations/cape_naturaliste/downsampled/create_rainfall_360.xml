@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSSum>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.cape_naturaliste.raw.rainfall</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.cape_naturaliste.downsampled.6hr.rainfall</destinationAddress>
+		<startDate>IDY_CAPENATURALISTE_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_CAPENATURALISTE_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>21600</processingTimestep>
+	</TimeSeries>
+</PTSSum>

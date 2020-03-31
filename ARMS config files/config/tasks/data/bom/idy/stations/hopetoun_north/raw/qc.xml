@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSQualityChecker>
+	<TimeSeries>
+	<sourceAddress>dpaw.data.bom.idy.hopetoun_north.raw</sourceAddress>
+	<destinationAddress>dpaw.data.bom.idy.hopetoun_north.raw</destinationAddress>
+	<sensorsFile>config/resources/data/bom/idy/hopetoun_north/sensors.xml</sensorsFile>
+	<startDate>IDY_HOPETOUNNORTH_DATAPROCESSING-START@timeline</startDate>
+	<endDate>IDY_HOPETOUNNORTH_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+		<QualityChecker>
+		<type>min</type>
+	</QualityChecker>
+	<QualityChecker>
+		<type>max</type>
+	</QualityChecker>
+</PSTSQualityChecker>

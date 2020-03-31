@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPENDAPVariableFile>
+	<OPENDAPVariable>
+		<name>EXAMPLE</name>
+		<title>Example</title>
+		<units>Fraction</units>
+		
+		<DataManipulation>
+			<nanValue>0</nanValue>
+		</DataManipulation>
+			
+		<PlotProperties>
+			<Limits>
+				
+			</Limits>
+		</PlotProperties>
+	</OPENDAPVariable>
+</OPENDAPVariableFile>

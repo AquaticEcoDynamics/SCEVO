@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+	<comment>Salinity Sensors</comment>
+	<Sensor1D>
+		<name>salinity</name>
+		<longname>Salinity</longname>
+		<SensorInfo>
+			<title>Salinity</title>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Defaults>
+				<defaultValue>12</defaultValue>
+			</Defaults>
+		</SensorInfo>
+	</Sensor1D>
+</SensorFile>

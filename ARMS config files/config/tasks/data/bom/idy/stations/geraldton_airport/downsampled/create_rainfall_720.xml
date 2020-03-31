@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSSum>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>dpaw.data.bom.idy.geraldton_airport.raw.rainfall</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.geraldton_airport.downsampled.12hr.rainfall</destinationAddress>
+		<startDate>IDY_GERALDTONAIRPORT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_GERALDTONAIRPORT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>43200</processingTimestep>
+	</TimeSeries>
+</PTSSum>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SWAN WRF FORECAST model</comment>
+  <sourceFolder>models/tuflow/swan_arms/Output</sourceFolder>
+  <destinationFolder>models/tuflow/swan_arms/Archive/Points</destinationFolder>
+  
+  <prefixString>swan_</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+  
+  <TimeStamp>
+  	<applyTimestamp>true</applyTimestamp>
+  	<timestampDateFormat>yyyyMMdd</timestampDateFormat>
+  	<timestampLocation>mid</timestampLocation>
+  </TimeStamp>
+</CopyFiles>

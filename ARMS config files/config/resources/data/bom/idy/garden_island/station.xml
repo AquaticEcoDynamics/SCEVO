@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Garden Island</comment>
+	<name>Garden Island</name>
+	<longname>Garden Island</longname>
+	<site>Garden Island</site>
+	<latitude>-32.227073</latitude>
+	<longitude>115.6829910</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.15min</address>
+		<longname>15 min Downsampled data</longname>
+		<processingInterval>900</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.1hr</address>
+		<longname>1 Hr Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/garden_island/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/garden_island/RainMetresPerDayfr15minRain.xml</sensorsFile>
+		<ignoreGroup>raw</ignoreGroup>
+		<ignoreGroup>downsampled.1hr</ignoreGroup>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/garden_island/RainMetresPerDayfr1HrRain.xml</sensorsFile>
+		<ignoreGroup>raw</ignoreGroup>
+		<ignoreGroup>downsampled.15min</ignoreGroup>
+	</StationSensorsGroup>
+</Station>

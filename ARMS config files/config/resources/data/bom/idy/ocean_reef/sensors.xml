@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+	<comment>Ocean Reef</comment>
+	<Sensor1D>
+		<name>windspeed</name>
+		<longname>Wind Speed</longname>
+		<SensorInfo>
+			<title>Wind Speed (knots)</title>
+			<units>knots</units>
+			<FileInfo>
+				<fileColumn>8</fileColumn>
+				<fileTagName>94607</fileTagName>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>30</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>10</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>winddir</name>
+		<longname>Wind Direction</longname>
+		<SensorInfo>
+			<title>Wind Direction</title>
+			<units>º True</units>
+			<FileInfo>
+				<fileColumn>7</fileColumn>
+				<fileTagName>94607</fileTagName>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>360</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+	<Sensor1D>
+		<name>air_temperature</name>
+		<longname>Air Temperature</longname>
+		<SensorInfo>
+			<title>Air Temperature</title>
+			<units>º C</units>
+			<FileInfo>
+				<fileColumn>9</fileColumn>
+				<fileTagName>94607</fileTagName>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+	<Sensor1D>
+		<name>dew_point</name>
+		<longname>Dew Point</longname>
+		<SensorInfo>
+			<title>Dew Point Temperature</title>
+			<units>º C</units>
+			<FileInfo>
+				<fileColumn>10</fileColumn>
+				<fileTagName>94607</fileTagName>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+     <Sensor1D>
+		<name>atmpress</name>
+		<longname>Atmospheric Pressure (hPa)</longname>
+		<SensorInfo>
+			<title>Atmospheric Pressure QNH (hPa)</title>
+			<units>hPa</units>
+			<FileInfo>
+				<fileColumn>11</fileColumn>
+				<fileTagName>94607</fileTagName>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>990</minValue>
+				<maxValue>1100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+	<Sensor2D>
+		<name>windvector</name>
+		<longname>Wind Vector</longname>
+		<SensorInfo>
+			<title>Wind Vector</title>
+			<units>m/s</units>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minXValue>0</minXValue>
+				<maxXValue>100</maxXValue>
+				<minYValue>0</minYValue>
+				<maxYValue>100</maxYValue>
+			</Limits>
+			<Defaults>
+				<defaultXValue>0</defaultXValue>
+				<defaultYValue>0</defaultYValue>		
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor2D>
+</SensorFile>

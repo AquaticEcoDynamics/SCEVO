@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Barrack Tide data</comment>
+	<localFolder>data/dot/tide/barrack</localFolder>
+	<fileName>BAR*.txt</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>true</importLastFile>
+	<startDate>END_DATE@dpaw.data.dot.tide.barrack.raw.tide</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>dpaw.data.dot.tide.barrack.raw</destinationAddress>
+	<dateFormat>yyyyMMdd.HHmm</dateFormat>
+	<nHeaderLines>18</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>2</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dot/tide/barrack/sensors.xml</sensorsFile>
+</TextFileImport>

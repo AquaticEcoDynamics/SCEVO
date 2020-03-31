@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FtpRetrieveFiles>
+	<comment>FTP Sync Configuration</comment>
+	<ftpServer>ftp2.bom.gov.au</ftpServer>
+	<PasswordLookup>FTP_ANONYMOUS</PasswordLookup>
+	<ftpFolder>anon/gen/fwo/</ftpFolder>
+	<localFolder>data/bom/idy/raw/</localFolder>
+	<prefixString>IDY03100</prefixString>
+	<suffixString>axf</suffixString>
+</FtpRetrieveFiles>

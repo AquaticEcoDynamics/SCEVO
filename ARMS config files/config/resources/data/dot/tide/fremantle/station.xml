@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOT - Fremantle</comment>
+	<name>Fremantle</name>
+	<longname>Fremantle</longname>
+	<site>Fremantle</site>
+	<latitude>-32.065556</latitude>
+	<longitude>115.748056</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>300</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.15min</address>
+		<longname>15 Min Downsampled data</longname>
+		<processingInterval>900</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dot/tide/fremantle/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

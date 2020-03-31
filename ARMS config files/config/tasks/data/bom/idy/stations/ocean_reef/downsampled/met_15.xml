@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+	<comment>Met 15 minute Downsample Action</comment>
+	<sourceAddress>dpaw.data.bom.idy.ocean_reef.raw</sourceAddress>
+	<destinationAddress>dpaw.data.bom.idy.ocean_reef.downsampled.15min</destinationAddress>
+	<sensorsFile>config/resources/data/bom/idy/ocean_reef/sensors.xml</sensorsFile>
+	<startDate>IDY_OceanReef_DATAPROCESSING-START@timeline</startDate>
+	<endDate>IDY_OceanReef_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

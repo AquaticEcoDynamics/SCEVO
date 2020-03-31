@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SWAN WRF FORECAST model</comment>
+  <sourceFolder>models/wrf/forecast/Archive/Domain1</sourceFolder>
+  <destinationFolder>models/wrf/forecast/Archive/Domain1/Archive</destinationFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+
+  <useSections>true</useSections>
+</CopyFiles>

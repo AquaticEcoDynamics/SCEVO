@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TUFLOWBCFileGenerator>
+	<TimeSeries>
+		<sourceAddress></sourceAddress>
+		<destinationAddress>/models/tuflow/swan_arms/BCs/HistFlow/susannah_Inflow.csv</destinationAddress>
+		<startDate>TUFLOW_SCENARIOFULL2016OXYTEST-START@timeline</startDate>
+		<endDate>TUFLOW_SCENARIOFULL2016OXYTEST-END@timeline</endDate>
+		<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+	
+	<timeZone>8</timeZone>
+
+    <overWrite>true</overWrite>
+    
+	<fillToEnd>false</fillToEnd>
+	<repeatNDays>1</repeatNDays>
+	
+	<TUFLOWBcCsvData>
+		<sourceAddress>dpaw.data.dow.gtnorthanhwbridge_616088.raw.flow</sourceAddress>
+		<header>Flow</header>
+	</TUFLOWBcCsvData>
+</TUFLOWBCFileGenerator>

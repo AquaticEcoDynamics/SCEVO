@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>dpaw.data.dot.tide.barrack.raw</sourceAddress>
+		<destinationAddress>dpaw.data.dot.tide.barrack.downsampled.15min</destinationAddress>
+		<sensorsFile>config/resources/data/dot/tide/barrack/sensors.xml</sensorsFile>
+		<startDate>DOT_TIDE_BARRACK_DATAPROCESSING-START@timeline</startDate>
+		<endDate>DOT_TIDE_BARRACK_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

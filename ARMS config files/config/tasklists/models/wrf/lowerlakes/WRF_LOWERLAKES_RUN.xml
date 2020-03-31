@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+	<taskRootDir>config/tasks/models/wrf/lowerlakes</taskRootDir>
+    <skipNTasks>0</skipNTasks>
+
+
+    <!-- Timeline -->
+    <TaskConfig>
+        <taskName>Timeline Update From List</taskName>
+        <configFile>timeline/start_realtime.xml</configFile>
+        <configFile>timeline/end_realtime.xml</configFile>
+    </TaskConfig>
+    
+    <!-- Run WRF -->
+	<TaskConfig>
+		<taskName>WRF Run</taskName>		
+		<configFile>launch.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>

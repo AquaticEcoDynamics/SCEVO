@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOW - Benara Road</comment>
+	<name>Benara Road</name>
+	<longname>Benara Road</longname>
+	<site>Benara Road</site>
+	<latitude>-32.87770254</latitude>
+	<longitude>115.95952564</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/benararoad/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<!-- salinity needs to be calculated from non-normalized Cond  -->
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/benararoad/sensor_salinity.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

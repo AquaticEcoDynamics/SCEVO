@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+
+	<!-- Import data to ARMS resources-->
+
+	<taskRootDir>config/tasklists/data/dot/tide/</taskRootDir>
+	
+	<taskListFile>config/tasklists/data/dot/tide/stations/barrack_tide.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dot/tide/stations/fremantle_tide.xml</taskListFile>
+</TaskListConfig>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DOW - Forrest Highway</comment>
+	<name>Forrest Highway</name>
+	<longname>Forrest Highway</longname>
+	<site>Forest Highway</site>
+	<latitude>-32.81935396</latitude>
+	<longitude>115.73890166</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>3600</processingInterval>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/forresthighway/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<!-- salinity needs to be calculated from non-normalized Cond  -->
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dow/forresthighway/sensor_salinity.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

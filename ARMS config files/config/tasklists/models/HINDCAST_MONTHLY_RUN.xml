@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+	
+    <taskRootDir>config/tasklists/models</taskRootDir> 
+    
+    <taskListFile>config/tasklists/models/wrf/hindcast/WRF_HINDCAST_MONTHLY_RUN.xml</taskListFile>
+    <taskListFile>config/tasklists/models/tuflow/hindcast/TUFLOW_HINDCAST_MONTHLY_RUN.xml</taskListFile>
+</TaskListConfig>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>dpaw.data.bom.idy.melville_water.raw</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.melville_water.downsampled.30min</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/melville_water/sensors.xml</sensorsFile>
+		<startDate>IDY_MELVILLEWATER_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_MELVILLEWATER_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>1800</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

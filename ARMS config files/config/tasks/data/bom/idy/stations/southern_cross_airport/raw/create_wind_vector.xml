@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PVTSCreator>
+	<TimeSeries>
+		<comment>Create Wind Vector task</comment>
+		<sourceAddress>dpaw.data.bom.idy.southern_cross_airport.raw</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.southern_cross_airport.raw.windvector</destinationAddress>
+		<startDate>IDY_SOUTHERNCROSSAIRPORT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_SOUTHERNCROSSAIRPORT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+	<magnitudeName>wind_speed_m_s</magnitudeName>
+	<directionName>wind_direction</directionName>
+</PVTSCreator>

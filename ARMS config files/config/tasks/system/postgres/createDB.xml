@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InitialiseDB>
+	<comment>DPaW Database Initialisation</comment>
+	<name>dpaw</name>
+
+	<driver>org.postgresql.Driver</driver>
+	<urlRoot>jdbc:postgresql://localhost/</urlRoot>
+	<url>jdbc:postgresql://localhost/dpaw</url>
+	<rootLookupKey>prompt</rootLookupKey>
+	<writeLookupKey>DPAW_DB_WRITE</writeLookupKey>
+	<readLookupKey>DPAW_DB_READ</readLookupKey>
+	<initialiseDB>true</initialiseDB>
+	<removeDB>false</removeDB>
+</InitialiseDB>

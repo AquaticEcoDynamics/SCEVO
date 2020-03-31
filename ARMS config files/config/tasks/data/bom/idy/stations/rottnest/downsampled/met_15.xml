@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>dpaw.data.bom.idy.rottnest.raw</sourceAddress>
+		<destinationAddress>dpaw.data.bom.idy.rottnest.downsampled.15min</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/rottnest/sensors.xml</sensorsFile>
+		<startDate>IDY_ROTTNEST_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_ROTTNEST_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

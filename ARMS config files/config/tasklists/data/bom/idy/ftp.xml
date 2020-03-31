@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+	<taskRootDir>config/tasks/data/bom/idy</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+	
+	<!-- FTP files from BoM server -->
+	<TaskConfig>
+		<taskName>FTP Files From Server</taskName>
+		<configFile>ftp.xml</configFile>
+		<continueOnError>false</continueOnError>
+	</TaskConfig>
+</TaskListConfig>
+

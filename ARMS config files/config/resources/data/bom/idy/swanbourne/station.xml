@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Swanbourne</comment>
+	<name>Swanbourne</name>
+	<longname>Swanbourne Station</longname>
+	<site>Swanbourne</site>
+	<latitude>-31.9857066</latitude>
+	<longitude>115.7607396</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.15min</address>
+		<longname>averaged files</longname>
+		<processingInterval>900</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.30min</address>
+		<longname>30 Min Downsampled data</longname>
+		<processingInterval>1800</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.1hr</address>
+		<longname>1 Hr Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/swanbourne/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/swanbourne/RainMetresPerDayfr15minRain.xml</sensorsFile>
+		<ignoreGroup>raw</ignoreGroup>
+		<ignoreGroup>downsampled.30min</ignoreGroup>
+		<ignoreGroup>downsampled.1hr</ignoreGroup>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/swanbourne/RainMetresPerDayfr30minRain.xml</sensorsFile>
+		<ignoreGroup>raw</ignoreGroup>
+		<ignoreGroup>downsampled.15min</ignoreGroup>
+		<ignoreGroup>downsampled.1hr</ignoreGroup>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idy/swanbourne/RainMetresPerDayfr1HrRain.xml</sensorsFile>
+		<ignoreGroup>raw</ignoreGroup>
+		<ignoreGroup>derived</ignoreGroup>
+		<ignoreGroup>downsampled.30min</ignoreGroup>
+		<ignoreGroup>downsampled.15min</ignoreGroup>
+	</StationSensorsGroup>
+</Station>

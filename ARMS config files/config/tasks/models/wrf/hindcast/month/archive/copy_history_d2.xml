@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SWAN WRF HINDCAST Monthly model</comment>
+  <sourceFolder>models/wrf/hindcast/month/Archive/Domain2</sourceFolder>
+  <destinationFolder>models/wrf/hindcast/month/Archive/Domain2/Archive</destinationFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+
+  <useSections>true</useSections>
+</CopyFiles>

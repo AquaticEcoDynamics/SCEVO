@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SWAN WRF FORECAST model</comment>
+  <sourceFolder>/models/machine_learning/Output/BC files</sourceFolder>
+  <destinationFolder>/models/tuflow/swan_arms/BCs/Flow</destinationFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>_Inflow.csv</suffixString>
+
+  <replaceAllFiles>true</replaceAllFiles>
+  <useSections>true</useSections>
+</CopyFiles>
