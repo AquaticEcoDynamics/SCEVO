@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LevelLinker>
+
+	<comment>Level Linker</comment>
+
+	<mainDatum>AHD</mainDatum>
+	
+	  <Datum>
+		  <name>AHD</name>
+		  <type>static</type>
+		  <offset>0</offset>
+	  </Datum>
+    <Datum>
+        <name>SEA_LEVEL</name>
+        <type>static</type>
+        <offset>-0.756</offset>
+    </Datum>
+    <Datum>
+        <name>LWM</name>
+        <type>static</type>
+        <offset>-0.756</offset>
+    </Datum>
+    <Datum>
+        <name>ROMS</name>
+        <type>static</type>
+        <offset>-0.4044</offset>
+    </Datum>
+		<Datum>
+			<name>ESTUARY_SURFACE</name>
+			<type>dynamic</type>
+			<address>surface</address>
+			<offset>0.00</offset>
+		</Datum>
+		<Datum>
+			<name>ESTUARY_BOTTOM_KWILENA</name>
+			<type>static</type>
+			<offset>-5.50</offset>
+		</Datum>
+		
+</LevelLinker>

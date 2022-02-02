@@ -1,0 +1,16 @@
+2021-10-15 17:10:29,252 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:10:29,301 DEBUG: Task list loaded.
+2021-10-15 17:10:29,301 DEBUG: Total number of tasks: 1
+2021-10-15 17:10:29,301  INFO:  -- START  -- createDB.xml
+2021-10-15 17:10:29,302  INFO:  -- Fri Oct 15 17:10:29 AWST 2021
+2021-10-15 17:10:29,302  INFO:  -- TASK 1/1 -- /scevo/config/tasks/system/postgres/createDB.xml 5:10:29 PM
+2021-10-15 17:10:34,405  INFO:  -- END  -- Fri Oct 15 17:10:34 AWST 2021
+2021-10-15 17:10:34,406  INFO: Number of errors: 1
+2021-10-16 09:23:34,923 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-16 09:23:34,947 DEBUG: Task list loaded.
+2021-10-16 09:23:34,947 DEBUG: Total number of tasks: 1
+2021-10-16 09:23:34,947  INFO:  -- START  -- createDB.xml
+2021-10-16 09:23:34,947  INFO:  -- Sat Oct 16 09:23:34 AWST 2021
+2021-10-16 09:23:34,947  INFO:  -- TASK 1/1 -- /scevo/config/tasks/system/postgres/createDB.xml 9:23:34 AM
+2021-10-16 09:23:44,159  INFO:  -- END  -- Sat Oct 16 09:23:44 AWST 2021
+2021-10-16 09:23:44,160  INFO: Number of errors: 1

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>DBCA - WQ - 6163950</comment>
+	<name>guildford_ds_s</name>
+	<longname>Guildford DS (surface)</longname>
+	<site>guildford_ds_s</site>
+	<latitude>-31.959694</latitude>
+	<longitude>115.857250</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw file</longname>
+		<processingInterval>200</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.60min</address>
+		<longname>60 Min Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dbca/wq/guildford_ds_s/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

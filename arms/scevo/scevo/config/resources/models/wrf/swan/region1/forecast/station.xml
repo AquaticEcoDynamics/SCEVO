@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WRFConfig>
+	<comment>WRF Forecast Simulation</comment>
+	<directory>models/wrf/forecast/Archive/Domain1</directory>
+	<firstFileTimestep>0</firstFileTimestep>
+	
+	<WRFProfile1DVariableFile>config/resources/models/wrf/profile1DVariables.xml</WRFProfile1DVariableFile>
+	<WRFSheetVariableFile>config/resources/models/wrf/sheetVariables.xml</WRFSheetVariableFile>
+</WRFConfig>

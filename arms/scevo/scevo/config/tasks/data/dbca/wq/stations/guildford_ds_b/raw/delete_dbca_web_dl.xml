@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeleteFiles>
+  <comment>Delete DBCA web download files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  
+  <prefixString>dbca_6163951</prefixString>
+  <suffixString>.csv</suffixString>
+</DeleteFiles>

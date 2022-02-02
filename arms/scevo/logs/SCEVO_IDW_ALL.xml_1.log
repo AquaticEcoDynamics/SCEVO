@@ -1,0 +1,165 @@
+2021-12-05 06:44:33,388 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-05 06:44:33,480 DEBUG: Task list loaded.
+2021-12-05 06:44:33,480 DEBUG: Total number of tasks: 9
+2021-12-05 06:44:33,480  INFO:  -- START  -- IDW_ALL.xml
+2021-12-05 06:44:33,480  INFO:  -- Sun Dec 05 06:44:33 AWST 2021
+2021-12-05 06:44:33,480  INFO:  -- TASK 1/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/copy_idw_file.xml 6:44:33 am
+2021-12-05 06:44:33,480  INFO: Copying files
+2021-12-05 06:44:33,480 DEBUG: Copying bom_barrack_20211205.csv
+2021-12-05 06:44:33,481  INFO: Transfered 1 files.
+2021-12-05 06:44:33,481  INFO:  -- TASK 2/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 6:44:33 am
+2021-12-05 06:44:33,512  INFO: Importing file bom_barrack_20211205_2244.csv
+2021-12-05 06:45:10,743  INFO:  -- TASK 3/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/delete_idw_web_dl.xml 6:45:10 am
+2021-12-05 06:45:10,743  INFO: Deleting files
+2021-12-05 06:45:10,743 DEBUG: Deleting web/bom_barrack_20211205.csv
+2021-12-05 06:45:10,743 DEBUG: Deleting web/bom_barrack_20211204.csv
+2021-12-05 06:45:10,743  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-05 06:45:10,743  INFO:  -- TASK 4/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/copy_idw_file.xml 6:45:10 am
+2021-12-05 06:45:10,744  INFO: Copying files
+2021-12-05 06:45:10,744 DEBUG: Copying bom_kent_20211205.csv
+2021-12-05 06:45:10,744  INFO: Transfered 1 files.
+2021-12-05 06:45:10,744  INFO:  -- TASK 5/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 6:45:10 am
+2021-12-05 06:45:10,773  INFO: Importing file bom_kent_20211205_2244.csv
+2021-12-05 06:46:47,895  INFO:  -- TASK 6/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/delete_idw_web_dl.xml 6:46:47 am
+2021-12-05 06:46:47,895  INFO: Deleting files
+2021-12-05 06:46:47,895 DEBUG: Deleting web/bom_kent_20211205.csv
+2021-12-05 06:46:47,895 DEBUG: Deleting web/bom_kent_20211204.csv
+2021-12-05 06:46:47,895  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-05 06:46:47,895  INFO:  -- TASK 7/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/copy_idw_file.xml 6:46:47 am
+2021-12-05 06:46:47,895  INFO: Copying files
+2021-12-05 06:46:47,895 DEBUG: Copying bom_meadow_20211205.csv
+2021-12-05 06:46:47,896  INFO: Transfered 1 files.
+2021-12-05 06:46:47,896  INFO:  -- TASK 8/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 6:46:47 am
+2021-12-05 06:46:47,927  INFO: Importing file bom_meadow_20211205_2244.csv
+2021-12-05 06:48:50,017  INFO:  -- TASK 9/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/delete_idw_web_dl.xml 6:48:50 am
+2021-12-05 06:48:50,017  INFO: Deleting files
+2021-12-05 06:48:50,017 DEBUG: Deleting web/bom_meadow_20211204.csv
+2021-12-05 06:48:50,017 DEBUG: Deleting web/bom_meadow_20211205.csv
+2021-12-05 06:48:50,017  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-05 06:48:50,017  INFO:  -- END  -- Sun Dec 05 06:48:50 AWST 2021
+2021-12-06 07:44:12,394 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-06 07:44:12,514 DEBUG: Task list loaded.
+2021-12-06 07:44:12,514 DEBUG: Total number of tasks: 9
+2021-12-06 07:44:12,514  INFO:  -- START  -- IDW_ALL.xml
+2021-12-06 07:44:12,515  INFO:  -- Mon Dec 06 07:44:12 AWST 2021
+2021-12-06 07:44:12,515  INFO:  -- TASK 1/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/copy_idw_file.xml 7:44:12 am
+2021-12-06 07:44:12,515  INFO: Copying files
+2021-12-06 07:44:12,515 DEBUG: Copying bom_barrack_20211205.csv
+2021-12-06 07:44:12,578 DEBUG: Copying bom_barrack_20211206.csv
+2021-12-06 07:44:12,578  INFO: Transfered 2 files.
+2021-12-06 07:44:12,578  INFO:  -- TASK 2/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 7:44:12 am
+2021-12-06 07:44:12,636  INFO: Importing file bom_barrack_20211205_2344.csv
+2021-12-06 07:44:59,745  INFO: Importing file bom_barrack_20211206_2344.csv
+2021-12-06 07:45:51,379  INFO:  -- TASK 3/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/delete_idw_web_dl.xml 7:45:51 am
+2021-12-06 07:45:51,379  INFO: Deleting files
+2021-12-06 07:45:51,380 DEBUG: Deleting web/bom_barrack_20211205.csv
+2021-12-06 07:45:51,380 DEBUG: Deleting web/bom_barrack_20211206.csv
+2021-12-06 07:45:51,380  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-06 07:45:51,380  INFO:  -- TASK 4/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/copy_idw_file.xml 7:45:51 am
+2021-12-06 07:45:51,380  INFO: Copying files
+2021-12-06 07:45:51,381 DEBUG: Copying bom_kent_20211205.csv
+2021-12-06 07:45:51,451 DEBUG: Copying bom_kent_20211206.csv
+2021-12-06 07:45:51,452  INFO: Transfered 2 files.
+2021-12-06 07:45:51,452  INFO:  -- TASK 5/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 7:45:51 am
+2021-12-06 07:45:51,488  INFO: Importing file bom_kent_20211205_2344.csv
+2021-12-06 07:47:56,881  INFO: Importing file bom_kent_20211206_2344.csv
+2021-12-06 07:49:58,857  INFO:  -- TASK 6/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/delete_idw_web_dl.xml 7:49:58 am
+2021-12-06 07:49:58,858  INFO: Deleting files
+2021-12-06 07:49:58,858 DEBUG: Deleting web/bom_kent_20211205.csv
+2021-12-06 07:49:58,859 DEBUG: Deleting web/bom_kent_20211206.csv
+2021-12-06 07:49:58,859  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-06 07:49:58,859  INFO:  -- TASK 7/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/copy_idw_file.xml 7:49:58 am
+2021-12-06 07:49:58,859  INFO: Copying files
+2021-12-06 07:49:58,859 DEBUG: Copying bom_meadow_20211205.csv
+2021-12-06 07:49:58,958 DEBUG: Copying bom_meadow_20211206.csv
+2021-12-06 07:49:58,958  INFO: Transfered 2 files.
+2021-12-06 07:49:58,958  INFO:  -- TASK 8/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 7:49:58 am
+2021-12-06 07:49:58,997  INFO: Importing file bom_meadow_20211205_2344.csv
+2021-12-06 07:52:21,904  INFO: Importing file bom_meadow_20211206_2344.csv
+2021-12-06 07:54:44,778  INFO:  -- TASK 9/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/delete_idw_web_dl.xml 7:54:44 am
+2021-12-06 07:54:44,778  INFO: Deleting files
+2021-12-06 07:54:44,779 DEBUG: Deleting web/bom_meadow_20211205.csv
+2021-12-06 07:54:44,779 DEBUG: Deleting web/bom_meadow_20211206.csv
+2021-12-06 07:54:44,779  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-06 07:54:44,779  INFO:  -- END  -- Mon Dec 06 07:54:44 AWST 2021
+2021-12-06 14:01:56,530 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-06 14:01:56,533 DEBUG: Task list loaded.
+2021-12-06 14:01:56,533 DEBUG: Total number of tasks: 9
+2021-12-06 14:01:56,533  INFO:  -- START  -- IDW_ALL.xml
+2021-12-06 14:01:56,534  INFO:  -- Mon Dec 06 14:01:56 AWST 2021
+2021-12-06 14:01:56,534  INFO:  -- TASK 1/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/copy_idw_file.xml 2:01:56 pm
+2021-12-06 14:01:56,534  INFO: Copying files
+2021-12-06 14:01:56,534 DEBUG: Copying bom_barrack_20211206.csv
+2021-12-06 14:01:56,559  INFO: Transfered 1 files.
+2021-12-06 14:01:56,559  INFO:  -- TASK 2/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 2:01:56 pm
+2021-12-06 14:01:56,570  INFO: Importing file bom_barrack_20211206_0601.csv
+2021-12-06 14:04:04,636  INFO:  -- TASK 3/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/delete_idw_web_dl.xml 2:04:04 pm
+2021-12-06 14:04:04,637  INFO: Deleting files
+2021-12-06 14:04:04,637 DEBUG: Deleting web/bom_barrack_20211206.csv
+2021-12-06 14:04:04,637  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2021-12-06 14:04:04,637  INFO:  -- TASK 4/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/copy_idw_file.xml 2:04:04 pm
+2021-12-06 14:04:04,637  INFO: Copying files
+2021-12-06 14:04:04,637 DEBUG: Copying bom_kent_20211206.csv
+2021-12-06 14:04:04,658  INFO: Transfered 1 files.
+2021-12-06 14:04:04,658  INFO:  -- TASK 5/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 2:04:04 pm
+2021-12-06 14:04:04,671  INFO: Importing file bom_kent_20211206_0601.csv
+2021-12-06 14:08:53,795  INFO:  -- TASK 6/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/delete_idw_web_dl.xml 2:08:53 pm
+2021-12-06 14:08:53,795  INFO: Deleting files
+2021-12-06 14:08:53,795 DEBUG: Deleting web/bom_kent_20211206.csv
+2021-12-06 14:08:53,796  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2021-12-06 14:08:53,796  INFO:  -- TASK 7/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/copy_idw_file.xml 2:08:53 pm
+2021-12-06 14:08:53,796  INFO: Copying files
+2021-12-06 14:08:53,796 DEBUG: Copying bom_meadow_20211206.csv
+2021-12-06 14:08:53,825  INFO: Transfered 1 files.
+2021-12-06 14:08:53,825  INFO:  -- TASK 8/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 2:08:53 pm
+2021-12-06 14:08:53,836  INFO: Importing file bom_meadow_20211206_0601.csv
+2021-12-06 14:11:48,919  INFO:  -- TASK 9/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/delete_idw_web_dl.xml 2:11:48 pm
+2021-12-06 14:11:48,919  INFO: Deleting files
+2021-12-06 14:11:48,919 DEBUG: Deleting web/bom_meadow_20211206.csv
+2021-12-06 14:11:48,919  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2021-12-06 14:11:48,919  INFO:  -- END  -- Mon Dec 06 14:11:48 AWST 2021
+2021-12-07 08:21:18,856 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-07 08:21:18,972 DEBUG: Task list loaded.
+2021-12-07 08:21:18,972 DEBUG: Total number of tasks: 9
+2021-12-07 08:21:18,972  INFO:  -- START  -- IDW_ALL.xml
+2021-12-07 08:21:18,972  INFO:  -- Tue Dec 07 08:21:18 AWST 2021
+2021-12-07 08:21:18,972  INFO:  -- TASK 1/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/copy_idw_file.xml 8:21:18 am
+2021-12-07 08:21:18,972  INFO: Copying files
+2021-12-07 08:21:18,999 DEBUG: Copying bom_barrack_20211207.csv
+2021-12-07 08:21:19,000 DEBUG: Copying bom_barrack_20211206.csv
+2021-12-07 08:21:19,027  INFO: Transfered 2 files.
+2021-12-07 08:21:19,027  INFO:  -- TASK 2/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 8:21:19 am
+2021-12-07 08:21:19,064  INFO: Importing file bom_barrack_20211207_0021.csv
+2021-12-07 08:22:20,758  INFO: Importing file bom_barrack_20211206_0021.csv
+2021-12-07 08:23:43,979  INFO:  -- TASK 3/9 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/delete_idw_web_dl.xml 8:23:43 am
+2021-12-07 08:23:43,980  INFO: Deleting files
+2021-12-07 08:23:43,981 DEBUG: Deleting web/bom_barrack_20211207.csv
+2021-12-07 08:23:43,982 DEBUG: Deleting web/bom_barrack_20211206.csv
+2021-12-07 08:23:43,982  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-07 08:23:43,982  INFO:  -- TASK 4/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/copy_idw_file.xml 8:23:43 am
+2021-12-07 08:23:43,982  INFO: Copying files
+2021-12-07 08:23:44,006 DEBUG: Copying bom_kent_20211207.csv
+2021-12-07 08:23:44,008 DEBUG: Copying bom_kent_20211206.csv
+2021-12-07 08:23:44,098  INFO: Transfered 2 files.
+2021-12-07 08:23:44,098  INFO:  -- TASK 5/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 8:23:44 am
+2021-12-07 08:23:44,125  INFO: Importing file bom_kent_20211207_0021.csv
+2021-12-07 08:26:04,723  INFO: Importing file bom_kent_20211206_0021.csv
+2021-12-07 08:29:07,773  INFO:  -- TASK 6/9 -- /scevo/config/tasks/data/bom/idw/kentstweir/delete_idw_web_dl.xml 8:29:07 am
+2021-12-07 08:29:07,773  INFO: Deleting files
+2021-12-07 08:29:07,774 DEBUG: Deleting web/bom_kent_20211207.csv
+2021-12-07 08:29:07,774 DEBUG: Deleting web/bom_kent_20211206.csv
+2021-12-07 08:29:07,774  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-07 08:29:07,775  INFO:  -- TASK 7/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/copy_idw_file.xml 8:29:07 am
+2021-12-07 08:29:07,775  INFO: Copying files
+2021-12-07 08:29:07,794 DEBUG: Copying bom_meadow_20211206.csv
+2021-12-07 08:29:07,892 DEBUG: Copying bom_meadow_20211207.csv
+2021-12-07 08:29:07,892  INFO: Transfered 2 files.
+2021-12-07 08:29:07,892  INFO:  -- TASK 8/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 8:29:07 am
+2021-12-07 08:29:07,932  INFO: Importing file bom_meadow_20211206_0021.csv
+2021-12-07 08:32:14,717  INFO: Importing file bom_meadow_20211207_0021.csv
+2021-12-07 08:35:09,451  INFO:  -- TASK 9/9 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/delete_idw_web_dl.xml 8:35:09 am
+2021-12-07 08:35:09,452  INFO: Deleting files
+2021-12-07 08:35:09,452 DEBUG: Deleting web/bom_meadow_20211206.csv
+2021-12-07 08:35:09,452 DEBUG: Deleting web/bom_meadow_20211207.csv
+2021-12-07 08:35:09,452  INFO: Folder: web - Deleted 2 files. Failed to delete 0.
+2021-12-07 08:35:09,452  INFO:  -- END  -- Tue Dec 07 08:35:09 AWST 2021

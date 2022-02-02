@@ -1,0 +1,8 @@
+2021-12-01 22:17:31,894 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-01 22:17:31,914 DEBUG: Task list loaded.
+2021-12-01 22:17:31,914 DEBUG: Total number of tasks: 1
+2021-12-01 22:17:31,914  INFO:  -- START  -- hillarys.xml
+2021-12-01 22:17:31,918  INFO:  -- Wed Dec 01 22:17:31 AWST 2021
+2021-12-01 22:17:31,918  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 10:17:31 pm
+2021-12-01 22:17:31,930  INFO: Importing file IDO71012_2021_202112011006.csv
+2021-12-01 22:22:46,967  INFO:  -- END  -- Wed Dec 01 22:22:46 AWST 2021

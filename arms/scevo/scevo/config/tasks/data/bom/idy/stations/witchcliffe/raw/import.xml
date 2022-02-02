@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Witchcliffe Met data</comment>
+	<localFolder>data/bom/idy/witchcliffe</localFolder>
+	<fileName>IDY03100*.axf</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.bom.idy.witchcliffe.raw.wind_direction</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>scevo.data.bom.idy.witchcliffe.raw</destinationAddress>
+	<dateFormat>yyyyMMdd HHmm</dateFormat>
+	<nHeaderLines>2</nHeaderLines>
+	<nTailLines>1</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>, </separator>
+	<dateColumn>3</dateColumn>
+	<timeColumn>4</timeColumn>
+    <tagColumn>1</tagColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/bom/idy/witchcliffe/sensors.xml</sensorsFile>
+</TextFileImport>

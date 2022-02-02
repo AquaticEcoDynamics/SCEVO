@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+
+	<comment>Matilda Buoy WQ sonde (YSI Exo 2)</comment>
+
+	<Sensor1D>
+		<name>wiper</name>
+		<longname>Wiper Voltage</longname>
+		<SensorInfo>
+			<title>Wiper</title>
+			<units>V</units>
+			<FileInfo>
+				<fileColumn>13</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>10</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>1</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+<!--	
+	<Sensor1D>
+		<name>depth</name>
+		<longname>Sonde Depth</longname>
+		<SensorInfo>
+			<title>Depth</title>
+			<units>m BSL</units>
+			<FileInfo>
+				<fileColumn>4</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0.1</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>1</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+-->	
+	<Sensor1D>
+		<name>water_temperature</name>
+		<longname>Water Temperature</longname>
+		<SensorInfo>
+			<title>Temperature</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>11</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-5</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>15</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>sp_conductivity</name>
+		<longname>Specific Conductivity</longname>
+		<SensorInfo>
+			<title>Specific Conductivity</title>
+			<units>uS/cm</units>
+			<FileInfo>
+				<fileColumn>10</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>100000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>salinity</name>
+		<longname>Salinity</longname>
+		<SensorInfo>
+			<title>Salinity</title>
+			<units>PSU</units>
+			<FileInfo>
+				<fileColumn>9</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>60</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>20</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>dissolved_oxygen</name>
+		<longname>Dissolved Oxygen</longname>
+		<SensorInfo>
+			<title>Dissolved Oxygen</title>
+			<units>mg/L</units>
+			<FileInfo>
+				<fileColumn>5</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>10</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>oxygen_saturation</name>
+		<longname>Dissolved Oxygen Saturation</longname>
+		<SensorInfo>
+			<title>Dissolved Oxygen (saturation)</title>
+			<units>%</units>
+			<FileInfo>
+				<fileColumn>6</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>500</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>100</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>ph</name>
+		<longname>pH</longname>
+		<SensorInfo>
+			<title>pH</title>
+			<units>-</units>
+			<FileInfo>
+				<fileColumn>8</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>4.0</minValue>
+				<maxValue>11.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>8</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>orp</name>
+		<longname>Oxidation-Reduction Potential</longname>
+		<SensorInfo>
+			<title>ORP</title>
+			<units>mv</units>
+			<FileInfo>
+				<fileColumn>7</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-500</minValue>
+				<maxValue>500</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>200</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>turbidity</name>
+		<longname>Turbidity</longname>
+		<SensorInfo>
+			<title>Turbidity</title>
+			<units>NTU</units>
+			<FileInfo>
+				<fileColumn>12</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>-1.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>500</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>1</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+</SensorFile>

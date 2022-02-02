@@ -1,0 +1,176 @@
+2021-07-24 17:22:35,107 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 17:22:35,207 DEBUG: Task list loaded.
+2021-07-24 17:22:35,207 DEBUG: Total number of tasks: 8
+2021-07-24 17:22:35,207  INFO:  -- START  -- TUFLOW_HINDCAST_MONTHLY_RUN.xml
+2021-07-24 17:22:35,207  INFO:  -- Sat Jul 24 17:22:35 AWST 2021
+2021-07-24 17:22:35,208  INFO:  -- TASK 1/8 -- /scevo/config/tasks/models/tuflow/hindcast/timeline/start.xml 5:22:35 pm
+2021-07-24 17:22:35,209 ERROR: CAUGHT EXCEPTION: ARMSAddressException for address: scevo.models.wrf.swan.region2.hindcast.Sheets - Fixed Height.T2
+{1}
+cwr.arms.resources.ResourceException: ARMSAddressException for address: scevo.models.wrf.swan.region2.hindcast.Sheets - Fixed Height.T2
+{1}
+	at cwr.arms.resources.services.timeline.TimeLineServerResource.decodeDate(TimeLineServerResource.java:363)
+	at cwr.arms.tasks.timeline.update.UpdateFromListTask.executeTask(UpdateFromListTask.java:193)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 17:22:35,212  INFO:  -- END  -- Sat Jul 24 17:22:35 AWST 2021
+2021-07-24 17:22:35,212  INFO: Number of errors: 1
+2021-07-25 16:26:38,499 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-25 16:26:38,512 DEBUG: Task list loaded.
+2021-07-25 16:26:38,512 DEBUG: Total number of tasks: 8
+2021-07-25 16:26:38,512  INFO:  -- START  -- TUFLOW_HINDCAST_MONTHLY_RUN.xml
+2021-07-25 16:26:38,512  INFO:  -- Sun Jul 25 16:26:38 AWST 2021
+2021-07-25 16:26:38,513  INFO:  -- TASK 1/8 -- /scevo/config/tasks/models/tuflow/hindcast/timeline/start.xml 4:26:38 pm
+2021-07-25 16:26:38,518  INFO:  -- TASK 2/8 -- /scevo/config/tasks/models/tuflow/hindcast/timeline/end.xml 4:26:38 pm
+2021-07-25 16:26:38,522  INFO:  -- TASK 3/8 -- /scevo/config/tasks/models/tuflow/hindcast/archive/copy_history.xml 4:26:38 pm
+2021-07-25 16:26:38,522  INFO: Copying files
+2021-07-25 16:26:38,569 DEBUG: Copying swan.20181226000000.nc
+2021-07-25 16:27:42,222  INFO: Transfered 1 files.
+2021-07-25 16:27:42,223  INFO:  -- TASK 4/8 -- /scevo/config/tasks/models/tuflow/hindcast/archive/delete_history.xml 4:27:42 pm
+2021-07-25 16:27:42,223  INFO: Deleting files
+2021-07-25 16:27:42,223 DEBUG: Deleting Output/swan.20181226000000.nc
+2021-07-25 16:27:42,505  INFO: Folder: Output - Deleted 1 files. Failed to delete 0.
+2021-07-25 16:27:42,505  INFO:  -- TASK 5/8 -- /scevo/config/tasks/models/tuflow/hindcast/inputs/met.xml 4:27:42 pm
+2021-07-25 16:27:42,523 DEBUG: outputting data to file
+2021-07-25 16:27:42,523 DEBUG:   output format -- NetCDF
+2021-07-25 16:28:22,818  INFO: Sensor:  2018-01-20 00:00:00-2018-01-31 00:00:00 (40.311s : 40.312s)
+2021-07-25 16:28:22,818  INFO:  -- TASK 6/8 -- /scevo/config/tasks/models/tuflow/hindcast/launch.xml 4:28:22 pm
+2021-07-25 16:28:22,819 DEBUG: Tuflow: Start Date (UTC): 2018-01-20 00:00:00, End Date (UTC): 2018-01-31 00:00:00
+2021-07-25 16:28:23,066 DEBUG: Tuflow: FVC Exe File: '/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd'
+2021-07-25 16:28:23,083 DEBUG: Tuflow: FVC Control File: '/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Input/swanHC.fvc'
+2021-07-25 16:28:23,133  INFO: Tuflow: Transfering restart files
+2021-07-25 16:28:23,140 DEBUG: Tuflow: Restart file not located
+2021-07-25 16:28:23,140  INFO: Tuflow: Start Run 'tfv_aed_20160920_u_sd'
+2021-07-25 16:28:23,188 ERROR: /ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+2021-07-25 16:28:24,187  INFO: Tuflow: End Run 'tfv_aed_20160920_u_sd'. Exit value: 127
+2021-07-25 16:28:24,188 ERROR: CAUGHT EXCEPTION: 
+Error encountered running TUFLOW model:
+ 
+Error encountered running TUFLOW model:
+ TUFLOW: Run. Process 'tfv_aed_20160920_u_sd' Exit Value not 0: 127
+/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running TUFLOW model:
+ 
+Error encountered running TUFLOW model:
+ TUFLOW: Run. Process 'tfv_aed_20160920_u_sd' Exit Value not 0: 127
+/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.runExecutable(TuflowRunTask.java:653)
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.doProcess(TuflowRunTask.java:328)
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.executeTask(TuflowRunTask.java:69)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-25 16:28:24,189  INFO:  -- END  -- Sun Jul 25 16:28:24 AWST 2021
+2021-07-25 16:28:24,189  INFO: Number of errors: 1
+2021-07-31 14:33:01,541 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 14:33:01,550 DEBUG: Task list loaded.
+2021-07-31 14:33:01,550 DEBUG: Total number of tasks: 8
+2021-07-31 14:33:01,550  INFO:  -- START  -- TUFLOW_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 14:33:01,550  INFO:  -- Sat Jul 31 14:33:01 AWST 2021
+2021-07-31 14:33:01,550  INFO:  -- TASK 1/8 -- /scevo/config/tasks/models/tuflow/hindcast/timeline/start.xml 2:33:01 pm
+2021-07-31 14:33:01,553  INFO:  -- TASK 2/8 -- /scevo/config/tasks/models/tuflow/hindcast/timeline/end.xml 2:33:01 pm
+2021-07-31 14:33:01,555  INFO:  -- TASK 3/8 -- /scevo/config/tasks/models/tuflow/hindcast/archive/copy_history.xml 2:33:01 pm
+2021-07-31 14:33:01,555  INFO: Copying files
+2021-07-31 14:33:01,555  INFO: Transfered 0 files.
+2021-07-31 14:33:01,556  INFO:  -- TASK 4/8 -- /scevo/config/tasks/models/tuflow/hindcast/archive/delete_history.xml 2:33:01 pm
+2021-07-31 14:33:01,556  INFO: Deleting files
+2021-07-31 14:33:01,556  INFO: Folder: Output - Deleted 0 files. Failed to delete 0.
+2021-07-31 14:33:01,556  INFO:  -- TASK 5/8 -- /scevo/config/tasks/models/tuflow/hindcast/inputs/met.xml 2:33:01 pm
+2021-07-31 14:33:01,559 DEBUG: outputting data to file
+2021-07-31 14:33:01,560 DEBUG:   output format -- NetCDF
+2021-07-31 14:33:22,085  INFO: Sensor:  2018-01-20 00:00:00-2018-01-31 00:00:00 (20.529s : 20.529s)
+2021-07-31 14:33:22,085  INFO:  -- TASK 6/8 -- /scevo/config/tasks/models/tuflow/hindcast/launch.xml 2:33:22 pm
+2021-07-31 14:33:22,087 DEBUG: Tuflow: Start Date (UTC): 2018-01-20 00:00:00, End Date (UTC): 2018-01-31 00:00:00
+2021-07-31 14:33:22,107 DEBUG: Tuflow: FVC Exe File: '/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd'
+2021-07-31 14:33:22,123 DEBUG: Tuflow: FVC Control File: '/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Input/swanHC.fvc'
+2021-07-31 14:33:22,130  INFO: Tuflow: Transfering restart files
+2021-07-31 14:33:22,135 DEBUG: Tuflow: Restart file not located
+2021-07-31 14:33:22,135  INFO: Tuflow: Start Run 'tfv_aed_20160920_u_sd'
+2021-07-31 14:33:22,137 ERROR: /ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+2021-07-31 14:33:23,136  INFO: Tuflow: End Run 'tfv_aed_20160920_u_sd'. Exit value: 127
+2021-07-31 14:33:23,137 ERROR: CAUGHT EXCEPTION: 
+Error encountered running TUFLOW model:
+ 
+Error encountered running TUFLOW model:
+ TUFLOW: Run. Process 'tfv_aed_20160920_u_sd' Exit Value not 0: 127
+/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running TUFLOW model:
+ 
+Error encountered running TUFLOW model:
+ TUFLOW: Run. Process 'tfv_aed_20160920_u_sd' Exit Value not 0: 127
+/ARMS/Workspaces/scevo/scevo/models/tuflow/scenarioFull2016OxyTest/Bin/tfv_aed_20160920_u_sd: error while loading shared libraries: libnetcdff.so.5: cannot open shared object file: No such file or directory
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/models/tuflow/hindcast/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.runExecutable(TuflowRunTask.java:653)
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.doProcess(TuflowRunTask.java:328)
+	at cwr.arms.tasks.models.tuflow.run.TuflowRunTask.executeTask(TuflowRunTask.java:69)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-31 14:33:23,139  INFO:  -- END  -- Sat Jul 31 14:33:23 AWST 2021
+2021-07-31 14:33:23,139  INFO: Number of errors: 1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.perth_metro.raw</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.perth_metro.downsampled.30min</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/perth_metro/sensors.xml</sensorsFile>
+		<startDate>IDY_PERTHMETRO_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_PERTHMETRO_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>1800</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

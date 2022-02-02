@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSContextFile>
+	<ARMSContextConfig>
+		<address>models.wrf.swan.region1.hindcast</address>
+		<resourceType>WRFStation</resourceType>
+		<fileName>config/resources/models/wrf/swan/region1/hindcast/station.xml</fileName>
+	</ARMSContextConfig>
+ 
+    <ARMSContextConfig>
+        <address>models.wrf.swan.region1.forecast</address>
+        <resourceType>WRFStation</resourceType>
+        <fileName>config/resources/models/wrf/swan/region1/forecast/station.xml</fileName>
+    </ARMSContextConfig>
+ 
+    <!-- 
+    <ARMSContextConfig>
+        <address>models.wrf.swan.region1.lowerlakes</address>
+        <resourceType>WRFStation</resourceType>
+        <fileName>config/resources/models/wrf/swan/region1/lowerlakes/station.xml</fileName>
+    </ARMSContextConfig>
+     -->
+	<ARMSContextConfig>
+		<address>models.wrf.swan.region2.hindcast</address>
+		<resourceType>WRFStation</resourceType>
+		<fileName>config/resources/models/wrf/swan/region2/hindcast/station.xml</fileName>
+	</ARMSContextConfig>
+	
+  <ARMSContextConfig>
+        <address>models.wrf.swan.region2.forecast</address>
+        <resourceType>WRFStation</resourceType>
+        <fileName>config/resources/models/wrf/swan/region2/forecast/station.xml</fileName>
+    </ARMSContextConfig>
+
+    <!-- 
+    <ARMSContextConfig>
+        <address>models.wrf.swan.region2.lowerlakes</address>
+        <resourceType>WRFStation</resourceType>
+        <fileName>config/resources/models/wrf/swan/region2/lowerlakes/station.xml</fileName>
+    </ARMSContextConfig>
+     -->
+</ARMSContextFile>

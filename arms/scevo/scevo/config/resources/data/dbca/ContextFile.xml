@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSContextFile>
+	<ARMSContextConfig>
+		<address>data.dbca.wq.6163950</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dbca/wq/6163950/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dbca.wq.guildford_ds_s</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dbca/wq/guildford_ds_s/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dbca.wq.guildford_ds_b</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dbca/wq/guildford_ds_b/station.xml</fileName>
+	</ARMSContextConfig>
+</ARMSContextFile>

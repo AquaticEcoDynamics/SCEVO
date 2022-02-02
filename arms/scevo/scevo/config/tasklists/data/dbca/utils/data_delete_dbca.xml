@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+	<taskRootDir>config/tasks/data/dbca</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+	<TaskConfig>
+        <taskName>Time Series Delete Data</taskName>
+        <configFile>utils/data_delete.xml</configFile>
+	</TaskConfig>
+</TaskListConfig>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SCERM Forecast simulation</comment>
+  <sourceFolder>models/tuflow/swan_arms/Archive/Output</sourceFolder>
+  <destinationFolder>models/tuflow/swan_arms/Archive/Output/Archive</destinationFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>.nc</suffixString>
+
+  <useSections>true</useSections>
+</CopyFiles>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Fremantle Tide data</comment>
+	<localFolder>data/dot/tide/fremantle</localFolder>
+	<fileName>FREO*.csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.dot.tide2.fremantle.raw.tide</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>scevo.data.dot.tide2.fremantle.raw</destinationAddress>
+	<dateFormat>dd/MM/yyyy HH:mm:ss</dateFormat>
+	<nHeaderLines>1</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>1</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dot/tide/fremantle/sensors.xml</sensorsFile>
+</TextFileImport>

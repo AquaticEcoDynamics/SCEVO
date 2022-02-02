@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPENDAPConfig>
+	<comment>HYCOM Configuration</comment>
+	<timeZone>0</timeZone>
+	<datum>SEA_LEVEL</datum>
+	<url>http://tds.hycom.org/thredds/dodsC/GLBy0.08/expt_93.0</url>
+	<!--
+	<url>http://tds.hycom.org/thredds/dodsC/GLBa0.08/expt_91.1</url>
+	-->
+	
+	<OPENDAPModelProperties>
+      <OPENDAPModelDefaults>
+          <dateMTOriginFormat>yyyy-MM-dd HH:mm:ss</dateMTOriginFormat>
+          <!-- <dateMTOriginFormat>yyyy-MM-dd'T'HH:mm:ss'Z'</dateMTOriginFormat> -->
+      </OPENDAPModelDefaults>
+	  <OPENDAPModelDimensions>
+			<date>mt</date>
+	  </OPENDAPModelDimensions>
+	  <OPENDAPModelVariables>
+			<date>mt</date>
+	  </OPENDAPModelVariables>
+		<OPENDAPModelSettings>
+			<OPENDAPGridLayout>
+				<transposeSheet>true</transposeSheet>
+				<reverseSheetX>true</reverseSheetX>
+				<reverseSheetY>false</reverseSheetY>
+			</OPENDAPGridLayout>
+		</OPENDAPModelSettings>
+	</OPENDAPModelProperties>
+
+	
+	<!-- TIMESERIES 1D LOCATIONS -->
+	<Timeseries1D>
+		<name>PCM Southern Ocean Boundary</name>
+		<latitude>-32.42</latitude>
+		<longitude>115.6</longitude>
+	</Timeseries1D>
+	
+	<!-- PROFILE 1D LOCATIONS -->
+	<Profile1D>
+		<name>PCM Southern Ocean Boundary</name>
+		<latitude>-32.42</latitude>
+		<longitude>115.6</longitude>
+	</Profile1D>
+	
+	<!-- CURTAIN 1D LOCATIONS -->
+	<Curtain1D>
+		<name>PCM Ocean Boundary</name>
+		<LatLngBox>
+			<boxNorth>-31.58</boxNorth>
+			<boxSouth>-32.42</boxSouth>
+			<boxEast>115.6</boxEast>
+			<boxWest>115.6</boxWest>
+		</LatLngBox>
+	</Curtain1D>
+	
+	<!-- PROFILE 2D LOCATIONS -->
+	<Profile2D>
+		<name>PCM Southern Ocean Boundary</name>
+		<latitude>-32.42</latitude>
+		<longitude>115.6</longitude>
+	</Profile2D>
+	
+	<!-- SHEET 2D LOCATIONS -->
+	<Sheet2D>
+		<name>AUSTRALIA</name>
+		<LatLngBox>
+			<boxNorth>-10.5</boxNorth>
+			<boxSouth>-48.0</boxSouth>
+			<boxEast>160</boxEast>
+			<boxWest>91</boxWest>
+		</LatLngBox>
+	</Sheet2D>
+	<Sheet2D>
+		<name>WA</name>
+		<LatLngBox>
+			<boxNorth>0</boxNorth>
+			<boxSouth>-38</boxSouth>
+			<boxEast>130</boxEast>
+			<boxWest>100</boxWest>
+		</LatLngBox>
+	</Sheet2D>
+	<Sheet2D>
+		<name>PCM Boundary</name>
+		<LatLngBox>
+			<boxNorth>-31.58</boxNorth>
+			<boxSouth>-32.42</boxSouth>
+			<boxEast>116</boxEast>
+			<boxWest>115.6</boxWest>
+		</LatLngBox>
+	</Sheet2D>
+	
+	<!-- CURTAIN 2D LOCATIONS -->
+	<Curtain2D>
+		<name>PCM Ocean Boundary</name>
+		<LatLngBox>
+			<boxNorth>-31.58</boxNorth>
+			<boxSouth>-32.42</boxSouth>
+			<boxEast>115.6</boxEast>
+			<boxWest>115.6</boxWest>
+		</LatLngBox>
+	</Curtain2D>
+	
+	<OPENDAPTimeseries1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPTimeseries1DVariableFile>
+	<OPENDAPProfile1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPProfile1DVariableFile>
+	<OPENDAPCurtain1DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPCurtain1DVariableFile>
+	<OPENDAPProfile2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPProfile2DVariableFile>
+	<OPENDAPSheet2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPSheet2DVariableFile>
+	<OPENDAPCurtain2DVariableFile>config/resources/models/opendap/Variables.xml</OPENDAPCurtain2DVariableFile>
+</OPENDAPConfig>

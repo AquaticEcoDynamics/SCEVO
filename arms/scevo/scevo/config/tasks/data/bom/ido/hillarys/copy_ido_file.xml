@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>Move IDO data files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  <destinationFolder>data/bom/ido/hillarys</destinationFolder>
+  
+  <prefixString>IDO71012</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+</CopyFiles>

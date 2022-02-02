@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+
+	<!-- Import data to ARMS resources-->
+
+	<taskRootDir>config/tasklists/data/dbca/wq/</taskRootDir>
+	
+	<taskListFile>config/tasklists/data/dbca/wq/stations/6163950.xml</taskListFile>
+</TaskListConfig>

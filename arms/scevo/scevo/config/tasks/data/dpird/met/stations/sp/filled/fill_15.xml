@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSFiller>
+	<TimeSeries>
+		<sourceAddress>scevo.data.dpird.met.sp.downsampled.15min</sourceAddress>
+		<sensorsFile>config/resources/data/dpird/met/sp/sensors.xml</sensorsFile>
+		<startDate>DPIRD_MET_SP_DATAPROCESSING-START@timeline</startDate>
+		<endDate>DPIRD_MET_SP_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>8</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearest</type>
+		<maxSearch>4</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearestDay</type>
+		<maxSearch>14</maxSearch>
+	</Filler>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>300</maxSearch>
+	</Filler>
+	<Filler>
+		<type>default</type>
+		<maxSearch>0</maxSearch>
+	</Filler>
+</PTSFiller>

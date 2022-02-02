@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorSummary>
+	<name>AED</name>
+	<destinationAddress>gui</destinationAddress>
+
+	    <Group>
+        <name>UWA Stations</name>
+        <Sensor>
+            <name>Matilda Buoy</name>
+            <sourceAddress>scevo.data.uwa.aed.matilda.raw.wq.dissolved_oxygen</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>Kwilena Buoy</name>
+            <sourceAddress>scevo.data.uwa.kwilena.raw.Temperature</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+    </Group>
+    
+
+ 	 <Group>
+		<name>BOM Perth Weather Stations</name>
+        <Sensor>
+            <name>IDY Garden Island</name>
+            <sourceAddress>scevo.data.bom.idy.garden_island.downsampled.15min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Gingin Airport</name>
+            <sourceAddress>scevo.data.bom.idy.gingin_airport.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Jandakot</name>
+            <sourceAddress>scevo.data.bom.idy.jandakot.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Melville Water</name>
+            <sourceAddress>scevo.data.bom.idy.melville_water.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY OceanReef</name>
+            <sourceAddress>scevo.data.bom.idy.ocean_reef.downsampled.30min.winddir</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Perth Airport</name>
+            <sourceAddress>scevo.data.bom.idy.perth_airport.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Perth Metro</name>
+            <sourceAddress>scevo.data.bom.idy.perth_metro.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Rottnest</name>
+            <sourceAddress>scevo.data.bom.idy.rottnest.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Swanbourne</name>
+            <sourceAddress>scevo.data.bom.idy.swanbourne.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+
+        <Sensor>
+            <name>IDO Hillarys</name>
+            <sourceAddress>scevo.data.bom.ido.hillarys.web.sea_level</sourceAddress>
+            <warningLength>30</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDW Meadow St Bridge</name>
+            <sourceAddress>scevo.data.bom.idw.meadowstbridge.web.water_level</sourceAddress>
+            <warningLength>0.5</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDW Kent St Weir</name>
+            <sourceAddress>scevo.data.bom.idw.kentstweir.web.water_level</sourceAddress>
+            <warningLength>0.5</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDW Barrack St Jetty</name>
+            <sourceAddress>scevo.data.bom.idw.barrackstjetty.web.water_level</sourceAddress>
+            <warningLength>0.5</warningLength>
+        </Sensor>
+    </Group>
+    
+    <Group>
+        <name>DWER Flow Gauging Stations</name>
+        <Sensor>
+            <name>[616092] Walyunga</name>
+            <sourceAddress>scevo.data.dow.walyunga.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616084] Anaconda Drive</name>
+            <sourceAddress>scevo.data.dow.anacondadrive_616092.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616084] Benara Road</name>
+            <sourceAddress>scevo.data.dow.benararoad_616084.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+         <Sensor>
+            <name>[616088] Gt Northern Hwy</name>
+            <sourceAddress>scevo.data.dow.gtnorthanhwbridge_616088.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616178] National Park</name>
+            <sourceAddress>scevo.data.dow.nationalpark_616178.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616099] River Rd</name>
+            <sourceAddress>scevo.data.dow.riverroad_616099.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616189] Railway Pde</name>
+            <sourceAddress>scevo.data.dow.railwayparade_616189.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616027] Seaforth</name>
+            <sourceAddress>scevo.data.dow.seaforth_616027.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616082] Slade St</name>
+            <sourceAddress>scevo.data.dow.sladestreet_616082.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>[616086] Whiteman Rd</name>
+            <sourceAddress>scevo.data.dow.whitemanroad_616086.raw.flow</sourceAddress>
+            <warningLength>1</warningLength>
+        </Sensor>
+   </Group>
+    
+    <Group>
+        <name>DOT Tide Monitoring Stations</name>
+        <Sensor>
+            <name>Barrack Street</name>
+            <sourceAddress>scevo.data.dot.tide2.barrack.raw.tide</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>Fremantle</name>
+            <sourceAddress>scevo.data.dot.tide2.fremantle.raw.tide</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+    </Group>
+    
+    <Group>
+        <name>DBCA Oxygenation Stations</name>
+        <Sensor>
+            <name>6163950</name>
+            <sourceAddress>scevo.data.dbca.wq.6163950.raw.Temperature</sourceAddress>
+            <warningLength>2</warningLength>
+        </Sensor>
+    </Group>
+
+    <Group>
+        <name>DPIRD Weather Stations</name>
+        <Sensor>
+            <name>South Perth</name>
+            <sourceAddress>scevo.data.dpird.met.sp.raw.Solar Irradiance</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+    </Group>
+    
+    
+    <Group>
+        <name>WRF Forecast</name>
+        <Sensor>
+            <name>Domain 1</name>
+            <sourceAddress>scevo.models.wrf.swan.region1.forecast.Sheets - Fixed Height.T2</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>Domain 2</name>
+            <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.T2</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+    </Group>
+
+    <Group>
+        <name>WRF Historical</name>
+        <Sensor>
+            <name>Domain 1</name>
+            <sourceAddress>scevo.models.wrf.swan.region1.hindcast.Sheets - Fixed Height.T2</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>Domain 2</name>
+            <sourceAddress>scevo.models.wrf.swan.region2.hindcast.Sheets - Fixed Height.T2</sourceAddress>
+            <warningLength>100</warningLength>
+        </Sensor>
+    </Group>
+
+
+ 	 <Group>
+		<name>BOM IDY Weather Stations (ALL)</name>
+        <Sensor>
+            <name>IDY Badgingarra</name>
+            <sourceAddress>scevo.data.bom.idy.badgingarra.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Bickley</name>
+            <sourceAddress>scevo.data.bom.idy.bickley.downsampled.1hr.air_temperature</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Bridgetown</name>
+            <sourceAddress>scevo.data.bom.idy.bridgetown.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Bunbury</name>
+            <sourceAddress>scevo.data.bom.idy.bunbury.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Busselton Airport</name>
+            <sourceAddress>scevo.data.bom.idy.busselton_airport.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Cape Naturaliste</name>
+            <sourceAddress>scevo.data.bom.idy.cape_naturaliste.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Champion Lakes</name>
+            <sourceAddress>scevo.data.bom.idy.champion_lakes.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Collie East</name>
+            <sourceAddress>scevo.data.bom.idy.collie_east.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Dalwallinu</name>
+            <sourceAddress>scevo.data.bom.idy.dalwallinu.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Dwellingup</name>
+            <sourceAddress>scevo.data.bom.idy.dwellingup.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Garden Island</name>
+            <sourceAddress>scevo.data.bom.idy.garden_island.downsampled.15min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Geraldton Airport</name>
+            <sourceAddress>scevo.data.bom.idy.geraldton_airport.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Gingin Airport</name>
+            <sourceAddress>scevo.data.bom.idy.gingin_airport.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Hopetoun North</name>
+            <sourceAddress>scevo.data.bom.idy.hopetoun_north.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Jacup</name>
+            <sourceAddress>scevo.data.bom.idy.jacup.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Jandakot</name>
+            <sourceAddress>scevo.data.bom.idy.jandakot.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Kalgoorlie</name>
+            <sourceAddress>scevo.data.bom.idy.kalgoorlie.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Katanning RS</name>
+            <sourceAddress>scevo.data.bom.idy.katanning_rs.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Lake Grace</name>
+            <sourceAddress>scevo.data.bom.idy.lake_grace.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Mandurah</name>
+            <sourceAddress>scevo.data.bom.idy.mandurah.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Manjimup</name>
+            <sourceAddress>scevo.data.bom.idy.manjimup.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Marowa Airport</name>
+            <sourceAddress>scevo.data.bom.idy.marowa_airport.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Melville Water</name>
+            <sourceAddress>scevo.data.bom.idy.melville_water.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Munglinup West</name>
+            <sourceAddress>scevo.data.bom.idy.munglinup_west.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Newdegate</name>
+            <sourceAddress>scevo.data.bom.idy.newdegate.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY OceanReef</name>
+            <sourceAddress>scevo.data.bom.idy.ocean_reef.downsampled.30min.winddir</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Perth Airport</name>
+            <sourceAddress>scevo.data.bom.idy.perth_airport.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Perth Metro</name>
+            <sourceAddress>scevo.data.bom.idy.perth_metro.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Rottnest</name>
+            <sourceAddress>scevo.data.bom.idy.rottnest.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Southern Cross Airport</name>
+            <sourceAddress>scevo.data.bom.idy.southern_cross_airport.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Swanbourne</name>
+            <sourceAddress>scevo.data.bom.idy.swanbourne.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Wandering</name>
+            <sourceAddress>scevo.data.bom.idy.wandering.downsampled.60min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+        <Sensor>
+            <name>IDY Witchcliffe</name>
+            <sourceAddress>scevo.data.bom.idy.witchcliffe.downsampled.30min.wind_direction</sourceAddress>
+            <warningLength>.2</warningLength>
+        </Sensor>
+    </Group>
+    
+
+</SensorSummary>

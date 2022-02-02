@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	
+    <taskRootDir>config/tasklists/models</taskRootDir> 
+    
+    <!-- Run WRF -->
+    <taskListFile>config/tasklists/models/wrf/forecast/WRF_FORECAST_RUN.xml</taskListFile>
+    
+    <!-- Run SCERM -->
+     
+    <taskListFile>config/tasklists/models/tuflow/forecast/TUFLOW_FORECAST_RUN.xml</taskListFile>
+    
+
+  	<!-- To Stop tasks put
+	  <TaskConfig>
+		  <taskName>stop</taskName>
+		  <configFile></configFile>
+	   </TaskConfig>
+   	-->
+   
+</TaskListConfig>

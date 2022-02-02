@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import data</comment>
+	<localFolder>/data/dwer/raw</localFolder>
+	<fileName>{regex}uwa~616092(.*)cond(.*).csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<timeZone>8</timeZone>
+	<destinationAddress>scevo.data.dwer.anacondadrive_616092.raw.conductivity</destinationAddress>
+	<dateFormat>yyyyMMddHHmmss</dateFormat>
+	<nHeaderLines>0</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>3</dateColumn>
+	<fileColumn>4</fileColumn>
+</TextFileImport>

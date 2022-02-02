@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>UWA - Kwilena Buoy</comment>
+	
+	<name>Kwilena Buoy</name>
+	<longname>Kwilena Buoy</longname>
+	
+	<site>Kwilena Buoy</site>
+	<latitude>-32.078355232</latitude>
+	<longitude>115.978799149</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>ESTUARY_SURFACE</surfaceDatum>
+	<bottomDatum>ESTUARY_SURFACE</bottomDatum>
+	<datum>ESTUARY_SURFACE</datum>
+	<zOffset>0.0</zOffset>
+	
+	<StationResourceGroup>
+		<address>raw</address>
+		<longname>raw data file</longname>
+		<processingInterval>300</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.60min</address>
+		<longname>60min downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+
+	<StationSensorsGroup>
+		<name>wq</name>
+		<sensorsFile>config/resources/data/uwa/aed/kwilena/sensors_wq.xml</sensorsFile>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name>benthic</name>
+		<sensorsFile>config/resources/data/uwa/aed/kwilena/sensors_wq_benthic.xml</sensorsFile>
+	</StationSensorsGroup>
+	<StationSensorsGroup>
+		<name>sys</name>
+		<sensorsFile>config/resources/data/uwa/aed/kwilena/sensors_sys.xml</sensorsFile>
+	</StationSensorsGroup>
+
+</Station>

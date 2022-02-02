@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Meadow St Bridge</comment>
+	<name>Meadow St Bridge</name>
+	<longname>Meadow St Bridge (DWER)</longname>
+	<site>meadowstbridge</site>
+	<latitude>-31.864404</latitude>
+	<longitude>116.009083</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	
+	<StationResourceGroup>
+		<address>web</address>
+		<longname>web download</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled</address>
+		<longname>downampled monthly</longname>
+		<processingInterval>2592000</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idw/meadowstbridge/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

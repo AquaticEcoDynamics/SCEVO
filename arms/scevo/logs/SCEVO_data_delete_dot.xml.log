@@ -1,0 +1,14 @@
+2021-12-17 21:24:25,861 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-17 21:24:25,869 DEBUG: Task list loaded.
+2021-12-17 21:24:25,869 DEBUG: Total number of tasks: 1
+2021-12-17 21:24:25,869  INFO:  -- START  -- data_delete_dot.xml
+2021-12-17 21:24:25,873  INFO:  -- Fri Dec 17 21:24:25 AWST 2021
+2021-12-17 21:24:25,873  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dot/utils/data_delete.xml 9:24:25 pm
+2021-12-17 21:24:25,995  INFO:  -- END  -- Fri Dec 17 21:24:25 AWST 2021
+2021-12-17 21:44:40,403 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-17 21:44:40,405 DEBUG: Task list loaded.
+2021-12-17 21:44:40,405 DEBUG: Total number of tasks: 1
+2021-12-17 21:44:40,405  INFO:  -- START  -- data_delete_dot.xml
+2021-12-17 21:44:40,405  INFO:  -- Fri Dec 17 21:44:40 AWST 2021
+2021-12-17 21:44:40,405  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dot/utils/data_delete.xml 9:44:40 pm
+2021-12-17 21:44:40,500  INFO:  -- END  -- Fri Dec 17 21:44:40 AWST 2021

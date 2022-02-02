@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+	<taskRootDir>config/tasks/data/bom/idy/stations/gingin_airport</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+	<TaskConfig>
+		<taskName>Text File Import</taskName>
+		<configFile>raw/import.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+
+	<!-- Timeline -->
+	<TaskConfig>
+		<taskName>Timeline Update From List</taskName>
+		<configFile>timeline/start_dataprocessing.xml</configFile>
+		<configFile>timeline/end_dataprocessing.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	
+	<TaskConfig>
+		<taskName>Time Series Quality Checker</taskName>
+		<configFile>raw/qc.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	
+	<!-- Create the Wind Vector -->
+	<TaskConfig>
+		<taskName>data.pvts.create.PVTSCreatorTaskFactory</taskName>
+		<configFile>raw/create_wind_vector.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	
+	<!-- Create the rainfall -->
+	<TaskConfig>
+		<taskName>Time Series Difference in Time</taskName>
+		<configFile>raw/create_rainfall.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	 
+	<!-- Downsample -->
+	<TaskConfig>
+		<taskName>Time Series Downsampler</taskName>
+		<configFile>downsampled/downsample_15.xml</configFile>
+		<configFile>downsampled/downsample_60.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	<TaskConfig>
+		<taskName>data.pvts.downsampler.PVTSDownsamplerTaskFactory</taskName>
+		<configFile>downsampled/downsample_15.xml</configFile>
+		<configFile>downsampled/downsample_60.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	
+	<!-- Distribute the rainfall -->
+	<TaskConfig>
+		<taskName>Time Series Distribute</taskName>	
+		<configFile>downsampled/create_rainfall_15.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	
+	<!-- Fill -->
+	<TaskConfig>
+		<taskName>Time Series Filler</taskName>
+		<configFile>filled/fill_15.xml</configFile>
+		<configFile>filled/fill_60.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+	<TaskConfig>
+		<taskName>data.pvts.filler.PVTSFillerTaskFactory</taskName>
+		<configFile>filled/fill_15.xml</configFile>
+		<configFile>filled/fill_60.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+</TaskListConfig>

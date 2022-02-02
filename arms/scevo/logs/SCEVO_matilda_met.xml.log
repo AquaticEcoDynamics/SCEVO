@@ -1,0 +1,44 @@
+2021-10-15 19:00:42,806 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 19:00:42,862 DEBUG: Task list loaded.
+2021-10-15 19:00:42,863 DEBUG: Total number of tasks: 1
+2021-10-15 19:00:42,863  INFO:  -- START  -- matilda_met.xml
+2021-10-15 19:00:42,863  INFO:  -- Fri Oct 15 19:00:42 AWST 2021
+2021-10-15 19:00:42,864  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 7:00:42 PM
+2021-10-15 19:00:42,878  INFO: Importing file Matilda_Weather_5min.csv
+2021-10-15 19:15:20,818  INFO:  -- END  -- Fri Oct 15 19:15:20 AWST 2021
+2021-11-16 12:50:22,421 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 12:50:22,440 DEBUG: Task list loaded.
+2021-11-16 12:50:22,440 DEBUG: Total number of tasks: 1
+2021-11-16 12:50:22,440  INFO:  -- START  -- matilda_met.xml
+2021-11-16 12:50:22,440  INFO:  -- Tue Nov 16 12:50:22 AWST 2021
+2021-11-16 12:50:22,440  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/utils/data_delete.xml 12:50:22 pm
+2021-11-16 12:50:30,670  INFO:  -- END  -- Tue Nov 16 12:50:30 AWST 2021
+2021-11-16 14:29:08,027 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:29:08,052 DEBUG: Task list loaded.
+2021-11-16 14:29:08,052 DEBUG: Total number of tasks: 1
+2021-11-16 14:29:08,052  INFO:  -- START  -- matilda_met.xml
+2021-11-16 14:29:08,052  INFO:  -- Tue Nov 16 14:29:08 AWST 2021
+2021-11-16 14:29:08,052  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 2:29:08 pm
+2021-11-16 14:29:08,067  INFO: Importing file Matilda_Weather_Data_5_mins.csv
+2021-11-16 14:57:30,615  INFO:  -- END  -- Tue Nov 16 14:57:30 AWST 2021
+2021-12-19 22:11:42,211 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-19 22:11:42,239 DEBUG: Task list loaded.
+2021-12-19 22:11:42,239 DEBUG: Total number of tasks: 1
+2021-12-19 22:11:42,239  INFO:  -- START  -- matilda_met.xml
+2021-12-19 22:11:42,239  INFO:  -- Sun Dec 19 22:11:42 AWST 2021
+2021-12-19 22:11:42,239  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/matilda/raw/import_met.xml 10:11:42 pm
+2021-12-19 22:11:42,242  INFO: Importing file Matilda_Weather_5min.csv
+2021-12-19 22:11:47,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.met.air_temperature.
+2021-12-19 22:11:47,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.met.baro_pressure.
+2021-12-19 22:11:47,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.met.rel_humidity.
+2021-12-19 22:11:47,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.met.wind_direction.
+2021-12-19 22:11:47,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.met.wind_speed.
+2021-12-19 22:11:47,186  INFO:  -- END  -- Sun Dec 19 22:11:47 AWST 2021
+2021-12-20 14:42:03,518 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-20 14:42:03,563 DEBUG: Task list loaded.
+2021-12-20 14:42:03,563 DEBUG: Total number of tasks: 1
+2021-12-20 14:42:03,563  INFO:  -- START  -- matilda_met.xml
+2021-12-20 14:42:03,580  INFO:  -- Mon Dec 20 14:42:03 AWST 2021
+2021-12-20 14:42:03,581  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/matilda/raw/import_met.xml 2:42:03 pm
+2021-12-20 14:42:03,612  INFO: Importing file Matilda_Weather_5min_oct2021.csv
+2021-12-20 15:40:18,488  INFO:  -- END  -- Mon Dec 20 15:40:18 AWST 2021

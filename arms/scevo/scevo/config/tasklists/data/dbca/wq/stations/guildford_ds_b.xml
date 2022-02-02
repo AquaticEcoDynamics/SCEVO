@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+	
+	
+	
+
+	<taskRootDir>config/tasks/data/dbca/wq/stations/guildford_ds_b</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+    <!-- Move DBCA files downloaded from the web -->
+    <TaskConfig>
+        <taskName>Copy Files</taskName>
+        <configFile>raw/copy_dbca_file.xml</configFile>
+    </TaskConfig>
+
+	<!-- Import to DB -->     
+	<TaskConfig>
+		<taskName>Text File Import</taskName>
+		<configFile>raw/import.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+
+    <!-- Delete files in the web download folder -->	
+    <TaskConfig>
+        <taskName>Delete Files</taskName>
+        <configFile>raw/delete_dbca_web_dl.xml</configFile>
+    </TaskConfig> 
+
+<!--	
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+
+
+	<TaskConfig>
+		<taskName>Timeline Update From List</taskName>
+		<configFile>timeline/start_dataprocessing.xml</configFile>
+		<configFile>timeline/end_dataprocessing.xml</configFile>
+	</TaskConfig>
+	
+	<TaskConfig>
+		<taskName>Time Series Quality Checker</taskName>
+		<configFile>raw/qc.xml</configFile>
+	</TaskConfig>
+	 
+
+	<TaskConfig>
+		<taskName>Time Series Downsampler</taskName>
+		<configFile>downsampled/downsample_15.xml</configFile>
+	</TaskConfig>
+	
+
+	<TaskConfig>
+		<taskName>Time Series Filler</taskName>
+		<configFile>filled/fill_15.xml</configFile>
+	</TaskConfig>
+
+-->
+	
+</TaskListConfig>
+

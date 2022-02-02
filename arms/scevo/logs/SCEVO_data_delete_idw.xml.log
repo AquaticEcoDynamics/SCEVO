@@ -1,0 +1,7 @@
+2021-12-04 20:51:56,561 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-04 20:51:56,566 DEBUG: Task list loaded.
+2021-12-04 20:51:56,566 DEBUG: Total number of tasks: 1
+2021-12-04 20:51:56,566  INFO:  -- START  -- data_delete_idw.xml
+2021-12-04 20:51:56,566  INFO:  -- Sat Dec 04 20:51:56 AWST 2021
+2021-12-04 20:51:56,566  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/data_delete.xml 8:51:56 pm
+2021-12-04 20:51:56,639  INFO:  -- END  -- Sat Dec 04 20:51:56 AWST 2021

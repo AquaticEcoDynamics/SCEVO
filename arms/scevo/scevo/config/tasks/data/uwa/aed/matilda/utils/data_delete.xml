@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSDeleteData>
+  <sourceAddress>scevo.data.uwa.matilda.raw</sourceAddress>  <!--String-->
+  <startDate>2000-01-01 00:00:00</startDate>  <!--String-->
+  <endDate>2022-01-01 00:00:00</endDate>  <!--String-->
+</PSTSDeleteData>

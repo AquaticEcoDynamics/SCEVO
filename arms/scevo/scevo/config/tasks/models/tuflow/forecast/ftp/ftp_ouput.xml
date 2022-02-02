@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FtpPutFiles>
+	<comment>FTP Sync Configuration</comment>
+	<ftpServer>aed.see.uwa.edu.au</ftpServer>
+	<PasswordLookup>FTP_SEE_UWA</PasswordLookup>
+	<ftpFolder>FTP/tuflow</ftpFolder>
+	<localFolder>models/tuflow/swan_arms/Archive/Output/</localFolder>
+	<prefixString></prefixString>
+	<suffixString>.nc</suffixString>
+	<recursive>false</recursive>
+	<replaceOlderFiles>true</replaceOlderFiles>
+</FtpPutFiles>

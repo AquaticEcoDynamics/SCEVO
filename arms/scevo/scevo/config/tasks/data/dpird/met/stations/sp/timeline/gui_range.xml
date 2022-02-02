@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GUITimeLineRange>
+	<startDate>DPIRD_MET_SP_DATAPROCESSING-START</startDate>
+	<endDate>DPIRD_MET_SP_DATAPROCESSING-END</endDate>
+</GUITimeLineRange>

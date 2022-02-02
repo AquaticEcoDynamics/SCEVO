@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.cape_naturaliste.raw</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.cape_naturaliste.downsampled.30min</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/cape_naturaliste/sensors.xml</sensorsFile>
+		<startDate>IDY_CAPENATURALISTE_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_CAPENATURALISTE_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>1800</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Hillarys Boat Harbour</comment>
+	<name>Hillarys</name>
+	<longname>Hillarys Boat Harbour</longname>
+	<site>Hillarys</site>
+	<latitude>-31.8256</latitude>
+	<longitude>115.7386</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	
+	<StationResourceGroup>
+		<address>web</address>
+		<longname>web download</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled</address>
+		<longname>downampled monthly</longname>
+		<processingInterval>2592000</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/ido/hillarys/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

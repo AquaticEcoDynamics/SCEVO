@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TUFLOWBCFileGenerator>
+	<TimeSeries>
+		<sourceAddress></sourceAddress>
+		<destinationAddress>/models/tuflow/scenarioFull2016OxyTest/BCs/Tide/Ave_Fremantle_Inflow_2016to2026.csv</destinationAddress>
+		<startDate>TUFLOW_HINDCAST_MONTHLY-START@timeline</startDate>
+		<endDate>TUFLOW_HINDCAST_MONTHLY-END@timeline</endDate>
+		<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+	
+	<timeZone>8</timeZone>
+
+    <overWrite>true</overWrite>
+    
+	<fillToEnd>false</fillToEnd>
+	
+	<TUFLOWBcCsvData>
+		<sourceAddress>scevo.opendap.hycom.uwaoi.Timeseries.Sample Point.zeta</sourceAddress>
+		<header>wl</header>
+		
+	<!-- <minValue>0.3</minValue>  -->	
+	</TUFLOWBcCsvData>
+    <TUFLOWBcCsvData>
+        <sourceAddress>scevo.opendap.hycom.uwaoi.Timeseries.Sample Point.Layer 0.salt</sourceAddress>
+        <header>Sal</header>
+    </TUFLOWBcCsvData>
+    <TUFLOWBcCsvData>
+        <sourceAddress>scevo.opendap.hycom.uwaoi.Timeseries.Sample Point.Layer 0.temp</sourceAddress>
+        <header>Temp</header>
+    </TUFLOWBcCsvData>
+</TUFLOWBCFileGenerator>

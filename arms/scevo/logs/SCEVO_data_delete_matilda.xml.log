@@ -1,0 +1,14 @@
+2021-11-16 13:36:10,552 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:36:10,555 DEBUG: Task list loaded.
+2021-11-16 13:36:10,555 DEBUG: Total number of tasks: 1
+2021-11-16 13:36:10,555  INFO:  -- START  -- data_delete_matilda.xml
+2021-11-16 13:36:10,556  INFO:  -- Tue Nov 16 13:36:10 AWST 2021
+2021-11-16 13:36:10,556  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/utils/data_delete.xml 1:36:10 pm
+2021-11-16 13:36:10,986  INFO:  -- END  -- Tue Nov 16 13:36:10 AWST 2021
+2021-12-18 00:13:43,761 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-18 00:13:43,789 DEBUG: Task list loaded.
+2021-12-18 00:13:43,789 DEBUG: Total number of tasks: 1
+2021-12-18 00:13:43,789  INFO:  -- START  -- data_delete_matilda.xml
+2021-12-18 00:13:43,789  INFO:  -- Sat Dec 18 00:13:43 AWST 2021
+2021-12-18 00:13:43,790  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/utils/data_delete.xml 12:13:43 am
+2021-12-18 00:13:48,138  INFO:  -- END  -- Sat Dec 18 00:13:48 AWST 2021

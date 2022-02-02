@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TUFLOWVariableMet2D>
+
+	<TimeSeries>
+		<sourceAddress></sourceAddress>
+		<destinationAddress>/models/tuflow/swan_arms/BCs/Met/swan_met.nc</destinationAddress>
+		<startDate>TUFLOW_FORECAST-START@timeline</startDate>
+		<endDate>TUFLOW_FORECAST-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+    
+    <timeZone>8</timeZone>
+    
+    <OutputCoordinateType>UTM</OutputCoordinateType>
+
+	<TUFLOWVariableMet2DData>
+		<sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.U10</sourceAddress>
+		<header>u</header>
+        <scaleFactor>1</scaleFactor>
+	</TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.V10</sourceAddress>
+        <header>v</header>
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.T2</sourceAddress>
+        <header>temp</header>
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.RELHUM</sourceAddress>
+        <header>rhum</header>
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.SWDNB</sourceAddress>
+        <header>dswr</header> <!-- Downward Short Radiation -->
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.LWDNB</sourceAddress>
+        <header>dlwr</header> <!-- Downward Long Wave Radiation -->
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.CLDFRA</sourceAddress>
+        <header>Clouds</header>
+        <scaleFactor>1</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    <TUFLOWVariableMet2DData>
+        <sourceAddress>scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.RAIN</sourceAddress>
+        <header>Precip</header> <!-- M per Day -->
+        <scaleFactor>0.048</scaleFactor>
+    </TUFLOWVariableMet2DData>
+    
+</TUFLOWVariableMet2D>

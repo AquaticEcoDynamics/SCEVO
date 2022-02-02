@@ -1,0 +1,26 @@
+2021-12-21 17:26:23,080 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-21 17:26:23,082 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_ben.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_ben.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.textfile.ImportTaskFactory.getInstance(ImportTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-12-21 17:26:54,768 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-21 17:26:54,769 DEBUG: Task list loaded.
+2021-12-21 17:26:54,769 DEBUG: Total number of tasks: 1
+2021-12-21 17:26:54,769  INFO:  -- START  -- kwilena_ben.xml
+2021-12-21 17:26:54,769  INFO:  -- Tue Dec 21 17:26:54 AWST 2021
+2021-12-21 17:26:54,769  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_ben.xml 5:26:54 pm
+2021-12-21 17:26:54,771  INFO: Importing file Kwilena_Water_Quality_5min_3.csv
+2021-12-21 18:16:47,729  INFO:  -- END  -- Tue Dec 21 18:16:47 AWST 2021

@@ -1,0 +1,506 @@
+2021-07-24 13:59:20,749 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 13:59:20,751 DEBUG: Task list loaded.
+2021-07-24 13:59:20,751 DEBUG: Total number of tasks: 3
+2021-07-24 13:59:20,751  INFO:  -- START  -- yackaboon.xml
+2021-07-24 13:59:20,752  INFO:  -- Sat Jul 24 13:59:20 AWST 2021
+2021-07-24 13:59:20,752  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/dwer/yackaboon/raw/import_flow.xml 1:59:20 pm
+2021-07-24 13:59:20,779  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-01_18.00.08.csv
+2021-07-24 13:59:29,368  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-02_18.00.05.csv
+2021-07-24 13:59:29,935  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-03_18.00.05.csv
+2021-07-24 13:59:30,502  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-04_18.00.06.csv
+2021-07-24 13:59:31,077  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-05_18.00.08.csv
+2021-07-24 13:59:31,594  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-06_18.00.09.csv
+2021-07-24 13:59:32,111  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-07_18.00.08.csv
+2021-07-24 13:59:32,719  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-08_18.00.05.csv
+2021-07-24 13:59:33,186  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-09_18.00.08.csv
+2021-07-24 13:59:33,620  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-10_18.00.06.csv
+2021-07-24 13:59:34,053  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-11_18.00.08.csv
+2021-07-24 13:59:34,512  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-12_18.00.08.csv
+2021-07-24 13:59:34,945  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-13_18.00.08.csv
+2021-07-24 13:59:35,380  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-14_18.00.08.csv
+2021-07-24 13:59:35,814  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-15_18.00.05.csv
+2021-07-24 13:59:36,331  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-16_18.00.05.csv
+2021-07-24 13:59:36,839  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-17_18.00.08.csv
+2021-07-24 13:59:37,381  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-18_18.00.06.csv
+2021-07-24 13:59:37,865  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-19_18.00.07.csv
+2021-07-24 13:59:39,424  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-20_18.00.08.csv
+2021-07-24 13:59:39,999  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-21_18.00.06.csv
+2021-07-24 13:59:40,566  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-22_18.00.06.csv
+2021-07-24 13:59:41,141  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-23_18.00.05.csv
+2021-07-24 13:59:41,716  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-24_18.00.08.csv
+2021-07-24 13:59:42,291  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-25_18.00.06.csv
+2021-07-24 13:59:42,875  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-02-26_18.00.08.csv
+2021-07-24 13:59:43,383  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-05-29_09.27.49.csv
+2021-07-24 13:59:56,562  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-05-29_22.15.08.csv
+2021-07-24 14:00:01,139  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-05-30_22.15.11.csv
+2021-07-24 14:00:01,606  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-05-31_22.15.10.csv
+2021-07-24 14:00:02,040  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-01_22.15.18.csv
+2021-07-24 14:00:02,481  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-02_22.15.12.csv
+2021-07-24 14:00:02,973  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-03_22.15.26.csv
+2021-07-24 14:00:03,448  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-04_22.15.09.csv
+2021-07-24 14:00:03,857  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-05_22.15.06.csv
+2021-07-24 14:00:04,307  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-06_22.15.15.csv
+2021-07-24 14:00:04,740  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-07_22.15.09.csv
+2021-07-24 14:00:05,174  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-08_22.15.06.csv
+2021-07-24 14:00:05,607  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-09_22.15.12.csv
+2021-07-24 14:00:06,024  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-10_22.15.08.csv
+2021-07-24 14:00:06,491  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-11_22.15.05.csv
+2021-07-24 14:00:06,924  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-12_22.15.06.csv
+2021-07-24 14:00:07,357  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-13_22.15.06.csv
+2021-07-24 14:00:07,791  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-14_22.15.06.csv
+2021-07-24 14:00:08,383  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-15_22.15.07.csv
+2021-07-24 14:00:08,816  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-16_22.15.09.csv
+2021-07-24 14:00:09,233  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-17_22.15.08.csv
+2021-07-24 14:00:09,675  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-18_22.15.08.csv
+2021-07-24 14:00:10,208  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-19_22.15.19.csv
+2021-07-24 14:00:10,760  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-20_22.15.12.csv
+2021-07-24 14:00:11,268  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-21_22.15.16.csv
+2021-07-24 14:00:11,752  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-22_22.15.06.csv
+2021-07-24 14:00:12,443  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-23_22.15.07.csv
+2021-07-24 14:00:13,019  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-24_22.15.06.csv
+2021-07-24 14:00:13,569  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-25_22.15.06.csv
+2021-07-24 14:00:13,952  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-26_22.15.06.csv
+2021-07-24 14:00:14,494  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-27_22.15.19.csv
+2021-07-24 14:00:15,011  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-28_22.15.08.csv
+2021-07-24 14:00:15,511  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-29_22.15.07.csv
+2021-07-24 14:00:16,044  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-06-30_22.15.09.csv
+2021-07-24 14:00:16,578  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-01_22.15.09.csv
+2021-07-24 14:00:17,086  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-02_22.15.07.csv
+2021-07-24 14:00:17,611  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-03_22.15.05.csv
+2021-07-24 14:00:18,112  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-04_22.15.16.csv
+2021-07-24 14:00:18,553  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-05_22.15.13.csv
+2021-07-24 14:00:18,970  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-06_22.15.07.csv
+2021-07-24 14:00:19,395  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-07_22.15.10.csv
+2021-07-24 14:00:19,812  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-08_22.15.26.csv
+2021-07-24 14:00:20,229  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-09_22.15.05.csv
+2021-07-24 14:00:20,646  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-10_22.15.17.csv
+2021-07-24 14:00:21,063  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-11_22.15.07.csv
+2021-07-24 14:00:21,479  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-12_22.15.06.csv
+2021-07-24 14:00:21,888  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-13_22.15.07.csv
+2021-07-24 14:00:22,280  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-14_22.15.07.csv
+2021-07-24 14:00:22,688  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-15_22.15.06.csv
+2021-07-24 14:00:23,097  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-16_22.15.14.csv
+2021-07-24 14:00:23,540  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-17_22.15.07.csv
+2021-07-24 14:00:23,940  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-18_22.15.10.csv
+2021-07-24 14:00:24,357  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-19_22.15.07.csv
+2021-07-24 14:00:24,724  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-20_22.15.12.csv
+2021-07-24 14:00:25,107  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-21_22.15.06.csv
+2021-07-24 14:00:25,499  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-22_22.15.05.csv
+2021-07-24 14:00:25,882  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-23_22.15.07.csv
+2021-07-24 14:00:26,291  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-24_22.15.06.csv
+2021-07-24 14:00:26,708  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-25_22.15.09.csv
+2021-07-24 14:00:27,225  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-26_22.15.06.csv
+2021-07-24 14:00:27,741  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-27_22.15.08.csv
+2021-07-24 14:00:28,225  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-28_22.15.15.csv
+2021-07-24 14:00:28,683  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-29_22.15.09.csv
+2021-07-24 14:00:29,250  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-30_22.15.09.csv
+2021-07-24 14:00:29,775  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-07-31_22.15.10.csv
+2021-07-24 14:00:30,275  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-01_22.15.10.csv
+2021-07-24 14:00:30,842  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-02_22.15.06.csv
+2021-07-24 14:00:31,250  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-03_22.15.13.csv
+2021-07-24 14:00:31,801  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-04_22.15.10.csv
+2021-07-24 14:00:32,376  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-05_22.15.07.csv
+2021-07-24 14:00:32,951  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-06_22.15.09.csv
+2021-07-24 14:00:33,484  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-07_22.15.10.csv
+2021-07-24 14:00:34,260  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-08_22.15.06.csv
+2021-07-24 14:00:34,751  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-09_22.15.08.csv
+2021-07-24 14:00:35,202  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-10_22.15.09.csv
+2021-07-24 14:00:35,593  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-11_22.15.06.csv
+2021-07-24 14:00:35,977  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-12_22.15.11.csv
+2021-07-24 14:00:36,402  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-13_22.15.08.csv
+2021-07-24 14:00:36,819  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-14_22.15.08.csv
+2021-07-24 14:00:37,211  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-15_22.15.06.csv
+2021-07-24 14:00:37,611  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-16_22.15.07.csv
+2021-07-24 14:00:37,986  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-17_22.15.15.csv
+2021-07-24 14:00:38,369  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-18_22.15.06.csv
+2021-07-24 14:00:38,761  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-19_22.15.08.csv
+2021-07-24 14:00:39,253  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-20_22.15.06.csv
+2021-07-24 14:00:39,628  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-21_22.15.08.csv
+2021-07-24 14:00:40,028  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-22_22.15.07.csv
+2021-07-24 14:00:40,412  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-23_22.15.10.csv
+2021-07-24 14:00:41,120  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-24_22.15.08.csv
+2021-07-24 14:00:41,529  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-25_22.15.10.csv
+2021-07-24 14:00:41,904  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-26_22.15.08.csv
+2021-07-24 14:00:42,337  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-27_22.15.20.csv
+2021-07-24 14:00:42,737  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-28_22.15.10.csv
+2021-07-24 14:00:43,138  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-29_22.15.07.csv
+2021-07-24 14:00:43,546  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-30_22.15.08.csv
+2021-07-24 14:00:43,963  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-08-31_22.15.08.csv
+2021-07-24 14:00:44,646  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-01_22.15.09.csv
+2021-07-24 14:00:45,163  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-02_22.15.14.csv
+2021-07-24 14:00:45,672  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-03_22.15.09.csv
+2021-07-24 14:00:46,105  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-04_22.15.12.csv
+2021-07-24 14:00:46,655  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-05_22.15.07.csv
+2021-07-24 14:00:47,155  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-06_22.15.07.csv
+2021-07-24 14:00:47,672  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-07_22.15.17.csv
+2021-07-24 14:00:48,231  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-08_22.15.05.csv
+2021-07-24 14:00:48,740  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-09_22.15.14.csv
+2021-07-24 14:00:49,417  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-10_22.15.06.csv
+2021-07-24 14:00:50,009  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-11_22.15.09.csv
+2021-07-24 14:00:50,559  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-12_22.15.12.csv
+2021-07-24 14:00:51,093  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-13_22.15.09.csv
+2021-07-24 14:00:51,585  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-14_22.15.09.csv
+2021-07-24 14:00:52,077  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-15_22.15.12.csv
+2021-07-24 14:00:52,552  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-16_22.15.09.csv
+2021-07-24 14:00:52,952  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-17_22.15.09.csv
+2021-07-24 14:00:53,344  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-18_22.15.07.csv
+2021-07-24 14:00:53,735  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-19_22.15.09.csv
+2021-07-24 14:00:54,219  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-20_22.15.13.csv
+2021-07-24 14:00:54,594  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-21_22.15.11.csv
+2021-07-24 14:00:55,069  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-22_22.15.09.csv
+2021-07-24 14:00:55,444  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-23_22.15.09.csv
+2021-07-24 14:00:55,861  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-24_22.15.09.csv
+2021-07-24 14:00:56,270  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-25_22.15.08.csv
+2021-07-24 14:00:56,662  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-26_22.15.07.csv
+2021-07-24 14:00:57,103  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-27_22.15.09.csv
+2021-07-24 14:00:57,512  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-28_22.15.11.csv
+2021-07-24 14:00:57,929  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-29_22.15.10.csv
+2021-07-24 14:00:58,346  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-09-30_22.15.07.csv
+2021-07-24 14:00:58,712  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-01_22.15.07.csv
+2021-07-24 14:00:59,112  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-02_22.15.06.csv
+2021-07-24 14:00:59,504  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-03_22.15.09.csv
+2021-07-24 14:00:59,888  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-04_22.15.09.csv
+2021-07-24 14:01:00,338  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-05_22.15.10.csv
+2021-07-24 14:01:00,755  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-06_22.15.09.csv
+2021-07-24 14:01:01,172  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-07_22.15.08.csv
+2021-07-24 14:01:01,725  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-08_22.15.12.csv
+2021-07-24 14:01:02,242  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-09_22.15.22.csv
+2021-07-24 14:01:02,759  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-10_22.15.07.csv
+2021-07-24 14:01:03,259  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-11_22.15.07.csv
+2021-07-24 14:01:03,834  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-12_22.15.07.csv
+2021-07-24 14:01:04,442  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-13_22.15.10.csv
+2021-07-24 14:01:05,067  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-14_22.15.06.csv
+2021-07-24 14:01:05,609  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-15_22.15.09.csv
+2021-07-24 14:01:06,226  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-16_22.15.06.csv
+2021-07-24 14:01:06,943  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-17_22.15.08.csv
+2021-07-24 14:01:07,509  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-18_22.15.09.csv
+2021-07-24 14:01:08,026  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-19_22.15.09.csv
+2021-07-24 14:01:08,618  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-20_22.15.25.csv
+2021-07-24 14:01:13,332  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-21_22.15.07.csv
+2021-07-24 14:01:13,765  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-22_22.15.30.csv
+2021-07-24 14:01:14,216  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-23_22.15.06.csv
+2021-07-24 14:01:14,649  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-24_22.15.07.csv
+2021-07-24 14:01:15,208  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-25_22.15.09.csv
+2021-07-24 14:01:15,776  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-26_22.15.09.csv
+2021-07-24 14:01:16,226  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-27_22.15.07.csv
+2021-07-24 14:01:16,643  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-28_22.15.09.csv
+2021-07-24 14:01:17,143  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-29_22.15.06.csv
+2021-07-24 14:01:18,327  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-30_22.15.14.csv
+2021-07-24 14:01:18,786  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-10-31_22.15.06.csv
+2021-07-24 14:01:19,244  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-01_22.15.07.csv
+2021-07-24 14:01:19,678  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-02_22.15.17.csv
+2021-07-24 14:01:20,111  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-03_22.15.09.csv
+2021-07-24 14:01:20,678  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-04_22.15.07.csv
+2021-07-24 14:01:21,111  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-05_22.15.31.csv
+2021-07-24 14:01:21,603  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-06_22.15.06.csv
+2021-07-24 14:01:22,037  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-07_22.15.06.csv
+2021-07-24 14:01:22,495  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-08_22.15.07.csv
+2021-07-24 14:01:22,929  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-09_22.15.10.csv
+2021-07-24 14:01:23,362  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-10_22.15.13.csv
+2021-07-24 14:01:23,787  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-11_22.15.08.csv
+2021-07-24 14:01:27,588  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-12_22.15.06.csv
+2021-07-24 14:01:28,155  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-13_22.15.06.csv
+2021-07-24 14:01:28,721  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-14_22.15.09.csv
+2021-07-24 14:01:29,313  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-15_22.15.08.csv
+2021-07-24 14:01:29,889  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-16_22.15.09.csv
+2021-07-24 14:01:30,589  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-17_22.15.09.csv
+2021-07-24 14:01:31,497  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-18_22.15.06.csv
+2021-07-24 14:01:31,997  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-19_22.15.06.csv
+2021-07-24 14:01:32,481  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-20_22.15.08.csv
+2021-07-24 14:01:32,914  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-21_22.15.06.csv
+2021-07-24 14:01:33,456  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-22_22.15.13.csv
+2021-07-24 14:01:33,889  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-23_22.15.06.csv
+2021-07-24 14:01:34,348  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-24_22.15.19.csv
+2021-07-24 14:01:34,781  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-25_22.15.10.csv
+2021-07-24 14:01:35,215  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-26_22.15.07.csv
+2021-07-24 14:01:35,690  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-27_22.15.10.csv
+2021-07-24 14:01:36,123  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-28_22.15.06.csv
+2021-07-24 14:01:36,715  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-29_22.15.09.csv
+2021-07-24 14:01:37,115  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-11-30_22.15.18.csv
+2021-07-24 14:01:37,490  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-01_22.15.07.csv
+2021-07-24 14:01:37,882  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-02_22.15.11.csv
+2021-07-24 14:01:38,282  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-03_22.15.07.csv
+2021-07-24 14:01:38,682  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-04_22.15.06.csv
+2021-07-24 14:01:39,074  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-05_22.15.25.csv
+2021-07-24 14:01:39,649  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-06_22.15.09.csv
+2021-07-24 14:01:40,024  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-07_22.15.06.csv
+2021-07-24 14:01:40,441  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-08_22.15.31.csv
+2021-07-24 14:01:40,950  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-09_22.15.08.csv
+2021-07-24 14:01:41,358  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-10_22.15.08.csv
+2021-07-24 14:01:41,851  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-11_22.15.06.csv
+2021-07-24 14:01:42,426  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-12_22.15.10.csv
+2021-07-24 14:01:42,918  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-13_22.15.08.csv
+2021-07-24 14:01:43,377  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-14_22.15.05.csv
+2021-07-24 14:01:43,927  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-15_22.15.08.csv
+2021-07-24 14:01:44,494  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-16_22.15.09.csv
+2021-07-24 14:01:45,044  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-17_22.15.09.csv
+2021-07-24 14:01:45,686  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-18_22.15.13.csv
+2021-07-24 14:01:46,294  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-19_22.15.06.csv
+2021-07-24 14:01:46,836  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-20_22.15.05.csv
+2021-07-24 14:01:47,386  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-21_22.15.07.csv
+2021-07-24 14:01:47,944  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-22_22.15.05.csv
+2021-07-24 14:01:48,511  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-23_22.15.06.csv
+2021-07-24 14:01:49,003  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-24_22.15.16.csv
+2021-07-24 14:01:49,528  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-25_22.15.09.csv
+2021-07-24 14:01:49,962  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-26_22.15.09.csv
+2021-07-24 14:01:50,370  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-27_22.15.09.csv
+2021-07-24 14:01:50,787  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-28_22.15.21.csv
+2021-07-24 14:01:51,354  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-29_22.15.10.csv
+2021-07-24 14:01:51,796  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-30_22.15.18.csv
+2021-07-24 14:01:52,204  INFO: Importing file uwa~613027~140.00~hourmean~flow~2020-12-31_22.15.28.csv
+2021-07-24 14:01:52,621  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-01_22.15.23.csv
+2021-07-24 14:01:53,038  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-02_22.15.25.csv
+2021-07-24 14:01:53,455  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-03_22.15.26.csv
+2021-07-24 14:01:53,871  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-04_22.21.59.csv
+2021-07-24 14:01:54,272  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-05_23.45.52.csv
+2021-07-24 14:01:54,747  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-06_22.15.05.csv
+2021-07-24 14:01:55,180  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-07_22.15.06.csv
+2021-07-24 14:01:55,564  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-08_22.15.06.csv
+2021-07-24 14:01:55,989  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-09_22.15.07.csv
+2021-07-24 14:01:56,406  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-10_22.15.33.csv
+2021-07-24 14:01:56,789  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-11_22.15.06.csv
+2021-07-24 14:01:57,197  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-12_22.15.24.csv
+2021-07-24 14:01:57,764  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-13_22.15.09.csv
+2021-07-24 14:01:58,181  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-14_22.15.15.csv
+2021-07-24 14:01:58,598  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-15_22.15.06.csv
+2021-07-24 14:01:59,015  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-16_22.15.18.csv
+2021-07-24 14:01:59,632  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-17_22.15.06.csv
+2021-07-24 14:02:00,032  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-18_22.15.06.csv
+2021-07-24 14:02:00,682  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-19_22.15.09.csv
+2021-07-24 14:02:01,240  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-20_22.15.06.csv
+2021-07-24 14:02:01,790  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-21_22.15.07.csv
+2021-07-24 14:02:02,366  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-22_22.15.09.csv
+2021-07-24 14:02:02,891  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-23_22.15.14.csv
+2021-07-24 14:02:03,408  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-24_22.15.07.csv
+2021-07-24 14:02:04,058  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-25_22.15.08.csv
+2021-07-24 14:02:04,625  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-26_22.15.06.csv
+2021-07-24 14:02:05,175  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-27_22.15.08.csv
+2021-07-24 14:02:05,667  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-28_22.15.05.csv
+2021-07-24 14:02:06,158  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-29_22.15.07.csv
+2021-07-24 14:02:06,734  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-30_22.15.15.csv
+2021-07-24 14:02:07,159  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-01-31_22.15.23.csv
+2021-07-24 14:02:07,577  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-01_22.15.14.csv
+2021-07-24 14:02:07,944  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-02_22.15.08.csv
+2021-07-24 14:02:08,327  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-03_22.15.13.csv
+2021-07-24 14:02:08,719  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-04_22.15.09.csv
+2021-07-24 14:02:09,102  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-05_22.15.08.csv
+2021-07-24 14:02:09,586  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-06_22.15.06.csv
+2021-07-24 14:02:09,994  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-07_22.15.05.csv
+2021-07-24 14:02:10,403  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-08_22.15.08.csv
+2021-07-24 14:02:10,813  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-09_22.15.06.csv
+2021-07-24 14:02:11,187  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-10_22.15.09.csv
+2021-07-24 14:02:11,663  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-11_22.15.19.csv
+2021-07-24 14:02:12,079  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-12_22.15.06.csv
+2021-07-24 14:02:12,555  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-13_22.15.18.csv
+2021-07-24 14:02:12,971  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-14_22.15.06.csv
+2021-07-24 14:02:13,388  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-15_22.15.06.csv
+2021-07-24 14:02:13,805  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-16_22.15.12.csv
+2021-07-24 14:02:14,222  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-17_22.15.07.csv
+2021-07-24 14:02:14,655  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-18_22.15.07.csv
+2021-07-24 14:02:15,089  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-19_22.15.06.csv
+2021-07-24 14:02:15,539  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-20_22.15.16.csv
+2021-07-24 14:02:16,023  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-21_22.15.19.csv
+2021-07-24 14:02:16,498  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-22_22.15.10.csv
+2021-07-24 14:02:16,989  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-23_22.15.08.csv
+2021-07-24 14:02:17,431  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-24_22.15.08.csv
+2021-07-24 14:02:17,990  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-25_22.15.07.csv
+2021-07-24 14:02:18,540  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-26_22.15.19.csv
+2021-07-24 14:02:19,165  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-27_22.15.05.csv
+2021-07-24 14:02:19,732  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-02-28_22.15.06.csv
+2021-07-24 14:02:20,274  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-01_22.15.10.csv
+2021-07-24 14:02:20,816  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-02_22.15.09.csv
+2021-07-24 14:02:21,332  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-03_22.15.09.csv
+2021-07-24 14:02:21,999  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-04_22.15.14.csv
+2021-07-24 14:02:22,466  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-05_22.15.14.csv
+2021-07-24 14:02:22,924  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-06_22.15.06.csv
+2021-07-24 14:02:23,383  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-07_22.15.06.csv
+2021-07-24 14:02:23,816  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-08_22.15.06.csv
+2021-07-24 14:02:24,200  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-09_22.15.06.csv
+2021-07-24 14:02:24,767  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-10_22.15.09.csv
+2021-07-24 14:02:25,161  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-11_22.15.16.csv
+2021-07-24 14:02:25,594  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-12_22.15.05.csv
+2021-07-24 14:02:26,011  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-13_22.15.10.csv
+2021-07-24 14:02:26,461  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-14_22.15.06.csv
+2021-07-24 14:02:26,970  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-15_22.15.05.csv
+2021-07-24 14:02:27,387  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-16_22.15.08.csv
+2021-07-24 14:02:27,912  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-17_22.15.06.csv
+2021-07-24 14:02:28,345  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-18_22.15.11.csv
+2021-07-24 14:02:28,795  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-19_22.15.25.csv
+2021-07-24 14:02:29,220  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-20_22.15.12.csv
+2021-07-24 14:02:29,671  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-21_22.15.19.csv
+2021-07-24 14:02:30,121  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-22_22.15.09.csv
+2021-07-24 14:02:30,571  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-23_22.15.14.csv
+2021-07-24 14:02:35,390  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-24_22.15.06.csv
+2021-07-24 14:02:35,965  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-25_22.15.05.csv
+2021-07-24 14:02:36,515  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-26_22.15.14.csv
+2021-07-24 14:02:37,166  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-27_22.15.28.csv
+2021-07-24 14:02:37,724  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-28_22.15.13.csv
+2021-07-24 14:02:38,300  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-29_22.15.09.csv
+2021-07-24 14:02:38,850  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-30_22.15.10.csv
+2021-07-24 14:02:39,417  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-03-31_22.15.12.csv
+2021-07-24 14:02:40,076  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-01_22.15.08.csv
+2021-07-24 14:02:41,376  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-02_22.15.39.csv
+2021-07-24 14:02:41,860  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-03_22.15.06.csv
+2021-07-24 14:02:42,360  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-04_22.16.20.csv
+2021-07-24 14:02:42,852  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-05_22.15.13.csv
+2021-07-24 14:02:43,285  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-06_22.15.09.csv
+2021-07-24 14:02:43,735  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-07_22.15.06.csv
+2021-07-24 14:02:44,152  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-08_22.15.05.csv
+2021-07-24 14:02:44,585  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-11_13.37.43.csv
+2021-07-24 14:02:45,012  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-11_22.15.08.csv
+2021-07-24 14:02:45,962  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-12_22.15.06.csv
+2021-07-24 14:02:46,379  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-13_22.15.10.csv
+2021-07-24 14:02:46,820  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-14_22.15.15.csv
+2021-07-24 14:02:49,888  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-15_22.15.13.csv
+2021-07-24 14:02:50,322  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-16_22.15.16.csv
+2021-07-24 14:02:50,838  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-17_22.15.08.csv
+2021-07-24 14:02:51,339  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-18_22.15.06.csv
+2021-07-24 14:02:51,964  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-19_22.15.08.csv
+2021-07-24 14:02:52,572  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-20_22.15.09.csv
+2021-07-24 14:02:53,397  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-21_22.15.06.csv
+2021-07-24 14:02:53,947  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-22_22.15.12.csv
+2021-07-24 14:02:54,522  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-23_22.15.05.csv
+2021-07-24 14:02:55,131  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-24_22.15.11.csv
+2021-07-24 14:02:55,706  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-25_22.15.13.csv
+2021-07-24 14:02:56,248  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-26_22.15.06.csv
+2021-07-24 14:02:56,814  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-27_22.15.10.csv
+2021-07-24 14:02:57,323  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-28_22.15.08.csv
+2021-07-24 14:02:58,031  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-29_22.15.13.csv
+2021-07-24 14:02:58,506  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-04-30_22.15.06.csv
+2021-07-24 14:02:58,940  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-01_22.15.06.csv
+2021-07-24 14:02:59,282  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-02_22.15.16.csv
+2021-07-24 14:02:59,507  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-03_22.15.06.csv
+2021-07-24 14:02:59,715  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-04_22.15.07.csv
+2021-07-24 14:02:59,957  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-05_22.15.06.csv
+2021-07-24 14:03:00,173  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-06_22.15.08.csv
+2021-07-24 14:03:00,390  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-07_22.15.06.csv
+2021-07-24 14:03:00,615  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-08_22.15.05.csv
+2021-07-24 14:03:00,849  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-09_22.15.09.csv
+2021-07-24 14:03:01,065  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-10_22.15.05.csv
+2021-07-24 14:03:01,282  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-11_22.15.06.csv
+2021-07-24 14:03:01,499  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-12_22.15.14.csv
+2021-07-24 14:03:01,724  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-13_22.15.06.csv
+2021-07-24 14:03:01,932  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-14_22.15.07.csv
+2021-07-24 14:03:02,149  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-15_22.15.06.csv
+2021-07-24 14:03:02,374  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-16_22.15.22.csv
+2021-07-24 14:03:02,583  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-17_22.15.09.csv
+2021-07-24 14:03:02,941  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-18_22.15.09.csv
+2021-07-24 14:03:03,158  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-19_22.15.14.csv
+2021-07-24 14:03:03,374  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-20_22.15.10.csv
+2021-07-24 14:03:03,591  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-21_22.15.06.csv
+2021-07-24 14:03:03,808  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-22_22.15.07.csv
+2021-07-24 14:03:04,100  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-23_22.15.07.csv
+2021-07-24 14:03:04,308  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-24_22.15.07.csv
+2021-07-24 14:03:04,525  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-25_22.15.32.csv
+2021-07-24 14:03:04,741  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-26_22.15.07.csv
+2021-07-24 14:03:04,975  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-27_22.15.07.csv
+2021-07-24 14:03:05,191  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-28_22.15.11.csv
+2021-07-24 14:03:05,417  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-29_22.15.21.csv
+2021-07-24 14:03:05,625  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-30_22.15.08.csv
+2021-07-24 14:03:05,842  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-05-31_22.15.19.csv
+2021-07-24 14:03:06,067  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-01_22.15.15.csv
+2021-07-24 14:03:06,275  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-02_22.15.30.csv
+2021-07-24 14:03:06,492  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-03_22.15.05.csv
+2021-07-24 14:03:06,684  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-04_22.15.06.csv
+2021-07-24 14:03:06,984  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-05_22.15.16.csv
+2021-07-24 14:03:07,200  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-06_22.15.07.csv
+2021-07-24 14:03:07,417  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-07_22.15.09.csv
+2021-07-24 14:03:07,709  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-08_22.15.09.csv
+2021-07-24 14:03:07,942  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-09_22.15.07.csv
+2021-07-24 14:03:08,234  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-10_22.15.13.csv
+2021-07-24 14:03:08,459  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-11_22.15.05.csv
+2021-07-24 14:03:08,742  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-12_22.15.06.csv
+2021-07-24 14:03:08,959  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-13_22.15.09.csv
+2021-07-24 14:03:09,201  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-14_22.15.07.csv
+2021-07-24 14:03:09,417  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-15_22.15.06.csv
+2021-07-24 14:03:09,818  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-16_22.15.20.csv
+2021-07-24 14:03:10,129  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-17_22.27.25.csv
+2021-07-24 14:03:10,563  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-18_22.15.07.csv
+2021-07-24 14:03:11,056  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-19_22.15.06.csv
+2021-07-24 14:03:11,414  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-20_22.15.12.csv
+2021-07-24 14:03:11,631  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-21_22.15.09.csv
+2021-07-24 14:03:11,973  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-22_22.15.23.csv
+2021-07-24 14:03:12,189  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-23_22.15.09.csv
+2021-07-24 14:03:12,531  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-24_22.15.12.csv
+2021-07-24 14:03:12,756  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-25_22.15.07.csv
+2021-07-24 14:03:13,273  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-26_22.15.14.csv
+2021-07-24 14:03:13,481  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-27_22.15.30.csv
+2021-07-24 14:03:13,840  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-28_22.15.19.csv
+2021-07-24 14:03:14,048  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-29_22.15.14.csv
+2021-07-24 14:03:14,348  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-06-30_22.15.07.csv
+2021-07-24 14:03:14,565  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-01_22.15.16.csv
+2021-07-24 14:03:14,882  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-02_22.15.13.csv
+2021-07-24 14:03:15,107  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-03_22.15.09.csv
+2021-07-24 14:03:15,390  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-04_22.15.05.csv
+2021-07-24 14:03:15,607  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-05_22.15.17.csv
+2021-07-24 14:03:15,873  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-06_22.15.08.csv
+2021-07-24 14:03:16,132  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-07_22.15.07.csv
+2021-07-24 14:03:16,349  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-08_22.15.21.csv
+2021-07-24 14:03:16,574  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-09_22.15.07.csv
+2021-07-24 14:03:16,782  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-10_22.15.09.csv
+2021-07-24 14:03:16,999  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-11_22.15.06.csv
+2021-07-24 14:03:17,216  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-12_22.15.27.csv
+2021-07-24 14:03:17,440  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-13_22.15.09.csv
+2021-07-24 14:03:17,649  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-14_22.15.13.csv
+2021-07-24 14:03:17,866  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-15_22.15.07.csv
+2021-07-24 14:03:18,258  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-16_22.15.18.csv
+2021-07-24 14:03:18,607  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-17_22.15.06.csv
+2021-07-24 14:03:18,791  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-19_22.15.27.csv
+2021-07-24 14:03:19,525  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-20_22.15.05.csv
+2021-07-24 14:03:19,833  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-21_22.15.06.csv
+2021-07-24 14:03:20,049  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-22_22.15.20.csv
+2021-07-24 14:03:20,275  INFO: Importing file uwa~613027~140.00~hourmean~flow~2021-07-23_22.15.24.csv
+2021-07-24 14:03:20,483  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/dwer/yackaboon/raw/import_temp.xml 2:03:20 pm
+2021-07-24 14:03:20,505 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dwer/yackaboon/raw/import_temp.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dwer/yackaboon/raw/import_temp.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 14:03:20,506  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/dwer/yackaboon/raw/import_cond.xml 2:03:20 pm
+2021-07-24 14:03:20,523 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dwer/yackaboon/raw/import_cond.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dwer/yackaboon/raw/import_cond.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 14:03:20,523  INFO:  -- END  -- Sat Jul 24 14:03:20 AWST 2021
+2021-07-24 14:03:20,523  INFO: Number of errors: 2

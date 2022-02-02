@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import DBCA WQ data</comment>
+	<localFolder>data/dbca/wq/guildford_ds_s</localFolder>
+	<fileName>dbca_6163950*.csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.dbca.wq.guildford_ds_s.raw.DO</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.dbca.wq.guildford_ds_s.raw</destinationAddress>
+	<dateFormat>HH:mm:ss dd/MM/yyyy</dateFormat>
+	<nHeaderLines>5</nHeaderLines> <!--4--> <!-- 8350 is the 2 months preceding the current month -->
+	<nTailLines>5</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>1</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dbca/wq/guildford_ds_s/sensors.xml</sensorsFile>
+</TextFileImport>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSFiller>
+	<TimeSeries>
+	<comment>Met Chain 30 Minute Downsample Action</comment>
+	<sourceAddress>scevo.data.bom.idy.swanbourne.downsampled.30min</sourceAddress>
+	<sensorsFile>config/resources/data/bom/idy/swanbourne/sensors.xml</sensorsFile>
+	<startDate>IDY_SWANBOURNE_DATAPROCESSING-START@timeline</startDate>
+	<endDate>IDY_SWANBOURNE_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>1800</processingTimestep>
+	</TimeSeries>
+		<Filler>
+		<type>linear</type>
+		<maxSearch>8</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearest</type>
+		<maxSearch>4</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearestDay</type>
+		<maxSearch>400</maxSearch>
+	</Filler>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>800</maxSearch>
+	</Filler>
+	<Filler>
+		<type>default</type>
+		<maxSearch>0</maxSearch>
+	</Filler>
+</PTSFiller>

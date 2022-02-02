@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSFiller>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.jandakot.downsampled.30min</sourceAddress>
+		<sensorsFile>config/resources/data/bom/idy/jandakot/sensors.xml</sensorsFile>
+		<startDate>IDY_JANDAKOT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_JANDAKOT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>1800</processingTimestep>
+	</TimeSeries>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>8</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearest</type>
+		<maxSearch>4</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearestDay</type>
+		<maxSearch>14</maxSearch>
+	</Filler>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>300</maxSearch>
+	</Filler>
+	<Filler>
+		<type>default</type>
+		<maxSearch>0</maxSearch>
+	</Filler>
+</PTSFiller>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+
+	<comment>Fremantle Fishing Boat Harbour (DOT)</comment>
+
+	<Sensor1D>
+		<name>water_level</name>
+		<longname>Water Level</longname>
+		<SensorInfo>
+			<title>Water Level</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>5.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>.7</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>water_level_predicted</name>
+		<longname>Predicted Water Level</longname>
+		<SensorInfo>
+			<title>Predicted Level</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>4</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>5.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>.7</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>residual</name>
+		<longname>Residual</longname>
+		<SensorInfo>
+			<title>Residual</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>3</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>5.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>.7</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+
+	<!--
+	<SensorScript>
+		<name>tide(m)</name>
+		<longname>Tide(m)</longname>
+		<SensorInfo>
+			<title>Tide(m)</title>
+			<units>m</units>
+		</SensorInfo>
+		<ScriptBlock>
+			<ScriptStream>
+				<name>tide</name>
+				<address>$PARENT.tide</address>
+			</ScriptStream>
+			<script>
+				tide*0.10;
+			</script>
+		</ScriptBlock>
+		<PlotProperties>
+			<Limits>
+				<yLimits>[0.2 1.5]</yLimits>
+			</Limits>
+		</PlotProperties>
+	</SensorScript>
+	-->
+</SensorFile>

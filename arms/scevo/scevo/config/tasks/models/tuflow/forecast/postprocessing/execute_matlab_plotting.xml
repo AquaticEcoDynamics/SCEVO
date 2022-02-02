@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemExecute>
+  <comment>Execute MATLAB plotting for website</comment>
+  <workingDir>/models/utils</workingDir>
+  <command>./run_matlab_plotting.sh</command>
+</SystemExecute>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSSum>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>scevo.data.bom.idy.manjimup.raw.rainfall</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.manjimup.downsampled.12hr.rainfall</destinationAddress>
+		<startDate>IDY_MANJIMUP_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_MANJIMUP_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>43200</processingTimestep>
+	</TimeSeries>
+</PTSSum>

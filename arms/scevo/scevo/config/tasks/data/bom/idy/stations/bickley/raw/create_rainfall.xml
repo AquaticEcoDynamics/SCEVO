@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDifference>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>scevo.data.bom.idy.bickley.raw.Rainfall_9am</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.bickley.raw.rainfall</destinationAddress>
+		<startDate>IDY_BICKLEY_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_BICKLEY_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+	
+	<resetTime>01:01:00</resetTime>
+	<minValue>0</minValue>
+</PTSDifference>

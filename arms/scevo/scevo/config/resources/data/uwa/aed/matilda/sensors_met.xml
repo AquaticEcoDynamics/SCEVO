@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+
+	<comment>Matild Buoy weather unit (Gill GMX600)</comment>
+
+	<Sensor1D>
+		<name>air_temperature</name>
+		<longname>Air Temperature</longname>
+		<SensorInfo>
+			<title>Air Temperature</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>3</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>+0.5</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>60</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>15</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>baro_pressure</name>
+		<longname>Atmospheric Pressure</longname>
+		<SensorInfo>
+			<title>Atmospheric Pressure</title>
+			<units>hPa</units>
+			<FileInfo>
+				<fileColumn>4</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>+0.5</zOffset>
+			</Location>
+			<Limits>
+				<minValue>800</minValue>
+				<maxValue>2000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>1013</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>rel_humidity</name>
+		<longname>Relative Humidity</longname>
+		<SensorInfo>
+			<title>Relative Humidity</title>
+			<units>%</units>
+			<FileInfo>
+				<fileColumn>5</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>+0.5</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>110</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>60</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>wind_direction</name>
+		<longname>Wind Direction</longname>
+		<SensorInfo>
+			<title>Wind Direction</title>
+			<units>deg</units>
+			<FileInfo>
+				<fileColumn>6</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>+0.5</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>361</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>90</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>wind_speed</name>
+		<longname>Wind Speed</longname>
+		<SensorInfo>
+			<title>Wind Speed</title>
+			<units>m/s</units>
+			<FileInfo>
+				<fileColumn>7</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>ESTUARY_SURFACE</datum>
+				<zOffset>+0.5</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>2</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+</SensorFile>

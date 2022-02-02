@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeLineUpdate>
+  <comment>Timeline Update</comment>
+  <timeLineKeyword>DPAW_WRF_HINDCAST_MONTHLY-START</timeLineKeyword>
+  <time>
+    <comment>from model End Time</comment>
+    <date>2018-08-01 00:00:00</date>
+    <method>=</method>
+    <offset>0</offset>
+  </time>
+  <time>
+    <comment>from model End Time</comment>
+    <date>END-DATE@scevo.models.wrf.swan.region2.hindcast.Sheets - Fixed Height.T2</date>
+    <method>max</method>
+    <offset>0</offset>
+    <ignoreOnError>true</ignoreOnError>
+  </time>
+</TimeLineUpdate>

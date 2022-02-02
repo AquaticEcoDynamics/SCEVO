@@ -1,0 +1,381 @@
+2021-07-31 14:33:59,614 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 14:33:59,672 DEBUG: Task list loaded.
+2021-07-31 14:33:59,672 DEBUG: Total number of tasks: 7
+2021-07-31 14:33:59,672  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 14:33:59,672  INFO:  -- Sat Jul 31 14:33:59 AWST 2021
+2021-07-31 14:33:59,672  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 2:33:59 pm
+2021-07-31 14:33:59,674  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 2:33:59 pm
+2021-07-31 14:33:59,676  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 2:33:59 pm
+2021-07-31 14:33:59,676  INFO: Copying files
+2021-07-31 14:33:59,676  INFO: Transfered 0 files.
+2021-07-31 14:33:59,676  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 2:33:59 pm
+2021-07-31 14:33:59,676  INFO: Copying files
+2021-07-31 14:33:59,677  INFO: Transfered 0 files.
+2021-07-31 14:33:59,677  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 2:33:59 pm
+2021-07-31 14:33:59,677  INFO: Deleting files
+2021-07-31 14:33:59,677  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-07-31 14:33:59,677  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 2:33:59 pm
+2021-07-31 14:33:59,677  INFO: Deleting files
+2021-07-31 14:33:59,677  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-07-31 14:33:59,677  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 2:33:59 pm
+2021-07-31 14:33:59,677 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-07-31 14:34:00,709  INFO: WRF: Locating GFS data sources
+2021-07-31 14:34:00,825 ERROR: CAUGHT EXCEPTION: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+cwr.arms.tasks.TaskException: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:126)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-31 14:34:00,826  INFO:  -- END  -- Sat Jul 31 14:34:00 AWST 2021
+2021-07-31 14:34:00,826  INFO: Number of errors: 1
+2021-07-31 14:36:49,739 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 14:36:49,747 DEBUG: Task list loaded.
+2021-07-31 14:36:49,748 DEBUG: Total number of tasks: 7
+2021-07-31 14:36:49,748  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 14:36:49,748  INFO:  -- Sat Jul 31 14:36:49 AWST 2021
+2021-07-31 14:36:49,748  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 2:36:49 pm
+2021-07-31 14:36:49,750  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 2:36:49 pm
+2021-07-31 14:36:49,751  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 2:36:49 pm
+2021-07-31 14:36:49,751  INFO: Copying files
+2021-07-31 14:36:49,751  INFO: Transfered 0 files.
+2021-07-31 14:36:49,752  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 2:36:49 pm
+2021-07-31 14:36:49,752  INFO: Copying files
+2021-07-31 14:36:49,752  INFO: Transfered 0 files.
+2021-07-31 14:36:49,752  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 2:36:49 pm
+2021-07-31 14:36:49,752  INFO: Deleting files
+2021-07-31 14:36:49,752  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-07-31 14:36:49,752  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 2:36:49 pm
+2021-07-31 14:36:49,752  INFO: Deleting files
+2021-07-31 14:36:49,752  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-07-31 14:36:49,752  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 2:36:49 pm
+2021-07-31 14:36:49,752 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-07-31 14:36:50,695  INFO: WRF: Locating GFS data sources
+2021-07-31 14:36:50,938 ERROR: CAUGHT EXCEPTION: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+cwr.arms.tasks.TaskException: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:126)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-31 14:36:50,939  INFO:  -- END  -- Sat Jul 31 14:36:50 AWST 2021
+2021-07-31 14:36:50,939  INFO: Number of errors: 1
+2021-07-31 15:17:41,762 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 15:17:41,858 DEBUG: Task list loaded.
+2021-07-31 15:17:41,859 DEBUG: Total number of tasks: 7
+2021-07-31 15:17:41,859  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 15:17:41,859  INFO:  -- Sat Jul 31 15:17:41 AWST 2021
+2021-07-31 15:17:41,859  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 3:17:41 PM
+2021-07-31 15:17:41,864  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 3:17:41 PM
+2021-07-31 15:17:41,869  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 3:17:41 PM
+2021-07-31 15:17:41,869  INFO: Copying files
+2021-07-31 15:17:41,869  INFO: Transfered 0 files.
+2021-07-31 15:17:41,869  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 3:17:41 PM
+2021-07-31 15:17:41,869  INFO: Copying files
+2021-07-31 15:17:41,870  INFO: Transfered 0 files.
+2021-07-31 15:17:41,870  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 3:17:41 PM
+2021-07-31 15:17:41,870  INFO: Deleting files
+2021-07-31 15:17:41,870  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:17:41,870  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 3:17:41 PM
+2021-07-31 15:17:41,870  INFO: Deleting files
+2021-07-31 15:17:41,870  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:17:41,870  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 3:17:41 PM
+2021-07-31 15:17:41,870 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-07-31 15:17:43,133  INFO: WRF: Locating GFS data sources
+2021-07-31 15:17:43,276 ERROR: CAUGHT EXCEPTION: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+cwr.arms.tasks.TaskException: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:126)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-31 15:17:43,277  INFO:  -- END  -- Sat Jul 31 15:17:43 AWST 2021
+2021-07-31 15:17:43,277  INFO: Number of errors: 1
+2021-07-31 15:20:11,428 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 15:20:11,443 DEBUG: Task list loaded.
+2021-07-31 15:20:11,443 DEBUG: Total number of tasks: 7
+2021-07-31 15:20:11,443  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 15:20:11,443  INFO:  -- Sat Jul 31 15:20:11 AWST 2021
+2021-07-31 15:20:11,444  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 3:20:11 PM
+2021-07-31 15:20:11,447  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 3:20:11 PM
+2021-07-31 15:20:11,450  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 3:20:11 PM
+2021-07-31 15:20:11,450  INFO: Copying files
+2021-07-31 15:20:11,450  INFO: Transfered 0 files.
+2021-07-31 15:20:11,450  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 3:20:11 PM
+2021-07-31 15:20:11,450  INFO: Copying files
+2021-07-31 15:20:11,450  INFO: Transfered 0 files.
+2021-07-31 15:20:11,450  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 3:20:11 PM
+2021-07-31 15:20:11,450  INFO: Deleting files
+2021-07-31 15:20:11,451  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:20:11,451  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 3:20:11 PM
+2021-07-31 15:20:11,451  INFO: Deleting files
+2021-07-31 15:20:11,451  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:20:11,451  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 3:20:11 PM
+2021-07-31 15:20:11,451 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-07-31 15:20:12,679  INFO: WRF: Locating GFS data sources
+2021-07-31 15:20:12,704 ERROR: CAUGHT EXCEPTION: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+cwr.arms.tasks.TaskException: cwr.arms.io.IOException: Unable to open file https://nomads.ncdc.noaa.gov/data/gfsanl as 
+{1}.
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:126)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-31 15:20:12,704  INFO:  -- END  -- Sat Jul 31 15:20:12 AWST 2021
+2021-07-31 15:20:12,704  INFO: Number of errors: 1
+2021-07-31 15:21:09,008 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 15:21:09,019 DEBUG: Task list loaded.
+2021-07-31 15:21:09,019 DEBUG: Total number of tasks: 7
+2021-07-31 15:21:09,019  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-07-31 15:21:09,020  INFO:  -- Sat Jul 31 15:21:09 AWST 2021
+2021-07-31 15:21:09,020  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 3:21:09 PM
+2021-07-31 15:21:09,023  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 3:21:09 PM
+2021-07-31 15:21:09,026  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 3:21:09 PM
+2021-07-31 15:21:09,026  INFO: Copying files
+2021-07-31 15:21:09,026  INFO: Transfered 0 files.
+2021-07-31 15:21:09,026  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 3:21:09 PM
+2021-07-31 15:21:09,026  INFO: Copying files
+2021-07-31 15:21:09,026  INFO: Transfered 0 files.
+2021-07-31 15:21:09,027  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 3:21:09 PM
+2021-07-31 15:21:09,027  INFO: Deleting files
+2021-07-31 15:21:09,027  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:21:09,027  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 3:21:09 PM
+2021-07-31 15:21:09,027  INFO: Deleting files
+2021-07-31 15:21:09,027  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-07-31 15:21:09,027  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 3:21:09 PM
+2021-07-31 15:21:09,027 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-07-31 15:21:10,257  INFO: WRF: Locating GFS data sources
+2021-07-31 15:21:21,343  INFO: WRF: Downloading grib files.
+2021-07-31 15:21:21,344  INFO: WRF: Downloaded grib files in: 0.0 days, 0.0 hours, 0.0 minutes.
+2021-07-31 15:21:21,344  INFO: WRF: Staging grib files.
+2021-07-31 15:21:21,349  INFO: WRF: Start Run 'link_grib.csh'
+2021-07-31 15:21:21,376 ERROR: foreach: No match.
+2021-07-31 15:21:22,377  INFO: WRF: End Run 'link_grib.csh'. Exit value: 1
+2021-07-31 15:21:22,378 ERROR: CAUGHT EXCEPTION: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.runExecutable(WRFRunTask.java:1266)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.linkWebFiles(WRFRunTask.java:2128)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.doProcessWPS(WRFRunTask.java:584)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:123)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-31 15:21:22,379  INFO:  -- END  -- Sat Jul 31 15:21:22 AWST 2021
+2021-07-31 15:21:22,379  INFO: Number of errors: 1
+2021-08-07 13:48:22,532 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-08-07 13:48:22,569 DEBUG: Task list loaded.
+2021-08-07 13:48:22,569 DEBUG: Total number of tasks: 7
+2021-08-07 13:48:22,569  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-08-07 13:48:22,569  INFO:  -- Sat Aug 07 13:48:22 AWST 2021
+2021-08-07 13:48:22,569  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 1:48:22 PM
+2021-08-07 13:48:22,572  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 1:48:22 PM
+2021-08-07 13:48:22,575  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 1:48:22 PM
+2021-08-07 13:48:22,575  INFO: Copying files
+2021-08-07 13:48:22,575  INFO: Transfered 0 files.
+2021-08-07 13:48:22,575  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 1:48:22 PM
+2021-08-07 13:48:22,575  INFO: Copying files
+2021-08-07 13:48:22,576  INFO: Transfered 0 files.
+2021-08-07 13:48:22,576  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 1:48:22 PM
+2021-08-07 13:48:22,576  INFO: Deleting files
+2021-08-07 13:48:22,576  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-08-07 13:48:22,576  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 1:48:22 PM
+2021-08-07 13:48:22,576  INFO: Deleting files
+2021-08-07 13:48:22,577  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-08-07 13:48:22,577  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 1:48:22 PM
+2021-08-07 13:48:22,577 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-08-07 13:48:24,031  INFO: WRF: Locating GFS data sources
+2021-08-07 13:48:39,608  INFO: WRF: Downloading grib files.
+2021-08-07 13:48:39,609  INFO: WRF: Downloaded grib files in: 0.0 days, 0.0 hours, 0.0 minutes.
+2021-08-07 13:48:39,609  INFO: WRF: Staging grib files.
+2021-08-07 13:48:39,611  INFO: WRF: Start Run 'link_grib.csh'
+2021-08-07 13:48:39,617 ERROR: foreach: No match.
+2021-08-07 13:48:40,618  INFO: WRF: End Run 'link_grib.csh'. Exit value: 1
+2021-08-07 13:48:40,620 ERROR: CAUGHT EXCEPTION: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.runExecutable(WRFRunTask.java:1266)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.linkWebFiles(WRFRunTask.java:2128)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.doProcessWPS(WRFRunTask.java:584)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:123)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-08-07 13:48:40,622  INFO:  -- END  -- Sat Aug 07 13:48:40 AWST 2021
+2021-08-07 13:48:40,622  INFO: Number of errors: 1
+2021-11-16 14:01:08,339 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:01:08,350 DEBUG: Task list loaded.
+2021-11-16 14:01:08,350 DEBUG: Total number of tasks: 7
+2021-11-16 14:01:08,350  INFO:  -- START  -- WRF_HINDCAST_MONTHLY_RUN.xml
+2021-11-16 14:01:08,350  INFO:  -- Tue Nov 16 14:01:08 AWST 2021
+2021-11-16 14:01:08,350  INFO:  -- TASK 1/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 2:01:08 pm
+2021-11-16 14:01:08,352  INFO:  -- TASK 2/7 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 2:01:08 pm
+2021-11-16 14:01:08,352  INFO:  -- TASK 3/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 2:01:08 pm
+2021-11-16 14:01:08,352  INFO: Copying files
+2021-11-16 14:01:08,352  INFO: Transfered 0 files.
+2021-11-16 14:01:08,352  INFO:  -- TASK 4/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 2:01:08 pm
+2021-11-16 14:01:08,352  INFO: Copying files
+2021-11-16 14:01:08,353  INFO: Transfered 0 files.
+2021-11-16 14:01:08,353  INFO:  -- TASK 5/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 2:01:08 pm
+2021-11-16 14:01:08,353  INFO: Deleting files
+2021-11-16 14:01:08,353  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-11-16 14:01:08,353  INFO:  -- TASK 6/7 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 2:01:08 pm
+2021-11-16 14:01:08,353  INFO: Deleting files
+2021-11-16 14:01:08,353  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-11-16 14:01:08,353  INFO:  -- TASK 7/7 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 2:01:08 pm
+2021-11-16 14:01:08,353 DEBUG: WRF: Start Date (UTC): 2018-08-01 00:00:00, End Date (UTC): 2018-08-11 00:00:00
+2021-11-16 14:01:09,843 DEBUG: WRF Run Dates Amended: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-08-11 00:00:00
+2021-11-16 14:01:09,843  INFO: WRF: Locating GFS data sources
+2021-11-16 14:01:22,132  INFO: WRF: Downloading grib files.
+2021-11-16 14:01:22,132  INFO: WRF: Downloaded grib files in: 0.0 days, 0.0 hours, 0.0 minutes.
+2021-11-16 14:01:22,132  INFO: WRF: Staging grib files.
+2021-11-16 14:01:22,133  INFO: WRF: Start Run 'link_grib.csh'
+2021-11-16 14:01:22,146 ERROR: foreach: No match.
+2021-11-16 14:01:23,146  INFO: WRF: End Run 'link_grib.csh'. Exit value: 1
+2021-11-16 14:01:23,146 ERROR: CAUGHT EXCEPTION: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.runExecutable(WRFRunTask.java:1266)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.linkWebFiles(WRFRunTask.java:2128)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.doProcessWPS(WRFRunTask.java:584)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:123)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-16 14:01:23,147  INFO:  -- END  -- Tue Nov 16 14:01:23 AWST 2021
+2021-11-16 14:01:23,147  INFO: Number of errors: 1

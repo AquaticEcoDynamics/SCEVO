@@ -1,0 +1,39 @@
+2021-10-15 19:15:18,585 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 19:15:18,659 DEBUG: Task list loaded.
+2021-10-15 19:15:18,659 DEBUG: Total number of tasks: 1
+2021-10-15 19:15:18,659  INFO:  -- START  -- kwilena_wq.xml
+2021-10-15 19:15:18,659  INFO:  -- Fri Oct 15 19:15:18 AWST 2021
+2021-10-15 19:15:18,660  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 7:15:18 PM
+2021-10-15 19:15:18,675  INFO: Importing file Kwilena_WaterQuality_10min.csv
+2021-10-15 19:27:44,983  INFO:  -- END  -- Fri Oct 15 19:27:44 AWST 2021
+2021-11-16 13:39:22,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:39:22,304 DEBUG: Task list loaded.
+2021-11-16 13:39:22,304 DEBUG: Total number of tasks: 1
+2021-11-16 13:39:22,304  INFO:  -- START  -- kwilena_wq.xml
+2021-11-16 13:39:22,304  INFO:  -- Tue Nov 16 13:39:22 AWST 2021
+2021-11-16 13:39:22,304  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 1:39:22 pm
+2021-11-16 13:39:22,307  INFO: Importing file Kwilena_Water_Quality_Weather_Data_5_mins.csv
+2021-11-16 14:29:13,267 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:29:13,274 DEBUG: Task list loaded.
+2021-11-16 14:29:13,274 DEBUG: Total number of tasks: 1
+2021-11-16 14:29:13,274  INFO:  -- START  -- kwilena_wq.xml
+2021-11-16 14:29:13,274  INFO:  -- Tue Nov 16 14:29:13 AWST 2021
+2021-11-16 14:29:13,274  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 2:29:13 pm
+2021-11-16 14:29:13,280  INFO: Importing file Kwilena_Water_Quality_Weather_Data_5_mins.csv
+2021-11-16 17:21:25,622  INFO:  -- END  -- Tue Nov 16 17:21:25 AWST 2021
+2021-12-21 12:33:33,342 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-21 12:33:33,355 DEBUG: Task list loaded.
+2021-12-21 12:33:33,355 DEBUG: Total number of tasks: 1
+2021-12-21 12:33:33,355  INFO:  -- START  -- kwilena_wq.xml
+2021-12-21 12:33:33,355  INFO:  -- Tue Dec 21 12:33:33 AWST 2021
+2021-12-21 12:33:33,355  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:33:33 pm
+2021-12-21 12:33:33,358  INFO: Importing file Kwilena_Water_Quality_5min_1.csv
+2021-12-21 15:53:23,445  INFO:  -- END  -- Tue Dec 21 15:53:23 AWST 2021
+2021-12-23 15:20:11,857 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-23 15:20:12,015 DEBUG: Task list loaded.
+2021-12-23 15:20:12,016 DEBUG: Total number of tasks: 1
+2021-12-23 15:20:12,016  INFO:  -- START  -- kwilena_wq.xml
+2021-12-23 15:20:12,026  INFO:  -- Thu Dec 23 15:20:12 AWST 2021
+2021-12-23 15:20:12,027  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 3:20:12 pm
+2021-12-23 15:20:12,035  INFO: Importing file Kwilena_Water_Quality_5min_1a.csv
+2021-12-23 18:40:02,098  INFO:  -- END  -- Thu Dec 23 18:40:02 AWST 2021

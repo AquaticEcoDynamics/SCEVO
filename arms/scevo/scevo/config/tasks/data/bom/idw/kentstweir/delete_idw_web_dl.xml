@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeleteFiles>
+  <comment>Delete IDW web download files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  
+  <prefixString>bom_kent</prefixString>
+  <suffixString>.csv</suffixString>
+</DeleteFiles>

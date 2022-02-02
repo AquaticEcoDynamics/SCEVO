@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FtpRetrieveFiles>
+	<comment>FTP Sync Configuration</comment>
+	<ftpServer>ftp.see.uwa.edu.au</ftpServer>
+	<PasswordLookup>FTP_SEE_UWA</PasswordLookup>
+	<ftpFolder>/data/dwer/</ftpFolder>
+	<localFolder>data/dwer/raw/</localFolder>
+	<!--
+	<prefixString>IDY03100</prefixString>
+	<suffixString>axf</suffixString>
+	-->
+</FtpRetrieveFiles>

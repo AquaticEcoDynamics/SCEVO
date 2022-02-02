@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+	<taskRootDir>config/tasks/models/tuflow/forecast</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+	
+	  <!-- Timeline -->
+	  <TaskConfig>
+		  <taskName>Timeline Update From List</taskName>
+		  <configFile>timeline/start.xml</configFile>
+		  <configFile>timeline/end.xml</configFile>
+	  </TaskConfig>
+  
+    <!-- Move Historical SCERM Files -->
+    <TaskConfig>
+        <taskName>Copy Files</taskName>
+        <configFile>archive/copy_history.xml</configFile>
+    </TaskConfig>
+    <TaskConfig>
+        <taskName>Delete Files</taskName>
+        <configFile>archive/delete_history.xml</configFile>
+        <continueOnError>true</continueOnError>
+    </TaskConfig>
+    
+    <!-- Generate BC-NetCDF files -->
+    <TaskConfig>
+        <taskName>TUFLOW Variable Met 2D File Generator</taskName>
+        <configFile>inputs/met.xml</configFile>
+    </TaskConfig>
+        
+    <!-- Generate BC-CSV files  -->
+    <TaskConfig>
+        <taskName>TUFLOW BC File Generator</taskName>
+        <!--
+        <configFile>inputs/tide.xml</configFile> 
+        --> 
+        <configFile>inputs/flow_616189.xml</configFile>
+        <configFile>inputs/flow_616178.xml</configFile>
+        <configFile>inputs/flow_616088.xml</configFile>
+        <configFile>inputs/flow_616086.xml</configFile>
+        <configFile>inputs/flow_616084.xml</configFile>
+        <configFile>inputs/flow_616082.xml</configFile>
+        <configFile>inputs/flow_616027.xml</configFile>
+        <configFile>inputs/flow_616189.xml</configFile>
+    </TaskConfig>
+    
+    
+		<!-- Self Learning (Rscript) -->
+		<TaskConfig>
+				<taskName>Copy Files</taskName>
+				
+				<configFile>selflearning/flow_copy_to_selflearning.xml</configFile>
+				<configFile>selflearning/met_copy_to_selflearning.xml</configFile>
+		</TaskConfig>
+	
+	<!--
+		<TaskConfig>
+				<taskName>Execute System Command</taskName>
+				<configFile>selflearning/execute.xml</configFile>
+		</TaskConfig>
+		<TaskConfig>
+				<taskName>Copy Files</taskName>
+				<configFile>selflearning/flow_copy_from_selflearning.xml</configFile>
+		</TaskConfig>
+  -->
+   
+   
+		<!-- Run Model -->
+		<TaskConfig>
+				<taskName>TUFLOW Run</taskName>
+				<configFile>launch.xml</configFile>
+		</TaskConfig>
+	
+		
+		<!-- Archive Model Run -->
+		<TaskConfig>
+				<taskName>Copy Files</taskName>
+				<configFile>archive/copy_tuflow_archive_points.xml</configFile>
+		</TaskConfig>
+	
+        
+    <!-- FTP Model outputs 
+    <TaskConfig>
+        <taskName>FTP Files To Server</taskName>
+        <configFile>ftp/ftp_ouput.xml</configFile>
+    </TaskConfig>
+    -->
+
+		<TaskConfig>
+				<taskName>Execute System Command</taskName>
+				<configFile>postprocessing/execute_matlab_plotting.xml</configFile>
+		</TaskConfig>
+
+    
+</TaskListConfig>

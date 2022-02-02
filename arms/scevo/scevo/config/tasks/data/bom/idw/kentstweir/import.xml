@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import BOM IDW data</comment>
+	<localFolder>data/bom/idw/kentstweir</localFolder>
+	<fileName>bom_kent*.csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.bom.idw.kentstweir.web.water_level</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.bom.idw.kentstweir.web</destinationAddress> 
+	<dateFormat>dd/MM/yyyy HH:mm</dateFormat>  <!-- 26/11/2021 00:50 -->
+	<nHeaderLines>1</nHeaderLines> 
+	<nTailLines>1</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>1</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/bom/idw/kentstweir/sensors.xml</sensorsFile>
+</TextFileImport>

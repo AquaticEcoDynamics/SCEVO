@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>IDY_SOUTHERNCROSSAIRPORT_DATAPROCESSING-END</timeLineKeyword>
+	
+
+	<time>
+		<comment>End of raw</comment>
+		<date>END-DATE@scevo.data.bom.idy.southern_cross_airport.raw.wind_direction</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+</TimeLineUpdate>

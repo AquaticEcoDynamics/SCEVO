@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskSchedulerList>
+  <uniqueId>0</uniqueId>
+
+    <TaskScheduler>
+        <taskName>SCEVO: BOM IDY</taskName>
+        <menuName>SCEVO: BOM IDY</menuName>
+        <taskListFile>config/tasklists/data/bom/idy/IDY_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>60</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>6</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: BOM IDO</taskName>
+        <menuName>SCEVO: BOM IDO</menuName>
+        <taskListFile>config/tasklists/data/bom/ido/IDO_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>7</period>
+        <periodTimeUnit>DAYS</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: BOM IDW</taskName>
+        <menuName>SCEVO: BOM IDW</menuName>
+        <taskListFile>config/tasklists/data/bom/idw/IDW_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>180</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: DOT TIDE</taskName>
+        <menuName>SCEVO: DOT TIDE</menuName>
+        <taskListFile>config/tasklists/data/dot/rt_tide/RT_TIDE_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>120</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: DOT MOZ</taskName>
+        <menuName>SCEVO: DOT MOZ</menuName>
+        <taskListFile>config/tasklists/data/dot/rt_moz/RT_MOZ_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>120</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: DWER</taskName>
+        <menuName>SCEVO: DWER</menuName>
+        <taskListFile>config/tasklists/data/dwer/DWER_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>180</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: DBCA</taskName>
+        <menuName>SCEVO: DBCA</menuName>
+        <taskListFile>config/tasklists/data/dbca/wq/DBCA_ALL.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>180</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>60</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <TaskScheduler>
+        <taskName>SCEVO: NIGHTLY FORECAST</taskName>
+        <menuName>SCEVO: NIGHTLY FORECAST</menuName>
+        <taskListFile>config/tasklists/models/NIGHTLY_FORECAST_RUN.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>22</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>1</period>
+        <periodTimeUnit>DAYS</periodTimeUnit>
+        <emailWarningIntervalInHours>1</emailWarningIntervalInHours>
+    </TaskScheduler>
+
+    <!--
+    <TaskScheduler>
+        <taskName>DPaW: WRF HINDCAST</taskName>
+        <menuName>DPaW: WRF HINDCAST</menuName>
+        <taskListFile>config/tasklists/models/HINDCAST_MONTHLY_RUN.xml</taskListFile>
+        <TaskStartDateTime>
+            <startYear>0</startYear>
+            <startMonth>0</startMonth>
+            <startDay>0</startDay>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startSecond>0</startSecond>
+        </TaskStartDateTime>
+        <period>1</period>
+        <periodTimeUnit>MINUTES</periodTimeUnit>
+        <emailWarningIntervalInHours>24</emailWarningIntervalInHours>
+    </TaskScheduler>
+    -->
+
+    
+</TaskSchedulerList>

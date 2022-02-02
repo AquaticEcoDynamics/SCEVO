@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDistribute>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>scevo.data.bom.idy.champion_lakes.raw.rainfall</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.champion_lakes.downsampled.15min.rainfall</destinationAddress>
+		<startDate>IDY_CHAMPIONLAKES_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_CHAMPIONLAKES_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+</PTSDistribute>

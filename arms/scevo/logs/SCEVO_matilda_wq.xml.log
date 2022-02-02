@@ -1,0 +1,107 @@
+2021-10-15 19:02:00,434 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 19:02:00,463 DEBUG: Task list loaded.
+2021-10-15 19:02:00,463 DEBUG: Total number of tasks: 1
+2021-10-15 19:02:00,463  INFO:  -- START  -- matilda_wq.xml
+2021-10-15 19:02:00,463  INFO:  -- Fri Oct 15 19:02:00 AWST 2021
+2021-10-15 19:02:00,464  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml 7:02:00 PM
+2021-10-15 19:02:00,500  INFO: Importing file Matilda_WaterQuality_10min.csv
+2021-10-15 19:20:03,037 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 19:20:03,152 DEBUG: Task list loaded.
+2021-10-15 19:20:03,153 DEBUG: Total number of tasks: 1
+2021-10-15 19:20:03,153  INFO:  -- START  -- matilda_wq.xml
+2021-10-15 19:20:03,153  INFO:  -- Fri Oct 15 19:20:03 AWST 2021
+2021-10-15 19:20:03,155  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml 7:20:03 PM
+2021-10-15 19:20:03,199  INFO: Importing file Matilda_WaterQuality_10min.csv
+2021-10-15 19:37:39,557  INFO:  -- END  -- Fri Oct 15 19:37:39 AWST 2021
+2021-11-16 13:39:27,508 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:39:27,510 DEBUG: Task list loaded.
+2021-11-16 13:39:27,510 DEBUG: Total number of tasks: 1
+2021-11-16 13:39:27,510  INFO:  -- START  -- matilda_wq.xml
+2021-11-16 13:39:27,510  INFO:  -- Tue Nov 16 13:39:27 AWST 2021
+2021-11-16 13:39:27,510  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml 1:39:27 pm
+2021-11-16 13:39:28,286 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-16 13:39:28,286  INFO:  -- END  -- Tue Nov 16 13:39:28 AWST 2021
+2021-11-16 13:39:28,286  INFO: Number of errors: 1
+2021-11-16 13:42:23,048 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:42:23,055 DEBUG: Task list loaded.
+2021-11-16 13:42:23,055 DEBUG: Total number of tasks: 1
+2021-11-16 13:42:23,055  INFO:  -- START  -- matilda_wq.xml
+2021-11-16 13:42:23,055  INFO:  -- Tue Nov 16 13:42:23 AWST 2021
+2021-11-16 13:42:23,055  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml 1:42:23 pm
+2021-11-16 13:42:23,057  INFO: Importing file Matilda_Water_Quality_Data_10_mins.csv
+2021-11-16 14:29:01,769 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:29:01,800 DEBUG: Task list loaded.
+2021-11-16 14:29:01,800 DEBUG: Total number of tasks: 1
+2021-11-16 14:29:01,800  INFO:  -- START  -- matilda_wq.xml
+2021-11-16 14:29:01,800  INFO:  -- Tue Nov 16 14:29:01 AWST 2021
+2021-11-16 14:29:01,800  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml 2:29:01 pm
+2021-11-16 14:29:01,809  INFO: Importing file Matilda_Water_Quality_Data_10_mins.csv
+2021-11-16 15:03:26,719  INFO:  -- END  -- Tue Nov 16 15:03:26 AWST 2021
+2021-12-20 13:07:57,542 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-20 13:07:57,559 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/uwa/matilda/raw/import_wq.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.textfile.ImportTaskFactory.getInstance(ImportTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-12-20 13:08:57,553 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-20 13:08:57,554 DEBUG: Task list loaded.
+2021-12-20 13:08:57,554 DEBUG: Total number of tasks: 1
+2021-12-20 13:08:57,554  INFO:  -- START  -- matilda_wq.xml
+2021-12-20 13:08:57,554  INFO:  -- Mon Dec 20 13:08:57 AWST 2021
+2021-12-20 13:08:57,554  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/matilda/raw/import_wq.xml 1:08:57 pm
+2021-12-20 13:08:57,586  INFO: Importing file Matilda_Water_Quality_Data_10_mins.csv
+2021-12-20 13:09:00,205 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.wiper.
+2021-12-20 13:09:00,205 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.water_temperature.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.sp_conductivity.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.salinity.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.dissolved_oxygen.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.oxygen_saturation.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.ph.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.orp.
+2021-12-20 13:09:00,206 DEBUG: Text file imported no rows for scevo.data.uwa.aed.matilda.raw.wq.turbidity.
+2021-12-20 13:09:00,206  INFO: Importing file Matilda_Water_Quality_10_min.csv
+2021-12-20 13:58:53,087  INFO:  -- END  -- Mon Dec 20 13:58:53 AWST 2021
+2021-12-20 16:58:06,958 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-20 16:58:06,959 DEBUG: Task list loaded.
+2021-12-20 16:58:06,959 DEBUG: Total number of tasks: 1
+2021-12-20 16:58:06,959  INFO:  -- START  -- matilda_wq.xml
+2021-12-20 16:58:06,959  INFO:  -- Mon Dec 20 16:58:06 AWST 2021
+2021-12-20 16:58:06,959  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/matilda/raw/import_wq.xml 4:58:06 pm
+2021-12-20 16:58:06,979  INFO: Importing file Matilda_Water_Quality_10_min_2.csv
+2021-12-20 17:46:58,161  INFO:  -- END  -- Mon Dec 20 17:46:58 AWST 2021

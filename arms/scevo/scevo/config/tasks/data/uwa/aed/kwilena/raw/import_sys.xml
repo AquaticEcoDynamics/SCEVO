@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Kwilena System data</comment>
+	<localFolder>data/uwa/aed/kwilena/sys</localFolder>
+	<fileName>*.csv</fileName>
+	<setImportedFlag>false</setImportedFlag>
+	<importLastFile>true</importLastFile>
+	<startDate>END_DATE@scevo.data.uwa.aed.kwilena.raw.sys.battery_main</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.uwa.aed.kwilena.raw.sys</destinationAddress>
+	<dateFormat>dd/MM/yyyy HH:mm</dateFormat> <!-- 22/10/2021 04:00,-->
+	<nHeaderLines>1</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>2</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/uwa/aed/kwilena/sensors_sys.xml</sensorsFile>
+</TextFileImport>

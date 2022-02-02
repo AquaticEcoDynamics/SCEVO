@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TuflowRun>
+    <topLevel>models/tuflow/scenarioFull2016OxyTest</topLevel>
+    
+    <startDate>TUFLOW_HINDCAST_MONTHLY-START@timeline</startDate>
+    <endDate>TUFLOW_HINDCAST_MONTHLY-END@timeline</endDate>
+    
+    <runTimeMinMinutes>180</runTimeMinMinutes>
+    <runTimeMaxMinutes>-1</runTimeMaxMinutes>
+    
+    <timezone>8</timezone>
+
+	<RunConfiguration>
+	  <interval>-1</interval>
+	
+	  <restart>true</restart>
+	  <restartDateSearchOption>START</restartDateSearchOption>
+	  <restartOutputOverwrite>false</restartOutputOverwrite>
+	  <restartOutputInterval>24</restartOutputInterval>
+	</RunConfiguration>
+	<ArchiveLocations>
+	    <RestartDomain>
+	        <filter>swan_\d{6}.\d{6}.rst$</filter>
+	        <destinationDirectory>ArchiveHC/Restart</destinationDirectory>
+	    </RestartDomain>
+	    <ArchiveDomain>
+	        <filter>.*\.nc$</filter>
+	        <destinationDirectory>ArchiveHC/Output</destinationDirectory>
+	    </ArchiveDomain>
+	</ArchiveLocations>
+	<CoreFileLocations>
+	    <fvcTuflow>swanHC.fvc</fvcTuflow>
+	    <exeTuflow>tfv_aed_20160920_u_sd</exeTuflow>
+	    <rstTuflow>restartHC.rst</rstTuflow>
+	</CoreFileLocations>
+</TuflowRun>

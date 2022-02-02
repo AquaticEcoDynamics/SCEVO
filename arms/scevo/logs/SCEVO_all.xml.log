@@ -1,0 +1,228 @@
+2021-01-20 15:59:06,731 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-01-20 15:59:06,849 DEBUG: Task list loaded.
+2021-01-20 15:59:06,850 DEBUG: Total number of tasks: 12
+2021-01-20 15:59:06,850  INFO:  -- START  -- all.xml
+2021-01-20 15:59:06,850  INFO:  -- Wed Jan 20 15:59:06 AWST 2021
+2021-01-20 15:59:06,851  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 3:59:06 PM
+2021-01-20 15:59:06,852 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dot/tide/barrack
+cwr.arms.io.IOException: File specified does not exist: data/dot/tide/barrack
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 15:59:06,853 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dot/tide/barrack
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dot/tide/barrack
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 15:59:06,854  INFO:  -- END  -- Wed Jan 20 15:59:06 AWST 2021
+2021-01-20 15:59:06,854  INFO: Number of errors: 1
+2021-01-20 15:59:51,639 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-01-20 15:59:51,656 DEBUG: Task list loaded.
+2021-01-20 15:59:51,656 DEBUG: Total number of tasks: 12
+2021-01-20 15:59:51,656  INFO:  -- START  -- all.xml
+2021-01-20 15:59:51,657  INFO:  -- Wed Jan 20 15:59:51 AWST 2021
+2021-01-20 15:59:51,657  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 3:59:51 PM
+2021-01-20 15:59:51,658 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dot/tide/barrack
+cwr.arms.io.IOException: File specified does not exist: data/dot/tide/barrack
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 15:59:51,659 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dot/tide/barrack
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dot/tide/barrack
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 15:59:51,659  INFO:  -- END  -- Wed Jan 20 15:59:51 AWST 2021
+2021-01-20 15:59:51,659  INFO: Number of errors: 1
+2021-01-20 16:00:11,508 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-01-20 16:00:11,522 DEBUG: Task list loaded.
+2021-01-20 16:00:11,523 DEBUG: Total number of tasks: 12
+2021-01-20 16:00:11,523  INFO:  -- START  -- all.xml
+2021-01-20 16:00:11,523  INFO:  -- Wed Jan 20 16:00:11 AWST 2021
+2021-01-20 16:00:11,523  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 4:00:11 PM
+2021-01-20 16:00:11,528 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 16:00:11,529  INFO:  -- END  -- Wed Jan 20 16:00:11 AWST 2021
+2021-01-20 16:00:11,529  INFO: Number of errors: 1
+2021-07-24 13:07:17,112 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 13:07:17,124 DEBUG: Task list loaded.
+2021-07-24 13:07:17,124 DEBUG: Total number of tasks: 12
+2021-07-24 13:07:17,124  INFO:  -- START  -- all.xml
+2021-07-24 13:07:17,124  INFO:  -- Sat Jul 24 13:07:17 AWST 2021
+2021-07-24 13:07:17,124  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 1:07:17 pm
+2021-07-24 13:07:17,129 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 13:07:17,130  INFO:  -- END  -- Sat Jul 24 13:07:17 AWST 2021
+2021-07-24 13:07:17,130  INFO: Number of errors: 1
+2021-07-24 13:53:51,687 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 13:53:51,699 DEBUG: Task list loaded.
+2021-07-24 13:53:51,699 DEBUG: Total number of tasks: 12
+2021-07-24 13:53:51,699  INFO:  -- START  -- all.xml
+2021-07-24 13:53:51,699  INFO:  -- Sat Jul 24 13:53:51 AWST 2021
+2021-07-24 13:53:51,699  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 1:53:51 pm
+2021-07-24 13:53:51,706 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 13:53:51,706  INFO:  -- END  -- Sat Jul 24 13:53:51 AWST 2021
+2021-07-24 13:53:51,706  INFO: Number of errors: 1
+2021-07-31 15:17:24,649 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-31 15:17:24,672 DEBUG: Task list loaded.
+2021-07-31 15:17:24,672 DEBUG: Total number of tasks: 12
+2021-07-31 15:17:24,672  INFO:  -- START  -- all.xml
+2021-07-31 15:17:24,672  INFO:  -- Sat Jul 31 15:17:24 AWST 2021
+2021-07-31 15:17:24,672  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml 3:17:24 PM
+2021-07-31 15:17:24,678 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/barrack/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-31 15:17:24,679  INFO:  -- END  -- Sat Jul 31 15:17:24 AWST 2021
+2021-07-31 15:17:24,679  INFO: Number of errors: 1
+2021-11-16 14:43:32,883 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:43:32,901 DEBUG: Task list loaded.
+2021-11-16 14:43:32,901 DEBUG: Total number of tasks: 1
+2021-11-16 14:43:32,901  INFO:  -- START  -- all.xml
+2021-11-16 14:43:32,901  INFO:  -- Tue Nov 16 14:43:32 AWST 2021
+2021-11-16 14:43:32,901  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:43:32 pm
+2021-11-16 14:43:32,911  INFO: Importing file 6163950_WaterQuality_10min.csv
+2021-11-16 17:00:07,299  INFO:  -- END  -- Tue Nov 16 17:00:07 AWST 2021

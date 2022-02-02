@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSContextFile>
+
+	<ARMSContextConfig>
+		<address>data.dot.tide2.barrack</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/tide/barrack/station.xml</fileName>
+	</ARMSContextConfig>
+  <ARMSContextConfig>
+    <address>data.dot.tide2.fremantle</address>
+    <resourceType>Station</resourceType>
+    <fileName>config/resources/data/dot/tide/fremantle/station.xml</fileName>
+  </ARMSContextConfig>
+
+	<ARMSContextConfig>
+		<address>data.dot.rt_tide.barrack</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_tide/barrack/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_tide.fremantle</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_tide/fremantle/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_tide.mandurah</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_tide/mandurah/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_tide.peel</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_tide/peel/station.xml</fileName>
+	</ARMSContextConfig>
+
+	<ARMSContextConfig>
+		<address>data.dot.rt_moz.canning</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_moz/canning/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_moz.serpentine</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_moz/serpentine/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_moz.garrat</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_moz/garrat/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.dot.rt_moz.guildford</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dot/rt_moz/guildford/station.xml</fileName>
+	</ARMSContextConfig>
+
+</ARMSContextFile>

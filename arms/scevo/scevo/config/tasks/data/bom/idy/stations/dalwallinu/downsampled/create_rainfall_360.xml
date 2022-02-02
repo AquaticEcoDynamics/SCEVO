@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSSum>
+	<TimeSeries>
+		<comment>Create Rainfall task</comment>
+		<sourceAddress>scevo.data.bom.idy.dalwallinu.raw.rainfall</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.dalwallinu.downsampled.6hr.rainfall</destinationAddress>
+		<startDate>IDY_DALWALLINU_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_DALWALLINU_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>21600</processingTimestep>
+	</TimeSeries>
+</PTSSum>

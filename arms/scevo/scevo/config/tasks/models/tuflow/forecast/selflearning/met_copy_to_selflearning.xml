@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>SWAN WRF FORECAST model</comment>
+  <sourceFolder>/models/tuflow/swan_arms/BCs/Met</sourceFolder>
+  <destinationFolder>/models/machine_learning/WRF_file</destinationFolder>
+  
+  <prefixString></prefixString>
+  <suffixString>swan_met.nc</suffixString>
+  
+  <replaceAllFiles>true</replaceAllFiles>
+  <useSections>true</useSections>
+</CopyFiles>

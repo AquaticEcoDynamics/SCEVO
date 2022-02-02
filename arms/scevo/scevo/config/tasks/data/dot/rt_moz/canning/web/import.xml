@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Canning Tide data</comment>
+	<localFolder>data/dot/rt_moz/canning</localFolder>
+	<fileName>moz_canning*.csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.dot.rt_moz.canning.web.water_level</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.dot.rt_moz.canning.web</destinationAddress>
+	<dateFormat>dd/MM/yyyy HH:mm</dateFormat> <!-- 08/12/2021 00:30,1.17,9,1.08 -->
+	<nHeaderLines>1</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>false</continueOnError>
+	<separator>,</separator>
+	<dateColumn>1</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dot/rt_moz/canning/sensors.xml</sensorsFile>
+</TextFileImport>

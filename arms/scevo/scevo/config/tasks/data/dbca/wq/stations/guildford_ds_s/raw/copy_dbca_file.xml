@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>Move DBCA logger data files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  <destinationFolder>data/dbca/wq/guildford_ds_s</destinationFolder>
+  
+  <prefixString>dbca_6163950</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+  
+  <TimeStamp>
+  	<applyTimestamp>true</applyTimestamp>
+  	<timestampDateFormat>HHmm</timestampDateFormat>
+  	<timestampLocation>post</timestampLocation>
+  </TimeStamp>
+    
+</CopyFiles>

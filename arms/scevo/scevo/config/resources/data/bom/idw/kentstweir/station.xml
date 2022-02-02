@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>BOM - Kent St Weir</comment>
+	<name>Kent St Weir</name>
+	<longname>Kent St Weir (DWER)</longname>
+	<site>kentstweir</site>
+	<latitude>-32.021388</latitude>
+	<longitude>115.92113</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>AHD</surfaceDatum>
+	<bottomDatum>AHD</bottomDatum>
+	<datum>AHD</datum>
+	<zOffset>0.0</zOffset>
+	
+	<StationResourceGroup>
+		<address>web</address>
+		<longname>web download</longname>
+		<processingInterval>1800</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled</address>
+		<longname>downampled monthly</longname>
+		<processingInterval>2592000</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+	
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/bom/idw/kentstweir/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

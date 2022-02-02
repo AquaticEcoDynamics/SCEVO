@@ -1,0 +1,21 @@
+2021-11-23 13:53:02,461 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 13:53:02,463 DEBUG: Task list loaded.
+2021-11-23 13:53:02,463 DEBUG: Total number of tasks: 1
+2021-11-23 13:53:02,463  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 13:53:02,463  INFO:  -- Tue Nov 23 13:53:02 AWST 2021
+2021-11-23 13:53:02,463  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 1:53:02 pm
+2021-11-23 13:53:03,390  INFO:  -- END  -- Tue Nov 23 13:53:03 AWST 2021
+2021-11-23 15:08:30,322 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:08:30,323 DEBUG: Task list loaded.
+2021-11-23 15:08:30,323 DEBUG: Total number of tasks: 1
+2021-11-23 15:08:30,323  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 15:08:30,323  INFO:  -- Tue Nov 23 15:08:30 AWST 2021
+2021-11-23 15:08:30,323  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 3:08:30 pm
+2021-11-23 15:08:30,811  INFO:  -- END  -- Tue Nov 23 15:08:30 AWST 2021
+2021-11-23 15:43:18,960 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:43:18,961 DEBUG: Task list loaded.
+2021-11-23 15:43:18,961 DEBUG: Total number of tasks: 1
+2021-11-23 15:43:18,961  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 15:43:18,961  INFO:  -- Tue Nov 23 15:43:18 AWST 2021
+2021-11-23 15:43:18,961  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 3:43:18 pm
+2021-11-23 15:43:19,335  INFO:  -- END  -- Tue Nov 23 15:43:19 AWST 2021

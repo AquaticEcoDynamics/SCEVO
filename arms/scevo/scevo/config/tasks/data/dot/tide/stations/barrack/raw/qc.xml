@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSQualityChecker>
+	<TimeSeries>
+	<sourceAddress>scevo.data.dot.tide2.barrack.raw</sourceAddress>
+	<destinationAddress>scevo.data.dot.tide2.barrack.raw</destinationAddress>
+	<sensorsFile>config/resources/data/dot/tide/barrack/sensors.xml</sensorsFile>
+	<startDate>DOT_TIDE_BARRACK_DATAPROCESSING-START@timeline</startDate>
+	<endDate>DOT_TIDE_BARRACK_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+		<QualityChecker>
+		<type>min</type>
+	</QualityChecker>
+	<QualityChecker>
+		<type>max</type>
+	</QualityChecker>
+</PSTSQualityChecker>

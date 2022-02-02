@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSConfig>
+	<comment>AED ARMS Configuration for SCEVO</comment>
+	<forceParallelLoad>false</forceParallelLoad>
+	<name>scevo</name>
+	<longname>Swan Canning Estuary Virtual Observatory</longname>
+	<latitude>-32.0</latitude>
+	<longitude>115.0</longitude>
+	<timeZone>+8.0</timeZone>
+	
+	  <levelLinkerFile>config/services/levellinker.xml</levelLinkerFile>
+	  <timeLineFile>config/services/timeline.xml</timeLineFile>
+	
+	  <armsContextFile>config/resources/data/bom/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dbca/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dot/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dow/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/dpird/ContextFile.xml</armsContextFile>
+    <armsContextFile>config/resources/data/uwa/ContextFile.xml</armsContextFile>
+
+    <armsContextFile>config/resources/models/wrf/ContextFile.xml</armsContextFile>
+
+    <armsContextFile>config/resources/models/opendap/ContextFile.xml</armsContextFile>
+</ARMSConfig>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.wandering.raw</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.wandering.downsampled.6hr</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/wandering/sensors.xml</sensorsFile>
+		<startDate>IDY_WANDERING_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_WANDERING_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>21600</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

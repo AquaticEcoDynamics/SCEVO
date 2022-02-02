@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+	<comment>DBCA - WQ</comment>
+
+	<Sensor1D>
+		<name>Temperature Min</name>
+		<longname>Temperature Min</longname>
+		<SensorInfo>
+			<title>Temperature Min</title>
+			<units>Deg C</units>
+			<FileInfo>
+				<fileColumn>3</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>18</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Temperature Max</name>
+		<longname>Temperature Max</longname>
+		<SensorInfo>
+			<title>Temperature Max</title>
+			<units>Deg C</units>
+			<FileInfo>
+				<fileColumn>4</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>21</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Relative Humidity Min</name>
+		<longname>Relative Humidity Min</longname>
+		<SensorInfo>
+			<title>Relative Humidity Min</title>
+			<units>%</units>
+			<FileInfo>
+				<fileColumn>5</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>150</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>22</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Relative Humidity Max</name>
+		<longname>Relative Humidity Max</longname>
+		<SensorInfo>
+			<title>Relative Humidity Max</title>
+			<units>%</units>
+			<FileInfo>
+				<fileColumn>6</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>150</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>22</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Relative Humidity Avg</name>
+		<longname>Relative Humidity Avg</longname>
+		<SensorInfo>
+			<title>Relative Humidity Avg</title>
+			<units>%</units>
+			<FileInfo>
+				<fileColumn>7</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>150</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>22</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Rainfall</name>
+		<longname>Rainfall</longname>
+		<SensorInfo>
+			<title>Rainfall</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>8</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Temperature Dewpoint Min</name>
+		<longname>Temperature Dewpoint Min</longname>
+		<SensorInfo>
+			<title>Temperature Dewpoint Min</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>9</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>15</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Temperature Dewpoint Max</name>
+		<longname>Temperature Dewpoint Max</longname>
+		<SensorInfo>
+			<title>Temperature Dewpoint Max</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>10</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>18</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Temperature Dewpoint Avg</name>
+		<longname>Temperature Dewpoint Avg</longname>
+		<SensorInfo>
+			<title>Temperature Dewpoint Avg</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>11</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>17</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Evaporation</name>
+		<longname>Evaporation</longname>
+		<SensorInfo>
+			<title>Evaporation</title>
+			<units>mm</units>
+			<FileInfo>
+				<fileColumn>12</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>ETO Std</name>
+		<longname>ETO Std</longname>
+		<SensorInfo>
+			<title>ETO Std</title>
+			<units>mm</units>
+			<FileInfo>
+				<fileColumn>13</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>ETO Tall</name>
+		<longname>ETO Tall</longname>
+		<SensorInfo>
+			<title>ETO Tall</title>
+			<units>mm</units>
+			<FileInfo>
+				<fileColumn>14</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Solar Irradiance</name>
+		<longname>Solar Irradiance</longname>
+		<SensorInfo>
+			<title>Solar Irradiance</title>
+			<units>W m2</units>
+			<FileInfo>
+				<fileColumn>15</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Soil Temperature Min</name>
+		<longname>Soil Temperature Min</longname>
+		<SensorInfo>
+			<title>Soil Temperature Min</title>
+			<units>Deg C</units>
+			<FileInfo>
+				<fileColumn>16</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Soil Temperature Max</name>
+		<longname>Soil Temperature Max</longname>
+		<SensorInfo>
+			<title>Soil Temperature Max</title>
+			<units>Deg C</units>
+			<FileInfo>
+				<fileColumn>17</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Soil Temperature Avg</name>
+		<longname>Soil Temperature Avg</longname>
+		<SensorInfo>
+			<title>Soil Temperature Avg</title>
+			<units>Deg C</units>
+			<FileInfo>
+				<fileColumn>18</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Wind Speed Max</name>
+		<longname>Wind Speed Max</longname>
+		<SensorInfo>
+			<title>Wind Speed Max</title>
+			<units>m/s</units>
+			<FileInfo>
+				<fileColumn>19</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Wind Speed Ave</name>
+		<longname>Wind Speed Ave</longname>
+		<SensorInfo>
+			<title>Wind Speed Ave</title>
+			<units>m/s</units>
+			<FileInfo>
+				<fileColumn>20</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Wet Bulb Temperature Min</name>
+		<longname>Wet Bulb Temperature Min</longname>
+		<SensorInfo>
+			<title>Wet Bulb Temperature Min</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>22</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Wet Bulb Temperature Max</name>
+		<longname>Wet Bulb Temperature Max</longname>
+		<SensorInfo>
+			<title>Wet Bulb Temperature Max</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>23</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+	<Sensor1D>
+		<name>Wet Bulb Temperature Avg</name>
+		<longname>Wet Bulb Temperature Avg</longname>
+		<SensorInfo>
+			<title>Wet Bulb Temperature Avg</title>
+			<units>deg C</units>
+			<FileInfo>
+				<fileColumn>24</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-50</minValue>
+				<maxValue>50000</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+
+		</PlotProperties>
+	</Sensor1D>
+</SensorFile>

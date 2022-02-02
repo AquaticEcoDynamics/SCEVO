@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSContextFile>
+	<ARMSContextConfig>
+		<address>data.dpird.met.sp</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/dpird/met/sp/station.xml</fileName>
+	</ARMSContextConfig>
+</ARMSContextFile>

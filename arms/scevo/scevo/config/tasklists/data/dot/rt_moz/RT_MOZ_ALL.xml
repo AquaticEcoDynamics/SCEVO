@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+
+	<!-- Import data to ARMS resources-->
+
+	<taskRootDir>config/tasklists/data/dot/rt_moz/</taskRootDir>
+	
+	<taskListFile>config/tasklists/data/dot/rt_moz/stations/canning.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dot/rt_moz/stations/serpentine.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dot/rt_moz/stations/garrat.xml</taskListFile>
+	<taskListFile>config/tasklists/data/dot/rt_moz/stations/guildford.xml</taskListFile>
+		
+</TaskListConfig>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>Move IDW data files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  <destinationFolder>data/bom/idw/meadowstbridge</destinationFolder>
+  
+  <prefixString>bom_meadow</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+  
+  <TimeStamp>
+  	<applyTimestamp>true</applyTimestamp>
+  	<timestampDateFormat>HHmm</timestampDateFormat>
+  	<timestampLocation>post</timestampLocation>
+  </TimeStamp>
+  
+</CopyFiles>

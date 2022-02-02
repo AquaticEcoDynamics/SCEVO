@@ -1,0 +1,705 @@
+2021-10-15 17:45:10,802 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:45:10,859 DEBUG: Task list loaded.
+2021-10-15 17:45:10,860 DEBUG: Total number of tasks: 1
+2021-10-15 17:45:10,860  INFO:  -- START  -- 6163950.xml
+2021-10-15 17:45:10,860  INFO:  -- Fri Oct 15 17:45:10 AWST 2021
+2021-10-15 17:45:10,860  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 5:45:10 PM
+2021-10-15 17:45:10,862 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dbca/wq/6163950
+cwr.arms.io.IOException: File specified does not exist: data/dbca/wq/6163950
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:45:10,863 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dbca/wq/6163950
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dbca/wq/6163950
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:45:10,865  INFO:  -- END  -- Fri Oct 15 17:45:10 AWST 2021
+2021-10-15 17:45:10,865  INFO: Number of errors: 1
+2021-10-15 17:46:28,792 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:46:28,805 DEBUG: Task list loaded.
+2021-10-15 17:46:28,806 DEBUG: Total number of tasks: 1
+2021-10-15 17:46:28,806  INFO:  -- START  -- 6163950.xml
+2021-10-15 17:46:28,806  INFO:  -- Fri Oct 15 17:46:28 AWST 2021
+2021-10-15 17:46:28,806  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 5:46:28 PM
+2021-10-15 17:46:28,813 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:46:28,814  INFO:  -- END  -- Fri Oct 15 17:46:28 AWST 2021
+2021-10-15 17:46:28,814  INFO: Number of errors: 1
+2021-10-15 17:48:19,223 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:48:19,245 DEBUG: Task list loaded.
+2021-10-15 17:48:19,245 DEBUG: Total number of tasks: 1
+2021-10-15 17:48:19,245  INFO:  -- START  -- 6163950.xml
+2021-10-15 17:48:19,245  INFO:  -- Fri Oct 15 17:48:19 AWST 2021
+2021-10-15 17:48:19,245  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 5:48:19 PM
+2021-10-15 17:48:19,248 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:48:19,249  INFO:  -- END  -- Fri Oct 15 17:48:19 AWST 2021
+2021-10-15 17:48:19,249  INFO: Number of errors: 1
+2021-10-15 17:49:09,606 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:49:09,618 DEBUG: Task list loaded.
+2021-10-15 17:49:09,618 DEBUG: Total number of tasks: 1
+2021-10-15 17:49:09,619  INFO:  -- START  -- 6163950.xml
+2021-10-15 17:49:09,619  INFO:  -- Fri Oct 15 17:49:09 AWST 2021
+2021-10-15 17:49:09,619  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 5:49:09 PM
+2021-10-15 17:49:09,627  INFO: Importing file 6163950_WaterQuality_10min.csv
+2021-10-15 17:49:10,503 ERROR: CAUGHT EXCEPTION: Invalid file column of 3
+Number of columns 2
+Line: 12,039
+File: 6163950_WaterQuality_10min.csv
+6163950,23/7/21 14:20,,,,,,,
+cwr.arms.io.IOException: Invalid file column of 3
+Number of columns 2
+Line: 12,039
+File: 6163950_WaterQuality_10min.csv
+6163950,23/7/21 14:20,,,,,,,
+	at cwr.arms.tasks.data.textfile.ImportTask.getValueColumn(ImportTask.java:541)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:180)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:49:10,504 ERROR: CAUGHT EXCEPTION: 
+Invalid file column of 3
+Number of columns 2
+Line: 12,039
+File: 6163950_WaterQuality_10min.csv
+6163950,23/7/21 14:20,,,,,,,
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Invalid file column of 3
+Number of columns 2
+Line: 12,039
+File: 6163950_WaterQuality_10min.csv
+6163950,23/7/21 14:20,,,,,,,
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:49:10,504  INFO:  -- END  -- Fri Oct 15 17:49:10 AWST 2021
+2021-10-15 17:49:10,505  INFO: Number of errors: 1
+2021-10-15 17:51:16,877 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:51:16,889 DEBUG: Task list loaded.
+2021-10-15 17:51:16,889 DEBUG: Total number of tasks: 1
+2021-10-15 17:51:16,889  INFO:  -- START  -- 6163950.xml
+2021-10-15 17:51:16,889  INFO:  -- Fri Oct 15 17:51:16 AWST 2021
+2021-10-15 17:51:16,889  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 5:51:16 PM
+2021-10-15 17:51:16,911  INFO: Importing file 6163950_WaterQuality_10min.csv
+2021-10-15 17:56:21,587  INFO:  -- END  -- Fri Oct 15 17:56:21 AWST 2021
+2021-11-23 14:08:31,369 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:08:31,386 DEBUG: Task list loaded.
+2021-11-23 14:08:31,386 DEBUG: Total number of tasks: 1
+2021-11-23 14:08:31,386  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:08:31,386  INFO:  -- Tue Nov 23 14:08:31 AWST 2021
+2021-11-23 14:08:31,386  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:08:31 pm
+2021-11-23 14:08:31,388  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:08:31,453 ERROR: CAUGHT EXCEPTION: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+cwr.arms.io.IOException: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+	at cwr.arms.tasks.data.textfile.ImportTask.getDate(ImportTask.java:518)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:156)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:08:31,453 ERROR: CAUGHT EXCEPTION: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:08:31,453  INFO:  -- END  -- Tue Nov 23 14:08:31 AWST 2021
+2021-11-23 14:08:31,453  INFO: Number of errors: 1
+2021-11-23 14:08:54,971 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:08:54,972 DEBUG: Task list loaded.
+2021-11-23 14:08:54,972 DEBUG: Total number of tasks: 1
+2021-11-23 14:08:54,972  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:08:54,972  INFO:  -- Tue Nov 23 14:08:54 AWST 2021
+2021-11-23 14:08:54,972  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:08:54 pm
+2021-11-23 14:08:54,973  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:08:55,037 ERROR: CAUGHT EXCEPTION: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+cwr.arms.io.IOException: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+	at cwr.arms.tasks.data.textfile.ImportTask.getDate(ImportTask.java:518)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:156)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:08:55,037 ERROR: CAUGHT EXCEPTION: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:08:55,037  INFO:  -- END  -- Tue Nov 23 14:08:55 AWST 2021
+2021-11-23 14:08:55,037  INFO: Number of errors: 1
+2021-11-23 14:09:34,885 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:09:34,886 DEBUG: Task list loaded.
+2021-11-23 14:09:34,886 DEBUG: Total number of tasks: 1
+2021-11-23 14:09:34,886  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:09:34,886  INFO:  -- Tue Nov 23 14:09:34 AWST 2021
+2021-11-23 14:09:34,886  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:09:34 pm
+2021-11-23 14:09:34,888  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:09:34,942 ERROR: CAUGHT EXCEPTION: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+cwr.arms.io.IOException: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+	at cwr.arms.tasks.data.textfile.ImportTask.getDate(ImportTask.java:518)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:156)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:09:34,942 ERROR: CAUGHT EXCEPTION: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:09:34,942  INFO:  -- END  -- Tue Nov 23 14:09:34 AWST 2021
+2021-11-23 14:09:34,942  INFO: Number of errors: 1
+2021-11-23 14:10:37,968 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:10:37,969 DEBUG: Task list loaded.
+2021-11-23 14:10:37,969 DEBUG: Total number of tasks: 1
+2021-11-23 14:10:37,969  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:10:37,969  INFO:  -- Tue Nov 23 14:10:37 AWST 2021
+2021-11-23 14:10:37,969  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:10:37 pm
+2021-11-23 14:10:37,971  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:10:38,025 ERROR: CAUGHT EXCEPTION: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+cwr.arms.io.IOException: Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+	at cwr.arms.tasks.data.textfile.ImportTask.getDate(ImportTask.java:518)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:156)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:10:38,025 ERROR: CAUGHT EXCEPTION: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Invalid date format of 1/5/21 0:10
+Number of columns 15
+Line: 5
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+1/5/21 0:10,3.408,1,20.385,1,20.193,1,7.06,1,32275,1,42.5,1,0,150
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:10:38,025  INFO:  -- END  -- Tue Nov 23 14:10:38 AWST 2021
+2021-11-23 14:10:38,025  INFO: Number of errors: 1
+2021-11-23 14:11:57,737 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:11:57,738 DEBUG: Task list loaded.
+2021-11-23 14:11:57,738 DEBUG: Total number of tasks: 1
+2021-11-23 14:11:57,738  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:11:57,738  INFO:  -- Tue Nov 23 14:11:57 AWST 2021
+2021-11-23 14:11:57,738  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:11:57 pm
+2021-11-23 14:11:57,739  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:11:57,889 ERROR: CAUGHT EXCEPTION: Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+cwr.arms.io.IOException: Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+	at cwr.arms.tasks.data.textfile.ImportTask.getValue(ImportTask.java:643)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:199)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:11:57,889 ERROR: CAUGHT EXCEPTION: 
+Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:11:57,889  INFO:  -- END  -- Tue Nov 23 14:11:57 AWST 2021
+2021-11-23 14:11:57,889  INFO: Number of errors: 1
+2021-11-23 14:12:53,399 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:12:53,400 DEBUG: Task list loaded.
+2021-11-23 14:12:53,400 DEBUG: Total number of tasks: 1
+2021-11-23 14:12:53,400  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:12:53,400  INFO:  -- Tue Nov 23 14:12:53 AWST 2021
+2021-11-23 14:12:53,400  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:12:53 pm
+2021-11-23 14:12:53,402  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:12:53,542 ERROR: CAUGHT EXCEPTION: Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+cwr.arms.io.IOException: Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+	at cwr.arms.tasks.data.textfile.ImportTask.getValue(ImportTask.java:643)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:199)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:12:53,543 ERROR: CAUGHT EXCEPTION: 
+Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Error in number format of column 4 in line 12,042
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+23/7/21 14:20,,255,,255,,255,,255,,255,,255,,255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:12:53,543  INFO:  -- END  -- Tue Nov 23 14:12:53 AWST 2021
+2021-11-23 14:12:53,543  INFO: Number of errors: 1
+2021-11-23 14:17:28,748 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:17:28,750 DEBUG: Task list loaded.
+2021-11-23 14:17:28,750 DEBUG: Total number of tasks: 1
+2021-11-23 14:17:28,750  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:17:28,750  INFO:  -- Tue Nov 23 14:17:28 AWST 2021
+2021-11-23 14:17:28,750  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:17:28 pm
+2021-11-23 14:17:28,751  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:17:28,898 ERROR: CAUGHT EXCEPTION: Error in number format of column 4 in line 12,040
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+14:00:00 23/11/2021,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255
+cwr.arms.io.IOException: Error in number format of column 4 in line 12,040
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+14:00:00 23/11/2021,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255
+	at cwr.arms.tasks.data.textfile.ImportTask.getValue(ImportTask.java:643)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:199)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:17:28,899 ERROR: CAUGHT EXCEPTION: 
+Error in number format of column 4 in line 12,040
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+14:00:00 23/11/2021,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Error in number format of column 4 in line 12,040
+File: dbca~db5~6163950~10minutemean~60day~wq.csv
+14:00:00 23/11/2021,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255,"",    255
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 14:17:28,899  INFO:  -- END  -- Tue Nov 23 14:17:28 AWST 2021
+2021-11-23 14:17:28,899  INFO: Number of errors: 1
+2021-11-23 14:19:06,768 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 14:19:06,769 DEBUG: Task list loaded.
+2021-11-23 14:19:06,769 DEBUG: Total number of tasks: 1
+2021-11-23 14:19:06,769  INFO:  -- START  -- 6163950.xml
+2021-11-23 14:19:06,769  INFO:  -- Tue Nov 23 14:19:06 AWST 2021
+2021-11-23 14:19:06,769  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 2:19:06 pm
+2021-11-23 14:19:06,770  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 14:26:58,827  INFO:  -- END  -- Tue Nov 23 14:26:58 AWST 2021
+2021-11-23 15:14:56,850 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:14:56,851 DEBUG: Task list loaded.
+2021-11-23 15:14:56,851 DEBUG: Total number of tasks: 1
+2021-11-23 15:14:56,851  INFO:  -- START  -- 6163950.xml
+2021-11-23 15:14:56,851  INFO:  -- Tue Nov 23 15:14:56 AWST 2021
+2021-11-23 15:14:56,852  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 3:14:56 pm
+2021-11-23 15:14:56,861 ERROR: CAUGHT EXCEPTION: 
+ARMS Address supplied could not be found. Failed to find Dissolved Oxygen SaturationDissolved Oxygen Saturation in scevo.data.dbca.wq.6163950.raw.Dissolved Oxygen SaturationDissolved Oxygen Saturation
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+ARMS Address supplied could not be found. Failed to find Dissolved Oxygen SaturationDissolved Oxygen Saturation in scevo.data.dbca.wq.6163950.raw.Dissolved Oxygen SaturationDissolved Oxygen Saturation
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:223)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 15:14:56,861  INFO:  -- END  -- Tue Nov 23 15:14:56 AWST 2021
+2021-11-23 15:14:56,861  INFO: Number of errors: 1
+2021-11-23 15:15:40,525 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:15:40,526 DEBUG: Task list loaded.
+2021-11-23 15:15:40,526 DEBUG: Total number of tasks: 1
+2021-11-23 15:15:40,526  INFO:  -- START  -- 6163950.xml
+2021-11-23 15:15:40,526  INFO:  -- Tue Nov 23 15:15:40 AWST 2021
+2021-11-23 15:15:40,526  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 3:15:40 pm
+2021-11-23 15:15:40,528 ERROR: CAUGHT EXCEPTION: 
+ARMS Address supplied could not be found. Failed to find Dissolved Oxygen Saturation in scevo.data.dbca.wq.6163950.raw.Dissolved Oxygen Saturation
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+ARMS Address supplied could not be found. Failed to find Dissolved Oxygen Saturation in scevo.data.dbca.wq.6163950.raw.Dissolved Oxygen Saturation
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:223)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 15:15:40,528  INFO:  -- END  -- Tue Nov 23 15:15:40 AWST 2021
+2021-11-23 15:15:40,528  INFO: Number of errors: 1
+2021-11-23 15:19:40,808 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:19:40,809 DEBUG: Task list loaded.
+2021-11-23 15:19:40,809 DEBUG: Total number of tasks: 1
+2021-11-23 15:19:40,809  INFO:  -- START  -- 6163950.xml
+2021-11-23 15:19:40,809  INFO:  -- Tue Nov 23 15:19:40 AWST 2021
+2021-11-23 15:19:40,809  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 3:19:40 pm
+2021-11-23 15:19:40,817  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 15:27:21,165  INFO:  -- END  -- Tue Nov 23 15:27:21 AWST 2021
+2021-11-23 15:43:24,532 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:43:24,533 DEBUG: Task list loaded.
+2021-11-23 15:43:24,533 DEBUG: Total number of tasks: 1
+2021-11-23 15:43:24,533  INFO:  -- START  -- 6163950.xml
+2021-11-23 15:43:24,533  INFO:  -- Tue Nov 23 15:43:24 AWST 2021
+2021-11-23 15:43:24,533  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 3:43:24 pm
+2021-11-23 15:43:24,535  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq.csv
+2021-11-23 15:50:58,996  INFO:  -- END  -- Tue Nov 23 15:50:58 AWST 2021
+2021-11-23 16:19:09,644 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 16:19:09,645 DEBUG: Task list loaded.
+2021-11-23 16:19:09,645 DEBUG: Total number of tasks: 1
+2021-11-23 16:19:09,645  INFO:  -- START  -- 6163950.xml
+2021-11-23 16:19:09,645  INFO:  -- Tue Nov 23 16:19:09 AWST 2021
+2021-11-23 16:19:09,645  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 4:19:09 pm
+2021-11-23 16:19:09,661  INFO: Importing file dbca~db5~6163950~10minutemean~60day~wq_20211123.160000.csv
+2021-11-23 16:26:47,465  INFO:  -- END  -- Tue Nov 23 16:26:47 AWST 2021
+2021-11-23 16:45:12,149 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 16:45:12,151 DEBUG: Task list loaded.
+2021-11-23 16:45:12,151 DEBUG: Total number of tasks: 1
+2021-11-23 16:45:12,151  INFO:  -- START  -- 6163950.xml
+2021-11-23 16:45:12,151  INFO:  -- Tue Nov 23 16:45:12 AWST 2021
+2021-11-23 16:45:12,151  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml 4:45:12 pm
+2021-11-23 16:45:12,159 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/wq/stations/6163950/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-23 16:45:12,160  INFO:  -- END  -- Tue Nov 23 16:45:12 AWST 2021
+2021-11-23 16:45:12,160  INFO: Number of errors: 1

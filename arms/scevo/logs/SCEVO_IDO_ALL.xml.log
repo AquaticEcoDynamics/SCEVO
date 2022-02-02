@@ -1,0 +1,351 @@
+2021-12-01 22:39:03,299 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-01 22:39:03,316 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/bom/ido/hillarys/delete_dbca_web_dl.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/bom/ido/hillarys/delete_dbca_web_dl.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.file.deleteFiles.DeleteFilesTaskFactory.getInstance(DeleteFilesTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-12-01 22:39:59,985 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-01 22:39:59,992 DEBUG: Task list loaded.
+2021-12-01 22:39:59,992 DEBUG: Total number of tasks: 3
+2021-12-01 22:39:59,992  INFO:  -- START  -- IDO_ALL.xml
+2021-12-01 22:39:59,992  INFO:  -- Wed Dec 01 22:39:59 AWST 2021
+2021-12-01 22:39:59,992  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 10:39:59 pm
+2021-12-01 22:39:59,992  INFO: Copying files
+2021-12-01 22:39:59,993  INFO: Transfered 0 files.
+2021-12-01 22:39:59,993  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 10:39:59 pm
+2021-12-01 22:40:00,021 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/bom/ido/hillarys/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/bom/ido/hillarys/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-12-01 22:40:00,021  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 10:40:00 pm
+2021-12-01 22:40:00,022  INFO: Deleting files
+2021-12-01 22:40:00,022  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2021-12-01 22:40:00,022  INFO:  -- END  -- Wed Dec 01 22:40:00 AWST 2021
+2021-12-01 22:40:00,022  INFO: Number of errors: 1
+2021-12-05 00:00:01,187 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-05 00:00:01,368 DEBUG: Task list loaded.
+2021-12-05 00:00:01,368 DEBUG: Total number of tasks: 3
+2021-12-05 00:00:01,368  INFO:  -- START  -- IDO_ALL.xml
+2021-12-05 00:00:01,368  INFO:  -- Sun Dec 05 00:00:01 AWST 2021
+2021-12-05 00:00:01,368  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2021-12-05 00:00:01,368  INFO: Copying files
+2021-12-05 00:00:01,369 DEBUG: Copying IDO71012_2021_20211203.csv
+2021-12-05 00:00:01,392 DEBUG: Copying IDO71012_2021_20211204.csv
+2021-12-05 00:00:01,563 DEBUG: Copying IDO71012_2021_20211202.csv
+2021-12-05 00:00:01,621  INFO: Transfered 3 files.
+2021-12-05 00:00:01,621  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:01 am
+2021-12-05 00:00:01,633  INFO: Importing file IDO71012_2021_20211203.csv
+2021-12-05 00:07:16,062  INFO: Importing file IDO71012_2021_20211204.csv
+2021-12-05 00:13:37,073  INFO: Importing file IDO71012_2021_20211202.csv
+2021-12-05 00:19:54,939  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:19:54 am
+2021-12-05 00:19:54,939  INFO: Deleting files
+2021-12-05 00:19:54,939 DEBUG: Deleting web/IDO71012_2021_20211203.csv
+2021-12-05 00:19:54,939 DEBUG: Deleting web/IDO71012_2021_20211204.csv
+2021-12-05 00:19:54,940 DEBUG: Deleting web/IDO71012_2021_20211202.csv
+2021-12-05 00:19:54,940  INFO: Folder: web - Deleted 3 files. Failed to delete 0.
+2021-12-05 00:19:54,940  INFO:  -- END  -- Sun Dec 05 00:19:54 AWST 2021
+2021-12-12 00:00:01,986 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-12 00:00:02,289 DEBUG: Task list loaded.
+2021-12-12 00:00:02,289 DEBUG: Total number of tasks: 3
+2021-12-12 00:00:02,289  INFO:  -- START  -- IDO_ALL.xml
+2021-12-12 00:00:02,289  INFO:  -- Sun Dec 12 00:00:02 AWST 2021
+2021-12-12 00:00:02,289  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:02 am
+2021-12-12 00:00:02,289  INFO: Copying files
+2021-12-12 00:00:02,448 DEBUG: Copying IDO71012_2021_20211208.csv
+2021-12-12 00:00:02,610 DEBUG: Copying IDO71012_2021_20211206.csv
+2021-12-12 00:00:02,671 DEBUG: Copying IDO71012_2021_20211205.csv
+2021-12-12 00:00:02,822 DEBUG: Copying IDO71012_2021_20211207.csv
+2021-12-12 00:00:02,961 DEBUG: Copying IDO71012_2021_20211211.csv
+2021-12-12 00:00:03,059 DEBUG: Copying IDO71012_2021_20211210.csv
+2021-12-12 00:00:03,070 DEBUG: Copying IDO71012_2021_20211209.csv
+2021-12-12 00:00:03,083  INFO: Transfered 7 files.
+2021-12-12 00:00:03,083  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:03 am
+2021-12-12 00:00:03,136  INFO: Importing file IDO71012_2021_20211208.csv
+2021-12-12 00:07:30,430  INFO: Importing file IDO71012_2021_20211206.csv
+2021-12-12 00:14:18,163  INFO: Importing file IDO71012_2021_20211205.csv
+2021-12-12 00:21:12,594  INFO: Importing file IDO71012_2021_20211207.csv
+2021-12-12 00:27:46,497  INFO: Importing file IDO71012_2021_20211211.csv
+2021-12-12 00:34:22,805  INFO: Importing file IDO71012_2021_20211210.csv
+2021-12-12 00:40:38,162  INFO: Importing file IDO71012_2021_20211209.csv
+2021-12-12 00:45:54,763  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:45:54 am
+2021-12-12 00:45:54,763  INFO: Deleting files
+2021-12-12 00:45:54,763 DEBUG: Deleting web/IDO71012_2021_20211208.csv
+2021-12-12 00:45:54,763 DEBUG: Deleting web/IDO71012_2021_20211206.csv
+2021-12-12 00:45:54,763 DEBUG: Deleting web/IDO71012_2021_20211205.csv
+2021-12-12 00:45:54,763 DEBUG: Deleting web/IDO71012_2021_20211207.csv
+2021-12-12 00:45:54,763 DEBUG: Deleting web/IDO71012_2021_20211211.csv
+2021-12-12 00:45:54,764 DEBUG: Deleting web/IDO71012_2021_20211210.csv
+2021-12-12 00:45:54,764 DEBUG: Deleting web/IDO71012_2021_20211209.csv
+2021-12-12 00:45:54,764  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2021-12-12 00:45:54,764  INFO:  -- END  -- Sun Dec 12 00:45:54 AWST 2021
+2021-12-19 00:00:01,662 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-19 00:00:02,084 DEBUG: Task list loaded.
+2021-12-19 00:00:02,084 DEBUG: Total number of tasks: 3
+2021-12-19 00:00:02,084  INFO:  -- START  -- IDO_ALL.xml
+2021-12-19 00:00:02,084  INFO:  -- Sun Dec 19 00:00:02 AWST 2021
+2021-12-19 00:00:02,084  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:02 am
+2021-12-19 00:00:02,084  INFO: Copying files
+2021-12-19 00:00:02,169 DEBUG: Copying IDO71012_2021_20211212.csv
+2021-12-19 00:00:02,275 DEBUG: Copying IDO71012_2021_20211214.csv
+2021-12-19 00:00:02,319 DEBUG: Copying IDO71012_2021_20211218.csv
+2021-12-19 00:00:02,616 DEBUG: Copying IDO71012_2021_20211213.csv
+2021-12-19 00:00:02,680 DEBUG: Copying IDO71012_2021_20211215.csv
+2021-12-19 00:00:02,804 DEBUG: Copying IDO71012_2021_20211216.csv
+2021-12-19 00:00:02,936 DEBUG: Copying IDO71012_2021_20211217.csv
+2021-12-19 00:00:02,939  INFO: Transfered 7 files.
+2021-12-19 00:00:02,939  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2021-12-19 00:00:02,989  INFO: Importing file IDO71012_2021_20211212.csv
+2021-12-19 00:07:38,542  INFO: Importing file IDO71012_2021_20211214.csv
+2021-12-19 00:14:35,534  INFO: Importing file IDO71012_2021_20211218.csv
+2021-12-19 00:21:32,304  INFO: Importing file IDO71012_2021_20211213.csv
+2021-12-19 00:28:20,997  INFO: Importing file IDO71012_2021_20211215.csv
+2021-12-19 00:35:09,840  INFO: Importing file IDO71012_2021_20211216.csv
+2021-12-19 00:41:40,213  INFO: Importing file IDO71012_2021_20211217.csv
+2021-12-19 00:47:07,122  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:47:07 am
+2021-12-19 00:47:07,122  INFO: Deleting files
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211212.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211214.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211218.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211213.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211215.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211216.csv
+2021-12-19 00:47:07,122 DEBUG: Deleting web/IDO71012_2021_20211217.csv
+2021-12-19 00:47:07,123  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2021-12-19 00:47:07,123  INFO:  -- END  -- Sun Dec 19 00:47:07 AWST 2021
+2021-12-26 00:00:01,285 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-26 00:00:01,856 DEBUG: Task list loaded.
+2021-12-26 00:00:01,856 DEBUG: Total number of tasks: 3
+2021-12-26 00:00:01,856  INFO:  -- START  -- IDO_ALL.xml
+2021-12-26 00:00:01,856  INFO:  -- Sun Dec 26 00:00:01 AWST 2021
+2021-12-26 00:00:01,856  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2021-12-26 00:00:01,856  INFO: Copying files
+2021-12-26 00:00:02,154 DEBUG: Copying IDO71012_2021_20211221.csv
+2021-12-26 00:00:02,311 DEBUG: Copying IDO71012_2021_20211219.csv
+2021-12-26 00:00:02,372 DEBUG: Copying IDO71012_2021_20211222.csv
+2021-12-26 00:00:02,415 DEBUG: Copying IDO71012_2021_20211223.csv
+2021-12-26 00:00:02,549 DEBUG: Copying IDO71012_2021_20211224.csv
+2021-12-26 00:00:02,587 DEBUG: Copying IDO71012_2021_20211220.csv
+2021-12-26 00:00:02,621 DEBUG: Copying IDO71012_2021_20211225.csv
+2021-12-26 00:00:02,692  INFO: Transfered 7 files.
+2021-12-26 00:00:02,692  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2021-12-26 00:00:02,848  INFO: Importing file IDO71012_2021_20211221.csv
+2021-12-26 00:07:23,473  INFO: Importing file IDO71012_2021_20211219.csv
+2021-12-26 00:14:15,580  INFO: Importing file IDO71012_2021_20211222.csv
+2021-12-26 00:21:04,641  INFO: Importing file IDO71012_2021_20211223.csv
+2021-12-26 00:27:47,386  INFO: Importing file IDO71012_2021_20211224.csv
+2021-12-26 00:34:35,249  INFO: Importing file IDO71012_2021_20211220.csv
+2021-12-26 00:41:08,529  INFO: Importing file IDO71012_2021_20211225.csv
+2021-12-26 00:47:10,771  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:47:10 am
+2021-12-26 00:47:10,771  INFO: Deleting files
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211221.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211219.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211222.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211223.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211224.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211220.csv
+2021-12-26 00:47:10,772 DEBUG: Deleting web/IDO71012_2021_20211225.csv
+2021-12-26 00:47:10,772  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2021-12-26 00:47:10,772  INFO:  -- END  -- Sun Dec 26 00:47:10 AWST 2021
+2022-01-02 00:00:01,388 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-01-02 00:00:01,777 DEBUG: Task list loaded.
+2022-01-02 00:00:01,777 DEBUG: Total number of tasks: 3
+2022-01-02 00:00:01,777  INFO:  -- START  -- IDO_ALL.xml
+2022-01-02 00:00:01,777  INFO:  -- Sun Jan 02 00:00:01 AWST 2022
+2022-01-02 00:00:01,777  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2022-01-02 00:00:01,777  INFO: Copying files
+2022-01-02 00:00:02,042 DEBUG: Copying IDO71012_2021_20211231.csv
+2022-01-02 00:00:02,212 DEBUG: Copying IDO71012_2021_20211227.csv
+2022-01-02 00:00:02,288 DEBUG: Copying IDO71012_2021_20211226.csv
+2022-01-02 00:00:02,351 DEBUG: Copying IDO71012_2021_20211228.csv
+2022-01-02 00:00:02,625 DEBUG: Copying IDO71012_2021_20211230.csv
+2022-01-02 00:00:02,681 DEBUG: Copying IDO71012_2021_20211229.csv
+2022-01-02 00:00:02,752 DEBUG: Copying IDO71012_2021_20220101.csv
+2022-01-02 00:00:02,764  INFO: Transfered 7 files.
+2022-01-02 00:00:02,764  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2022-01-02 00:00:02,832  INFO: Importing file IDO71012_2021_20211231.csv
+2022-01-02 00:08:14,376  INFO: Importing file IDO71012_2021_20211227.csv
+2022-01-02 00:15:55,635  INFO: Importing file IDO71012_2021_20211226.csv
+2022-01-02 00:23:42,994  INFO: Importing file IDO71012_2021_20211228.csv
+2022-01-02 00:31:08,785  INFO: Importing file IDO71012_2021_20211230.csv
+2022-01-02 00:38:45,000  INFO: Importing file IDO71012_2021_20211229.csv
+2022-01-02 00:45:01,727  INFO: Importing file IDO71012_2021_20220101.csv
+2022-01-02 00:50:57,633  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:50:57 am
+2022-01-02 00:50:57,633  INFO: Deleting files
+2022-01-02 00:50:57,633 DEBUG: Deleting web/IDO71012_2021_20211231.csv
+2022-01-02 00:50:57,633 DEBUG: Deleting web/IDO71012_2021_20211227.csv
+2022-01-02 00:50:57,633 DEBUG: Deleting web/IDO71012_2021_20211226.csv
+2022-01-02 00:50:57,634 DEBUG: Deleting web/IDO71012_2021_20211228.csv
+2022-01-02 00:50:57,634 DEBUG: Deleting web/IDO71012_2021_20211230.csv
+2022-01-02 00:50:57,634 DEBUG: Deleting web/IDO71012_2021_20211229.csv
+2022-01-02 00:50:57,634 DEBUG: Deleting web/IDO71012_2021_20220101.csv
+2022-01-02 00:50:57,634  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2022-01-02 00:50:57,634  INFO:  -- END  -- Sun Jan 02 00:50:57 AWST 2022
+2022-01-09 00:00:01,131 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-01-09 00:00:01,386 DEBUG: Task list loaded.
+2022-01-09 00:00:01,386 DEBUG: Total number of tasks: 3
+2022-01-09 00:00:01,386  INFO:  -- START  -- IDO_ALL.xml
+2022-01-09 00:00:01,386  INFO:  -- Sun Jan 09 00:00:01 AWST 2022
+2022-01-09 00:00:01,386  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2022-01-09 00:00:01,386  INFO: Copying files
+2022-01-09 00:00:01,857 DEBUG: Copying IDO71012_2021_20220102.csv
+2022-01-09 00:00:01,994 DEBUG: Copying IDO71012_2021_20220106.csv
+2022-01-09 00:00:02,066 DEBUG: Copying IDO71012_2021_20220107.csv
+2022-01-09 00:00:02,113 DEBUG: Copying IDO71012_2021_20220103.csv
+2022-01-09 00:00:02,116 DEBUG: Copying IDO71012_2021_20220104.csv
+2022-01-09 00:00:02,134 DEBUG: Copying IDO71012_2021_20220108.csv
+2022-01-09 00:00:02,183 DEBUG: Copying IDO71012_2021_20220105.csv
+2022-01-09 00:00:02,211  INFO: Transfered 7 files.
+2022-01-09 00:00:02,211  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2022-01-09 00:00:02,867  INFO: Importing file IDO71012_2021_20220102.csv
+2022-01-09 00:08:29,103  INFO: Importing file IDO71012_2021_20220106.csv
+2022-01-09 00:16:18,875  INFO: Importing file IDO71012_2021_20220107.csv
+2022-01-09 00:23:45,907  INFO: Importing file IDO71012_2021_20220103.csv
+2022-01-09 00:31:11,268  INFO: Importing file IDO71012_2021_20220104.csv
+2022-01-09 00:38:48,010  INFO: Importing file IDO71012_2021_20220108.csv
+2022-01-09 00:45:01,211  INFO: Importing file IDO71012_2021_20220105.csv
+2022-01-09 00:50:58,814  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:50:58 am
+2022-01-09 00:50:58,814  INFO: Deleting files
+2022-01-09 00:50:58,815 DEBUG: Deleting web/IDO71012_2021_20220102.csv
+2022-01-09 00:50:58,815 DEBUG: Deleting web/IDO71012_2021_20220106.csv
+2022-01-09 00:50:58,815 DEBUG: Deleting web/IDO71012_2021_20220107.csv
+2022-01-09 00:50:58,815 DEBUG: Deleting web/IDO71012_2021_20220103.csv
+2022-01-09 00:50:58,834 DEBUG: Deleting web/IDO71012_2021_20220104.csv
+2022-01-09 00:50:58,834 DEBUG: Deleting web/IDO71012_2021_20220108.csv
+2022-01-09 00:50:58,835 DEBUG: Deleting web/IDO71012_2021_20220105.csv
+2022-01-09 00:50:58,835  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2022-01-09 00:50:58,835  INFO:  -- END  -- Sun Jan 09 00:50:58 AWST 2022
+2022-01-16 00:00:01,165 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-01-16 00:00:01,896 DEBUG: Task list loaded.
+2022-01-16 00:00:01,896 DEBUG: Total number of tasks: 3
+2022-01-16 00:00:01,896  INFO:  -- START  -- IDO_ALL.xml
+2022-01-16 00:00:01,896  INFO:  -- Sun Jan 16 00:00:01 AWST 2022
+2022-01-16 00:00:01,896  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2022-01-16 00:00:01,896  INFO: Copying files
+2022-01-16 00:00:02,441 DEBUG: Copying IDO71012_2021_20220109.csv
+2022-01-16 00:00:02,571 DEBUG: Copying IDO71012_2021_20220115.csv
+2022-01-16 00:00:02,634 DEBUG: Copying IDO71012_2021_20220110.csv
+2022-01-16 00:00:02,729 DEBUG: Copying IDO71012_2021_20220113.csv
+2022-01-16 00:00:02,787 DEBUG: Copying IDO71012_2021_20220111.csv
+2022-01-16 00:00:02,843 DEBUG: Copying IDO71012_2021_20220112.csv
+2022-01-16 00:00:02,882 DEBUG: Copying IDO71012_2021_20220114.csv
+2022-01-16 00:00:02,918  INFO: Transfered 7 files.
+2022-01-16 00:00:02,918  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2022-01-16 00:00:03,030  INFO: Importing file IDO71012_2021_20220109.csv
+2022-01-16 00:08:19,017  INFO: Importing file IDO71012_2021_20220115.csv
+2022-01-16 00:16:02,794  INFO: Importing file IDO71012_2021_20220110.csv
+2022-01-16 00:23:48,591  INFO: Importing file IDO71012_2021_20220113.csv
+2022-01-16 00:31:13,338  INFO: Importing file IDO71012_2021_20220111.csv
+2022-01-16 00:38:44,654  INFO: Importing file IDO71012_2021_20220112.csv
+2022-01-16 00:45:07,942  INFO: Importing file IDO71012_2021_20220114.csv
+2022-01-16 00:51:02,578  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:51:02 am
+2022-01-16 00:51:02,578  INFO: Deleting files
+2022-01-16 00:51:02,579 DEBUG: Deleting web/IDO71012_2021_20220109.csv
+2022-01-16 00:51:02,590 DEBUG: Deleting web/IDO71012_2021_20220115.csv
+2022-01-16 00:51:02,591 DEBUG: Deleting web/IDO71012_2021_20220110.csv
+2022-01-16 00:51:02,591 DEBUG: Deleting web/IDO71012_2021_20220113.csv
+2022-01-16 00:51:02,591 DEBUG: Deleting web/IDO71012_2021_20220111.csv
+2022-01-16 00:51:02,591 DEBUG: Deleting web/IDO71012_2021_20220112.csv
+2022-01-16 00:51:02,591 DEBUG: Deleting web/IDO71012_2021_20220114.csv
+2022-01-16 00:51:02,591  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2022-01-16 00:51:02,591  INFO:  -- END  -- Sun Jan 16 00:51:02 AWST 2022
+2022-01-23 00:00:01,040 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-01-23 00:00:01,095 DEBUG: Task list loaded.
+2022-01-23 00:00:01,096 DEBUG: Total number of tasks: 3
+2022-01-23 00:00:01,096  INFO:  -- START  -- IDO_ALL.xml
+2022-01-23 00:00:01,096  INFO:  -- Sun Jan 23 00:00:01 AWST 2022
+2022-01-23 00:00:01,096  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2022-01-23 00:00:01,096  INFO: Copying files
+2022-01-23 00:00:01,193 DEBUG: Copying IDO71012_2021_20220116.csv
+2022-01-23 00:00:01,215 DEBUG: Copying IDO71012_2021_20220118.csv
+2022-01-23 00:00:01,226 DEBUG: Copying IDO71012_2021_20220117.csv
+2022-01-23 00:00:01,236 DEBUG: Copying IDO71012_2021_20220119.csv
+2022-01-23 00:00:01,246 DEBUG: Copying IDO71012_2021_20220121.csv
+2022-01-23 00:00:01,260 DEBUG: Copying IDO71012_2021_20220122.csv
+2022-01-23 00:00:01,261 DEBUG: Copying IDO71012_2021_20220120.csv
+2022-01-23 00:00:01,273  INFO: Transfered 7 files.
+2022-01-23 00:00:01,273  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:01 am
+2022-01-23 00:00:01,322  INFO: Importing file IDO71012_2021_20220116.csv
+2022-01-23 00:07:28,307  INFO: Importing file IDO71012_2021_20220118.csv
+2022-01-23 00:15:21,405  INFO: Importing file IDO71012_2021_20220117.csv
+2022-01-23 00:22:39,138  INFO: Importing file IDO71012_2021_20220119.csv
+2022-01-23 00:30:25,851  INFO: Importing file IDO71012_2021_20220121.csv
+2022-01-23 00:37:26,073  INFO: Importing file IDO71012_2021_20220122.csv
+2022-01-23 00:43:56,023  INFO: Importing file IDO71012_2021_20220120.csv
+2022-01-23 00:50:25,149  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:50:25 am
+2022-01-23 00:50:25,149  INFO: Deleting files
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220116.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220118.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220117.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220119.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220121.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220122.csv
+2022-01-23 00:50:25,150 DEBUG: Deleting web/IDO71012_2021_20220120.csv
+2022-01-23 00:50:25,150  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2022-01-23 00:50:25,150  INFO:  -- END  -- Sun Jan 23 00:50:25 AWST 2022
+2022-01-30 00:00:01,595 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-01-30 00:00:01,941 DEBUG: Task list loaded.
+2022-01-30 00:00:01,941 DEBUG: Total number of tasks: 3
+2022-01-30 00:00:01,941  INFO:  -- START  -- IDO_ALL.xml
+2022-01-30 00:00:01,941  INFO:  -- Sun Jan 30 00:00:01 AWST 2022
+2022-01-30 00:00:01,942  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/ido/hillarys/copy_ido_file.xml 12:00:01 am
+2022-01-30 00:00:01,942  INFO: Copying files
+2022-01-30 00:00:02,032 DEBUG: Copying IDO71012_2021_20220127.csv
+2022-01-30 00:00:02,048 DEBUG: Copying IDO71012_2021_20220129.csv
+2022-01-30 00:00:02,061 DEBUG: Copying IDO71012_2021_20220125.csv
+2022-01-30 00:00:02,070 DEBUG: Copying IDO71012_2021_20220128.csv
+2022-01-30 00:00:02,078 DEBUG: Copying IDO71012_2021_20220123.csv
+2022-01-30 00:00:02,104 DEBUG: Copying IDO71012_2021_20220126.csv
+2022-01-30 00:00:02,115 DEBUG: Copying IDO71012_2021_20220124.csv
+2022-01-30 00:00:02,126  INFO: Transfered 7 files.
+2022-01-30 00:00:02,126  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/ido/hillarys/import.xml 12:00:02 am
+2022-01-30 00:00:02,193  INFO: Importing file IDO71012_2021_20220127.csv
+2022-01-30 00:08:22,377  INFO: Importing file IDO71012_2021_20220129.csv
+2022-01-30 00:16:19,909  INFO: Importing file IDO71012_2021_20220125.csv
+2022-01-30 00:24:09,092  INFO: Importing file IDO71012_2021_20220128.csv
+2022-01-30 00:32:06,671  INFO: Importing file IDO71012_2021_20220123.csv
+2022-01-30 00:39:08,847  INFO: Importing file IDO71012_2021_20220126.csv
+2022-01-30 00:45:41,225  INFO: Importing file IDO71012_2021_20220124.csv
+2022-01-30 00:52:07,250  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_web_dl.xml 12:52:07 am
+2022-01-30 00:52:07,250  INFO: Deleting files
+2022-01-30 00:52:07,250 DEBUG: Deleting web/IDO71012_2021_20220127.csv
+2022-01-30 00:52:07,250 DEBUG: Deleting web/IDO71012_2021_20220129.csv
+2022-01-30 00:52:07,250 DEBUG: Deleting web/IDO71012_2021_20220125.csv
+2022-01-30 00:52:07,251 DEBUG: Deleting web/IDO71012_2021_20220128.csv
+2022-01-30 00:52:07,251 DEBUG: Deleting web/IDO71012_2021_20220123.csv
+2022-01-30 00:52:07,251 DEBUG: Deleting web/IDO71012_2021_20220126.csv
+2022-01-30 00:52:07,251 DEBUG: Deleting web/IDO71012_2021_20220124.csv
+2022-01-30 00:52:07,251  INFO: Folder: web - Deleted 7 files. Failed to delete 0.
+2022-01-30 00:52:07,251  INFO:  -- END  -- Sun Jan 30 00:52:07 AWST 2022

@@ -1,0 +1,81 @@
+2021-11-16 13:00:30,602 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:00:30,604 DEBUG: Task list loaded.
+2021-11-16 13:00:30,604 DEBUG: Total number of tasks: 1
+2021-11-16 13:00:30,604  INFO:  -- START  -- matilda_met.xml
+2021-11-16 13:00:30,604  INFO:  -- Tue Nov 16 13:00:30 AWST 2021
+2021-11-16 13:00:30,604  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 1:00:30 pm
+2021-11-16 13:00:30,608  INFO: Importing file Matilda_Weather_Data_5_mins.csv
+2021-11-16 13:04:04,712  INFO:  -- END  -- Tue Nov 16 13:04:04 AWST 2021
+2021-11-16 13:39:23,676 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:39:23,688 DEBUG: Task list loaded.
+2021-11-16 13:39:23,688 DEBUG: Total number of tasks: 1
+2021-11-16 13:39:23,688  INFO:  -- START  -- matilda_met.xml
+2021-11-16 13:39:23,688  INFO:  -- Tue Nov 16 13:39:23 AWST 2021
+2021-11-16 13:39:23,688  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 1:39:23 pm
+2021-11-16 13:39:23,689 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-16 13:39:23,690  INFO:  -- END  -- Tue Nov 16 13:39:23 AWST 2021
+2021-11-16 13:39:23,690  INFO: Number of errors: 1
+2021-11-16 13:41:25,161 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:41:25,167 DEBUG: Task list loaded.
+2021-11-16 13:41:25,167 DEBUG: Total number of tasks: 1
+2021-11-16 13:41:25,167  INFO:  -- START  -- matilda_met.xml
+2021-11-16 13:41:25,168  INFO:  -- Tue Nov 16 13:41:25 AWST 2021
+2021-11-16 13:41:25,168  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 1:41:25 pm
+2021-11-16 13:41:25,169 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-11-16 13:41:25,170  INFO:  -- END  -- Tue Nov 16 13:41:25 AWST 2021
+2021-11-16 13:41:25,170  INFO: Number of errors: 1
+2021-11-16 13:42:21,600 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:42:21,601 DEBUG: Task list loaded.
+2021-11-16 13:42:21,601 DEBUG: Total number of tasks: 1
+2021-11-16 13:42:21,601  INFO:  -- START  -- matilda_met.xml
+2021-11-16 13:42:21,601  INFO:  -- Tue Nov 16 13:42:21 AWST 2021
+2021-11-16 13:42:21,601  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/matilda/raw/import_met.xml 1:42:21 pm
+2021-11-16 13:42:21,603  INFO: Importing file Matilda_Weather_Data_5_mins.csv

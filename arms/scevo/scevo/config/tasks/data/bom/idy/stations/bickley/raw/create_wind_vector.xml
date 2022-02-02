@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PVTSCreator>
+	<TimeSeries>
+		<comment>Create Wind Vector task</comment>
+		<sourceAddress>scevo.data.bom.idy.bickley.raw</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.bickley.raw.windvector</destinationAddress>
+		<startDate>IDY_BICKLEY_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_BICKLEY_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+	<magnitudeName>wind_speed_m_s</magnitudeName>
+	<directionName>wind_direction</directionName>
+</PVTSCreator>

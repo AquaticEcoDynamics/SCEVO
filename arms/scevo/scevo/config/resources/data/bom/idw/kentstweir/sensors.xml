@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+
+	<comment>Kent St Weir (BOM)</comment>
+
+	<Sensor1D>
+		<name>water_level</name>
+		<longname>Water Level</longname>
+		<SensorInfo>
+			<title>Water Level</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>15.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>.7</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+</SensorFile>

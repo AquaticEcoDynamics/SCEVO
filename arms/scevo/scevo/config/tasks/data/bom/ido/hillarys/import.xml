@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import BOM IDO data</comment>
+	<localFolder>data/bom/ido/hillarys</localFolder>
+	<fileName>IDO71012*.csv</fileName>
+	<setImportedFlag>true</setImportedFlag>
+	<importLastFile>false</importLastFile>
+	<startDate>END_DATE@scevo.data.bom.ido.hillarys.web.sea_level</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.bom.ido.hillarys.web</destinationAddress> 
+	<dateFormat>dd-MMM-yyyy HH:mm</dateFormat>  <!-- 29-Sep-2021 07:00 -->
+	<nHeaderLines>1</nHeaderLines> 
+	<nTailLines>1</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>1</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/bom/ido/hillarys/sensors.xml</sensorsFile>
+</TextFileImport>

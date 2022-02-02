@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>Move DOT web data files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  <destinationFolder>data/dot/rt_moz/guildford</destinationFolder>
+  
+  <prefixString>moz_swan_river_guildford</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+  
+  <TimeStamp>
+  	<applyTimestamp>true</applyTimestamp>
+  	<timestampDateFormat>HHmm</timestampDateFormat>
+  	<timestampLocation>post</timestampLocation>
+  </TimeStamp>
+    
+</CopyFiles>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import DBCA WQ data</comment>
+	<localFolder>data/dpird</localFolder>
+	<fileName>SP*.csv</fileName>
+	<setImportedFlag>false</setImportedFlag>
+	<importLastFile>true</importLastFile>
+	<startDate>END_DATE@scevo.data.dpird.met.sp.raw.Temperature Min</startDate>
+	<timeZone>0</timeZone>
+	<destinationAddress>scevo.data.dpird.met.sp.raw</destinationAddress>
+	<dateFormat>d/mm/yyyy hh:mm</dateFormat>
+	<nHeaderLines>1</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>2</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/dpird/met/sp/sensors.xml</sensorsFile>
+</TextFileImport>

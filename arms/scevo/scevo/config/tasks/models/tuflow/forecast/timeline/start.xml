@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TimeLineUpdate>
+	<comment>Timeline Update</comment>
+	<timeLineKeyword>TUFLOW_FORECAST-START</timeLineKeyword>
+	
+	<!-- USE : 1) SCERM DATE FIXED TO WRF (restart file read in) -->
+  
+	<time>
+		<comment>Start of Source</comment>
+		<date>START-DATE@scevo.models.wrf.swan.region2.forecast.Sheets - Fixed Height.T2</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+
+	<!-- OR: 2) SCERM DATE SET (turn off restart in fvc if using this) -->
+<!--
+  <time>
+		<comment>Start of Source</comment>
+		<date>2021-11-15 08:10:00</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+-->
+
+		<!-- OR : 3) SCERM DATE FIXED TO WRF (restart file read in) -->
+ <!-- 
+	<time>
+		<comment>Start of Source</comment>
+		<date>SCEVO_WRF_FORECAST-START@timeline</date>
+		<method>=</method>
+		<offset>0</offset>
+	</time>
+-->
+
+</TimeLineUpdate>

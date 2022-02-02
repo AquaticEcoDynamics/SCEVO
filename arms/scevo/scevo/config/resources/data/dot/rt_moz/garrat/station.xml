@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Station>
+	<comment>MOZ - Garrat Rd (real-time)</comment>
+	<name>Garrat (real-time)</name>
+	<longname>Garrat Rd Swan River</longname>
+	<site>Garrat</site>
+	<latitude>-32.065556</latitude>
+	<longitude>115.748056</longitude>
+	<timeZone>+8.0</timeZone>
+	<daylightSavingsAware>false</daylightSavingsAware>
+	<surfaceDatum>LWM</surfaceDatum>
+	<bottomDatum>LWM</bottomDatum>
+	<datum>LWM</datum>
+	<zOffset>0.0</zOffset>
+	<StationResourceGroup>
+		<address>web</address>
+		<longname>web scraper data</longname>
+		<processingInterval>300</processingInterval>
+	</StationResourceGroup>
+	<StationResourceGroup>
+		<address>downsampled.60min</address>
+		<longname>60 Min Downsampled data</longname>
+		<processingInterval>3600</processingInterval>
+		<processingOffset>0</processingOffset>
+	</StationResourceGroup>
+
+	<StationSensorsGroup>
+		<name></name>
+		<sensorsFile>config/resources/data/dot/rt_moz/garrat/sensors.xml</sensorsFile>
+	</StationSensorsGroup>
+</Station>

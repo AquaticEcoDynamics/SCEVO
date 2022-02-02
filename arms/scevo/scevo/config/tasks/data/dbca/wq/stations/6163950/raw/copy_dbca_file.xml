@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CopyFiles>
+  <comment>Move DBCA logger data files</comment>
+  <sourceFolder>data/utils/web</sourceFolder>
+  <destinationFolder>data/dbca/wq/6163950</destinationFolder>
+  
+  <prefixString>dbca_6163950</prefixString>
+  <suffixString>.csv</suffixString>
+
+  <useSections>false</useSections>
+</CopyFiles>

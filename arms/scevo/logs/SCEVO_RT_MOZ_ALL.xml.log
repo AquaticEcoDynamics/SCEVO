@@ -1,0 +1,594 @@
+2022-02-01 16:00:01,550  INFO:  -- Tue Feb 01 16:00:01 AWST 2022
+2022-02-01 16:00:01,550  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 4:00:01 pm
+2022-02-01 16:00:01,550  INFO: Copying files
+2022-02-01 16:00:01,553 DEBUG: Copying moz_canning_river_1_20220201.csv
+2022-02-01 16:00:01,553  INFO: Transfered 1 files.
+2022-02-01 16:00:01,553  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 4:00:01 pm
+2022-02-01 16:00:01,599  INFO: Importing file moz_canning_river_1_20220201_0800.csv
+2022-02-01 16:00:01,865  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 4:00:01 pm
+2022-02-01 16:00:01,865  INFO: Deleting files
+2022-02-01 16:00:01,866 DEBUG: Deleting web/moz_canning_river_1_20220201.csv
+2022-02-01 16:00:01,866  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 16:00:01,866  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 4:00:01 pm
+2022-02-01 16:00:01,866  INFO: Copying files
+2022-02-01 16:00:01,869 DEBUG: Copying moz_serpentine_20220201.csv
+2022-02-01 16:00:01,869  INFO: Transfered 1 files.
+2022-02-01 16:00:01,869  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 4:00:01 pm
+2022-02-01 16:00:01,901  INFO: Importing file moz_serpentine_20220201_0800.csv
+2022-02-01 16:00:02,099  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 4:00:02 pm
+2022-02-01 16:00:02,099  INFO: Deleting files
+2022-02-01 16:00:02,100 DEBUG: Deleting web/moz_serpentine_20220201.csv
+2022-02-01 16:00:02,100  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 16:00:02,100  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 4:00:02 pm
+2022-02-01 16:00:02,100  INFO: Copying files
+2022-02-01 16:00:02,103 DEBUG: Copying moz_swan_river_garrat_road_20220201.csv
+2022-02-01 16:00:02,103  INFO: Transfered 1 files.
+2022-02-01 16:00:02,103  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 4:00:02 pm
+2022-02-01 16:00:02,135  INFO: Importing file moz_swan_river_garrat_road_20220201_0800.csv
+2022-02-01 16:00:02,300  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 4:00:02 pm
+2022-02-01 16:00:02,300  INFO: Deleting files
+2022-02-01 16:00:02,300 DEBUG: Deleting web/moz_swan_river_garrat_road_20220201.csv
+2022-02-01 16:00:02,300  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 16:00:02,300  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 4:00:02 pm
+2022-02-01 16:00:02,300  INFO: Copying files
+2022-02-01 16:00:02,303 DEBUG: Copying moz_swan_river_guildford_20220201.csv
+2022-02-01 16:00:02,304  INFO: Transfered 1 files.
+2022-02-01 16:00:02,304  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 4:00:02 pm
+2022-02-01 16:00:02,335  INFO: Importing file moz_swan_river_guildford_20220201_0800.csv
+2022-02-01 16:00:02,567  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 4:00:02 pm
+2022-02-01 16:00:02,567  INFO: Deleting files
+2022-02-01 16:00:02,567 DEBUG: Deleting web/moz_swan_river_guildford_20220201.csv
+2022-02-01 16:00:02,568  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 16:00:02,568  INFO:  -- END  -- Tue Feb 01 16:00:02 AWST 2022
+2022-02-01 18:00:01,528 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-01 18:00:01,532 DEBUG: Task list loaded.
+2022-02-01 18:00:01,532 DEBUG: Total number of tasks: 12
+2022-02-01 18:00:01,532  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-01 18:00:01,532  INFO:  -- Tue Feb 01 18:00:01 AWST 2022
+2022-02-01 18:00:01,532  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 6:00:01 pm
+2022-02-01 18:00:01,532  INFO: Copying files
+2022-02-01 18:00:01,535 DEBUG: Copying moz_canning_river_1_20220201.csv
+2022-02-01 18:00:01,535  INFO: Transfered 1 files.
+2022-02-01 18:00:01,535  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 6:00:01 pm
+2022-02-01 18:00:01,589  INFO: Importing file moz_canning_river_1_20220201_1000.csv
+2022-02-01 18:00:01,799  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 6:00:01 pm
+2022-02-01 18:00:01,799  INFO: Deleting files
+2022-02-01 18:00:01,799 DEBUG: Deleting web/moz_canning_river_1_20220201.csv
+2022-02-01 18:00:01,799  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 18:00:01,799  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 6:00:01 pm
+2022-02-01 18:00:01,799  INFO: Copying files
+2022-02-01 18:00:01,802 DEBUG: Copying moz_serpentine_20220201.csv
+2022-02-01 18:00:01,802  INFO: Transfered 1 files.
+2022-02-01 18:00:01,802  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 6:00:01 pm
+2022-02-01 18:00:01,834  INFO: Importing file moz_serpentine_20220201_1000.csv
+2022-02-01 18:00:02,050  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 6:00:02 pm
+2022-02-01 18:00:02,050  INFO: Deleting files
+2022-02-01 18:00:02,050 DEBUG: Deleting web/moz_serpentine_20220201.csv
+2022-02-01 18:00:02,050  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 18:00:02,050  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 6:00:02 pm
+2022-02-01 18:00:02,050  INFO: Copying files
+2022-02-01 18:00:02,053 DEBUG: Copying moz_swan_river_garrat_road_20220201.csv
+2022-02-01 18:00:02,053  INFO: Transfered 1 files.
+2022-02-01 18:00:02,053  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 6:00:02 pm
+2022-02-01 18:00:02,086  INFO: Importing file moz_swan_river_garrat_road_20220201_1000.csv
+2022-02-01 18:00:02,325  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 6:00:02 pm
+2022-02-01 18:00:02,326  INFO: Deleting files
+2022-02-01 18:00:02,326 DEBUG: Deleting web/moz_swan_river_garrat_road_20220201.csv
+2022-02-01 18:00:02,326  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 18:00:02,326  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 6:00:02 pm
+2022-02-01 18:00:02,326  INFO: Copying files
+2022-02-01 18:00:02,329 DEBUG: Copying moz_swan_river_guildford_20220201.csv
+2022-02-01 18:00:02,329  INFO: Transfered 1 files.
+2022-02-01 18:00:02,329  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 6:00:02 pm
+2022-02-01 18:00:02,361  INFO: Importing file moz_swan_river_guildford_20220201_1000.csv
+2022-02-01 18:00:02,543  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 6:00:02 pm
+2022-02-01 18:00:02,543  INFO: Deleting files
+2022-02-01 18:00:02,543 DEBUG: Deleting web/moz_swan_river_guildford_20220201.csv
+2022-02-01 18:00:02,544  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 18:00:02,544  INFO:  -- END  -- Tue Feb 01 18:00:02 AWST 2022
+2022-02-01 20:00:01,528 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-01 20:00:01,532 DEBUG: Task list loaded.
+2022-02-01 20:00:01,532 DEBUG: Total number of tasks: 12
+2022-02-01 20:00:01,532  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-01 20:00:01,532  INFO:  -- Tue Feb 01 20:00:01 AWST 2022
+2022-02-01 20:00:01,532  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 8:00:01 pm
+2022-02-01 20:00:01,532  INFO: Copying files
+2022-02-01 20:00:01,535 DEBUG: Copying moz_canning_river_1_20220201.csv
+2022-02-01 20:00:01,535  INFO: Transfered 1 files.
+2022-02-01 20:00:01,535  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 8:00:01 pm
+2022-02-01 20:00:01,597  INFO: Importing file moz_canning_river_1_20220201_1200.csv
+2022-02-01 20:00:01,852  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 8:00:01 pm
+2022-02-01 20:00:01,852  INFO: Deleting files
+2022-02-01 20:00:01,852 DEBUG: Deleting web/moz_canning_river_1_20220201.csv
+2022-02-01 20:00:01,853  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 20:00:01,853  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 8:00:01 pm
+2022-02-01 20:00:01,853  INFO: Copying files
+2022-02-01 20:00:01,855 DEBUG: Copying moz_serpentine_20220201.csv
+2022-02-01 20:00:01,855  INFO: Transfered 1 files.
+2022-02-01 20:00:01,855  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 8:00:01 pm
+2022-02-01 20:00:01,888  INFO: Importing file moz_serpentine_20220201_1200.csv
+2022-02-01 20:00:02,069  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 8:00:02 pm
+2022-02-01 20:00:02,069  INFO: Deleting files
+2022-02-01 20:00:02,070 DEBUG: Deleting web/moz_serpentine_20220201.csv
+2022-02-01 20:00:02,070  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 20:00:02,070  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 8:00:02 pm
+2022-02-01 20:00:02,070  INFO: Copying files
+2022-02-01 20:00:02,073 DEBUG: Copying moz_swan_river_garrat_road_20220201.csv
+2022-02-01 20:00:02,073  INFO: Transfered 1 files.
+2022-02-01 20:00:02,073  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 8:00:02 pm
+2022-02-01 20:00:02,106  INFO: Importing file moz_swan_river_garrat_road_20220201_1200.csv
+2022-02-01 20:00:02,270  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 8:00:02 pm
+2022-02-01 20:00:02,270  INFO: Deleting files
+2022-02-01 20:00:02,271 DEBUG: Deleting web/moz_swan_river_garrat_road_20220201.csv
+2022-02-01 20:00:02,271  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 20:00:02,271  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 8:00:02 pm
+2022-02-01 20:00:02,271  INFO: Copying files
+2022-02-01 20:00:02,274 DEBUG: Copying moz_swan_river_guildford_20220201.csv
+2022-02-01 20:00:02,274  INFO: Transfered 1 files.
+2022-02-01 20:00:02,274  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 8:00:02 pm
+2022-02-01 20:00:02,306  INFO: Importing file moz_swan_river_guildford_20220201_1200.csv
+2022-02-01 20:00:02,495  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 8:00:02 pm
+2022-02-01 20:00:02,495  INFO: Deleting files
+2022-02-01 20:00:02,496 DEBUG: Deleting web/moz_swan_river_guildford_20220201.csv
+2022-02-01 20:00:02,496  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 20:00:02,496  INFO:  -- END  -- Tue Feb 01 20:00:02 AWST 2022
+2022-02-01 22:00:01,528 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-01 22:00:01,532 DEBUG: Task list loaded.
+2022-02-01 22:00:01,532 DEBUG: Total number of tasks: 12
+2022-02-01 22:00:01,532  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-01 22:00:01,532  INFO:  -- Tue Feb 01 22:00:01 AWST 2022
+2022-02-01 22:00:01,532  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 10:00:01 pm
+2022-02-01 22:00:01,532  INFO: Copying files
+2022-02-01 22:00:01,535 DEBUG: Copying moz_canning_river_1_20220201.csv
+2022-02-01 22:00:01,535  INFO: Transfered 1 files.
+2022-02-01 22:00:01,535  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 10:00:01 pm
+2022-02-01 22:00:01,581  INFO: Importing file moz_canning_river_1_20220201_1400.csv
+2022-02-01 22:00:01,840  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 10:00:01 pm
+2022-02-01 22:00:01,840  INFO: Deleting files
+2022-02-01 22:00:01,840 DEBUG: Deleting web/moz_canning_river_1_20220201.csv
+2022-02-01 22:00:01,840  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 22:00:01,840  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 10:00:01 pm
+2022-02-01 22:00:01,840  INFO: Copying files
+2022-02-01 22:00:01,843 DEBUG: Copying moz_serpentine_20220201.csv
+2022-02-01 22:00:01,843  INFO: Transfered 1 files.
+2022-02-01 22:00:01,843  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 10:00:01 pm
+2022-02-01 22:00:01,876  INFO: Importing file moz_serpentine_20220201_1400.csv
+2022-02-01 22:00:02,115  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 10:00:02 pm
+2022-02-01 22:00:02,115  INFO: Deleting files
+2022-02-01 22:00:02,116 DEBUG: Deleting web/moz_serpentine_20220201.csv
+2022-02-01 22:00:02,116  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 22:00:02,116  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 10:00:02 pm
+2022-02-01 22:00:02,116  INFO: Copying files
+2022-02-01 22:00:02,119 DEBUG: Copying moz_swan_river_garrat_road_20220201.csv
+2022-02-01 22:00:02,133  INFO: Transfered 1 files.
+2022-02-01 22:00:02,133  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 10:00:02 pm
+2022-02-01 22:00:02,165  INFO: Importing file moz_swan_river_garrat_road_20220201_1400.csv
+2022-02-01 22:00:02,349  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 10:00:02 pm
+2022-02-01 22:00:02,349  INFO: Deleting files
+2022-02-01 22:00:02,350 DEBUG: Deleting web/moz_swan_river_garrat_road_20220201.csv
+2022-02-01 22:00:02,350  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 22:00:02,350  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 10:00:02 pm
+2022-02-01 22:00:02,350  INFO: Copying files
+2022-02-01 22:00:02,353 DEBUG: Copying moz_swan_river_guildford_20220201.csv
+2022-02-01 22:00:02,353  INFO: Transfered 1 files.
+2022-02-01 22:00:02,353  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 10:00:02 pm
+2022-02-01 22:00:02,385  INFO: Importing file moz_swan_river_guildford_20220201_1400.csv
+2022-02-01 22:00:02,583  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 10:00:02 pm
+2022-02-01 22:00:02,583  INFO: Deleting files
+2022-02-01 22:00:02,584 DEBUG: Deleting web/moz_swan_river_guildford_20220201.csv
+2022-02-01 22:00:02,584  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-01 22:00:02,584  INFO:  -- END  -- Tue Feb 01 22:00:02 AWST 2022
+2022-02-02 00:00:01,527 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 00:00:01,560 DEBUG: Task list loaded.
+2022-02-02 00:00:01,560 DEBUG: Total number of tasks: 12
+2022-02-02 00:00:01,560  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 00:00:01,560  INFO:  -- Wed Feb 02 00:00:01 AWST 2022
+2022-02-02 00:00:01,560  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 12:00:01 am
+2022-02-02 00:00:01,560  INFO: Copying files
+2022-02-02 00:00:01,564 DEBUG: Copying moz_canning_river_1_20220201.csv
+2022-02-02 00:00:01,565  INFO: Transfered 1 files.
+2022-02-02 00:00:01,565  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 12:00:01 am
+2022-02-02 00:00:01,605  INFO: Importing file moz_canning_river_1_20220201_1600.csv
+2022-02-02 00:00:01,944  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 12:00:01 am
+2022-02-02 00:00:01,944  INFO: Deleting files
+2022-02-02 00:00:01,944 DEBUG: Deleting web/moz_canning_river_1_20220201.csv
+2022-02-02 00:00:01,944  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 00:00:01,944  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 12:00:01 am
+2022-02-02 00:00:01,944  INFO: Copying files
+2022-02-02 00:00:02,053 DEBUG: Copying moz_serpentine_20220201.csv
+2022-02-02 00:00:02,053  INFO: Transfered 1 files.
+2022-02-02 00:00:02,053  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 12:00:02 am
+2022-02-02 00:00:02,085  INFO: Importing file moz_serpentine_20220201_1600.csv
+2022-02-02 00:00:02,254  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 12:00:02 am
+2022-02-02 00:00:02,254  INFO: Deleting files
+2022-02-02 00:00:02,254 DEBUG: Deleting web/moz_serpentine_20220201.csv
+2022-02-02 00:00:02,255  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 00:00:02,255  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 12:00:02 am
+2022-02-02 00:00:02,255  INFO: Copying files
+2022-02-02 00:00:02,258 DEBUG: Copying moz_swan_river_garrat_road_20220201.csv
+2022-02-02 00:00:02,259  INFO: Transfered 1 files.
+2022-02-02 00:00:02,259  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 12:00:02 am
+2022-02-02 00:00:02,302  INFO: Importing file moz_swan_river_garrat_road_20220201_1600.csv
+2022-02-02 00:00:02,608  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 12:00:02 am
+2022-02-02 00:00:02,608  INFO: Deleting files
+2022-02-02 00:00:02,609 DEBUG: Deleting web/moz_swan_river_garrat_road_20220201.csv
+2022-02-02 00:00:02,609  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 00:00:02,609  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 12:00:02 am
+2022-02-02 00:00:02,609  INFO: Copying files
+2022-02-02 00:00:02,613 DEBUG: Copying moz_swan_river_guildford_20220201.csv
+2022-02-02 00:00:02,613  INFO: Transfered 1 files.
+2022-02-02 00:00:02,613  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 12:00:02 am
+2022-02-02 00:00:02,645  INFO: Importing file moz_swan_river_guildford_20220201_1600.csv
+2022-02-02 00:00:02,875  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 12:00:02 am
+2022-02-02 00:00:02,875  INFO: Deleting files
+2022-02-02 00:00:02,876 DEBUG: Deleting web/moz_swan_river_guildford_20220201.csv
+2022-02-02 00:00:02,876  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 00:00:02,876  INFO:  -- END  -- Wed Feb 02 00:00:02 AWST 2022
+2022-02-02 02:00:01,528 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 02:00:01,531 DEBUG: Task list loaded.
+2022-02-02 02:00:01,531 DEBUG: Total number of tasks: 12
+2022-02-02 02:00:01,531  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 02:00:01,531  INFO:  -- Wed Feb 02 02:00:01 AWST 2022
+2022-02-02 02:00:01,531  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 2:00:01 am
+2022-02-02 02:00:01,531  INFO: Copying files
+2022-02-02 02:00:01,534 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 02:00:01,534  INFO: Transfered 1 files.
+2022-02-02 02:00:01,534  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 2:00:01 am
+2022-02-02 02:00:01,578  INFO: Importing file moz_canning_river_1_20220202_1800.csv
+2022-02-02 02:00:01,780  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 2:00:01 am
+2022-02-02 02:00:01,780  INFO: Deleting files
+2022-02-02 02:00:01,781 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 02:00:01,781  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 02:00:01,781  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 2:00:01 am
+2022-02-02 02:00:01,781  INFO: Copying files
+2022-02-02 02:00:01,784 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 02:00:01,784  INFO: Transfered 1 files.
+2022-02-02 02:00:01,784  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 2:00:01 am
+2022-02-02 02:00:01,816  INFO: Importing file moz_serpentine_20220202_1800.csv
+2022-02-02 02:00:01,964  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 2:00:01 am
+2022-02-02 02:00:01,964  INFO: Deleting files
+2022-02-02 02:00:01,965 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 02:00:01,965  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 02:00:01,965  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 2:00:01 am
+2022-02-02 02:00:01,965  INFO: Copying files
+2022-02-02 02:00:01,968 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 02:00:01,968  INFO: Transfered 1 files.
+2022-02-02 02:00:01,968  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 2:00:01 am
+2022-02-02 02:00:02,001  INFO: Importing file moz_swan_river_garrat_road_20220202_1800.csv
+2022-02-02 02:00:02,173  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 2:00:02 am
+2022-02-02 02:00:02,173  INFO: Deleting files
+2022-02-02 02:00:02,174 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 02:00:02,174  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 02:00:02,174  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 2:00:02 am
+2022-02-02 02:00:02,174  INFO: Copying files
+2022-02-02 02:00:02,177 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 02:00:02,177  INFO: Transfered 1 files.
+2022-02-02 02:00:02,177  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 2:00:02 am
+2022-02-02 02:00:02,210  INFO: Importing file moz_swan_river_guildford_20220202_1800.csv
+2022-02-02 02:00:02,416  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 2:00:02 am
+2022-02-02 02:00:02,416  INFO: Deleting files
+2022-02-02 02:00:02,416 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 02:00:02,416  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 02:00:02,416  INFO:  -- END  -- Wed Feb 02 02:00:02 AWST 2022
+2022-02-02 04:00:01,545 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 04:00:01,548 DEBUG: Task list loaded.
+2022-02-02 04:00:01,548 DEBUG: Total number of tasks: 12
+2022-02-02 04:00:01,548  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 04:00:01,548  INFO:  -- Wed Feb 02 04:00:01 AWST 2022
+2022-02-02 04:00:01,548  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 4:00:01 am
+2022-02-02 04:00:01,548  INFO: Copying files
+2022-02-02 04:00:01,571 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 04:00:01,571  INFO: Transfered 1 files.
+2022-02-02 04:00:01,571  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 4:00:01 am
+2022-02-02 04:00:01,624  INFO: Importing file moz_canning_river_1_20220202_2000.csv
+2022-02-02 04:00:01,961  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 4:00:01 am
+2022-02-02 04:00:01,961  INFO: Deleting files
+2022-02-02 04:00:01,962 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 04:00:01,962  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 04:00:01,962  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 4:00:01 am
+2022-02-02 04:00:01,962  INFO: Copying files
+2022-02-02 04:00:01,964 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 04:00:01,965  INFO: Transfered 1 files.
+2022-02-02 04:00:01,965  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 4:00:01 am
+2022-02-02 04:00:01,997  INFO: Importing file moz_serpentine_20220202_2000.csv
+2022-02-02 04:00:02,178  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 4:00:02 am
+2022-02-02 04:00:02,178  INFO: Deleting files
+2022-02-02 04:00:02,179 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 04:00:02,179  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 04:00:02,179  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 4:00:02 am
+2022-02-02 04:00:02,179  INFO: Copying files
+2022-02-02 04:00:02,182 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 04:00:02,182  INFO: Transfered 1 files.
+2022-02-02 04:00:02,182  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 4:00:02 am
+2022-02-02 04:00:02,215  INFO: Importing file moz_swan_river_garrat_road_20220202_2000.csv
+2022-02-02 04:00:02,421  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 4:00:02 am
+2022-02-02 04:00:02,421  INFO: Deleting files
+2022-02-02 04:00:02,421 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 04:00:02,421  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 04:00:02,421  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 4:00:02 am
+2022-02-02 04:00:02,421  INFO: Copying files
+2022-02-02 04:00:02,424 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 04:00:02,424  INFO: Transfered 1 files.
+2022-02-02 04:00:02,425  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 4:00:02 am
+2022-02-02 04:00:02,457  INFO: Importing file moz_swan_river_guildford_20220202_2000.csv
+2022-02-02 04:00:02,663  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 4:00:02 am
+2022-02-02 04:00:02,663  INFO: Deleting files
+2022-02-02 04:00:02,663 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 04:00:02,663  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 04:00:02,663  INFO:  -- END  -- Wed Feb 02 04:00:02 AWST 2022
+2022-02-02 06:00:01,528 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 06:00:01,531 DEBUG: Task list loaded.
+2022-02-02 06:00:01,531 DEBUG: Total number of tasks: 12
+2022-02-02 06:00:01,531  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 06:00:01,531  INFO:  -- Wed Feb 02 06:00:01 AWST 2022
+2022-02-02 06:00:01,531  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 6:00:01 am
+2022-02-02 06:00:01,531  INFO: Copying files
+2022-02-02 06:00:01,535 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 06:00:01,535  INFO: Transfered 1 files.
+2022-02-02 06:00:01,536  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 6:00:01 am
+2022-02-02 06:00:01,594  INFO: Importing file moz_canning_river_1_20220202_2200.csv
+2022-02-02 06:00:02,082  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 6:00:02 am
+2022-02-02 06:00:02,082  INFO: Deleting files
+2022-02-02 06:00:02,082 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 06:00:02,082  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 06:00:02,082  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 6:00:02 am
+2022-02-02 06:00:02,082  INFO: Copying files
+2022-02-02 06:00:02,085 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 06:00:02,085  INFO: Transfered 1 files.
+2022-02-02 06:00:02,085  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 6:00:02 am
+2022-02-02 06:00:02,118  INFO: Importing file moz_serpentine_20220202_2200.csv
+2022-02-02 06:00:02,299  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 6:00:02 am
+2022-02-02 06:00:02,299  INFO: Deleting files
+2022-02-02 06:00:02,300 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 06:00:02,300  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 06:00:02,300  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 6:00:02 am
+2022-02-02 06:00:02,300  INFO: Copying files
+2022-02-02 06:00:02,303 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 06:00:02,303  INFO: Transfered 1 files.
+2022-02-02 06:00:02,303  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 6:00:02 am
+2022-02-02 06:00:02,335  INFO: Importing file moz_swan_river_garrat_road_20220202_2200.csv
+2022-02-02 06:00:02,483  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 6:00:02 am
+2022-02-02 06:00:02,483  INFO: Deleting files
+2022-02-02 06:00:02,484 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 06:00:02,484  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 06:00:02,484  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 6:00:02 am
+2022-02-02 06:00:02,484  INFO: Copying files
+2022-02-02 06:00:02,487 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 06:00:02,487  INFO: Transfered 1 files.
+2022-02-02 06:00:02,487  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 6:00:02 am
+2022-02-02 06:00:02,519  INFO: Importing file moz_swan_river_guildford_20220202_2200.csv
+2022-02-02 06:00:02,717  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 6:00:02 am
+2022-02-02 06:00:02,717  INFO: Deleting files
+2022-02-02 06:00:02,717 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 06:00:02,717  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 06:00:02,717  INFO:  -- END  -- Wed Feb 02 06:00:02 AWST 2022
+2022-02-02 08:00:01,573 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 08:00:02,045 DEBUG: Task list loaded.
+2022-02-02 08:00:02,045 DEBUG: Total number of tasks: 12
+2022-02-02 08:00:02,045  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 08:00:02,045  INFO:  -- Wed Feb 02 08:00:02 AWST 2022
+2022-02-02 08:00:02,045  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 8:00:02 am
+2022-02-02 08:00:02,045  INFO: Copying files
+2022-02-02 08:00:02,838 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 08:00:02,849  INFO: Transfered 1 files.
+2022-02-02 08:00:02,849  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 8:00:02 am
+2022-02-02 08:00:03,070  INFO: Importing file moz_canning_river_1_20220202_0000.csv
+2022-02-02 08:00:03,878  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 8:00:03 am
+2022-02-02 08:00:03,879  INFO: Deleting files
+2022-02-02 08:00:03,879 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 08:00:03,879  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 08:00:03,879  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 8:00:03 am
+2022-02-02 08:00:03,879  INFO: Copying files
+2022-02-02 08:00:03,928 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 08:00:03,928  INFO: Transfered 1 files.
+2022-02-02 08:00:03,928  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 8:00:03 am
+2022-02-02 08:00:03,965  INFO: Importing file moz_serpentine_20220202_0000.csv
+2022-02-02 08:00:04,605  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 8:00:04 am
+2022-02-02 08:00:04,605  INFO: Deleting files
+2022-02-02 08:00:04,606 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 08:00:04,606  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 08:00:04,606  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 8:00:04 am
+2022-02-02 08:00:04,606  INFO: Copying files
+2022-02-02 08:00:04,974 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 08:00:04,987  INFO: Transfered 1 files.
+2022-02-02 08:00:04,988  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 8:00:04 am
+2022-02-02 08:00:05,028  INFO: Importing file moz_swan_river_garrat_road_20220202_0000.csv
+2022-02-02 08:00:05,781  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 8:00:05 am
+2022-02-02 08:00:05,781  INFO: Deleting files
+2022-02-02 08:00:05,781 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 08:00:05,781  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 08:00:05,782  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 8:00:05 am
+2022-02-02 08:00:05,782  INFO: Copying files
+2022-02-02 08:00:05,872 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 08:00:05,872  INFO: Transfered 1 files.
+2022-02-02 08:00:05,872  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 8:00:05 am
+2022-02-02 08:00:05,905  INFO: Importing file moz_swan_river_guildford_20220202_0000.csv
+2022-02-02 08:00:06,273  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 8:00:06 am
+2022-02-02 08:00:06,273  INFO: Deleting files
+2022-02-02 08:00:06,273 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 08:00:06,274  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 08:00:06,274  INFO:  -- END  -- Wed Feb 02 08:00:06 AWST 2022
+2022-02-02 10:00:01,565 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 10:00:01,889 DEBUG: Task list loaded.
+2022-02-02 10:00:01,889 DEBUG: Total number of tasks: 12
+2022-02-02 10:00:01,889  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 10:00:01,889  INFO:  -- Wed Feb 02 10:00:01 AWST 2022
+2022-02-02 10:00:01,889  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 10:00:01 am
+2022-02-02 10:00:01,889  INFO: Copying files
+2022-02-02 10:00:01,894 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 10:00:01,894  INFO: Transfered 1 files.
+2022-02-02 10:00:01,894  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 10:00:01 am
+2022-02-02 10:00:01,993  INFO: Importing file moz_canning_river_1_20220202_0200.csv
+2022-02-02 10:00:03,236  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 10:00:03 am
+2022-02-02 10:00:03,236  INFO: Deleting files
+2022-02-02 10:00:03,237 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 10:00:03,237  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 10:00:03,237  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 10:00:03 am
+2022-02-02 10:00:03,237  INFO: Copying files
+2022-02-02 10:00:03,241 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 10:00:03,241  INFO: Transfered 1 files.
+2022-02-02 10:00:03,241  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 10:00:03 am
+2022-02-02 10:00:03,274  INFO: Importing file moz_serpentine_20220202_0200.csv
+2022-02-02 10:00:03,865  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 10:00:03 am
+2022-02-02 10:00:03,866  INFO: Deleting files
+2022-02-02 10:00:03,866 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 10:00:03,867  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 10:00:03,867  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 10:00:03 am
+2022-02-02 10:00:03,867  INFO: Copying files
+2022-02-02 10:00:03,872 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 10:00:03,872  INFO: Transfered 1 files.
+2022-02-02 10:00:03,872  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 10:00:03 am
+2022-02-02 10:00:03,912  INFO: Importing file moz_swan_river_garrat_road_20220202_0200.csv
+2022-02-02 10:00:04,591  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 10:00:04 am
+2022-02-02 10:00:04,592  INFO: Deleting files
+2022-02-02 10:00:04,592 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 10:00:04,592  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 10:00:04,592  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 10:00:04 am
+2022-02-02 10:00:04,592  INFO: Copying files
+2022-02-02 10:00:04,597 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 10:00:04,597  INFO: Transfered 1 files.
+2022-02-02 10:00:04,597  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 10:00:04 am
+2022-02-02 10:00:04,630  INFO: Importing file moz_swan_river_guildford_20220202_0200.csv
+2022-02-02 10:00:05,150  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 10:00:05 am
+2022-02-02 10:00:05,150  INFO: Deleting files
+2022-02-02 10:00:05,151 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 10:00:05,151  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 10:00:05,151  INFO:  -- END  -- Wed Feb 02 10:00:05 AWST 2022
+2022-02-02 12:00:01,615 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 12:00:01,958 DEBUG: Task list loaded.
+2022-02-02 12:00:01,958 DEBUG: Total number of tasks: 12
+2022-02-02 12:00:01,958  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 12:00:01,958  INFO:  -- Wed Feb 02 12:00:01 AWST 2022
+2022-02-02 12:00:01,958  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 12:00:01 pm
+2022-02-02 12:00:01,958  INFO: Copying files
+2022-02-02 12:00:01,962 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 12:00:01,962  INFO: Transfered 1 files.
+2022-02-02 12:00:01,962  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 12:00:01 pm
+2022-02-02 12:00:02,085  INFO: Importing file moz_canning_river_1_20220202_0400.csv
+2022-02-02 12:00:03,729  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 12:00:03 pm
+2022-02-02 12:00:03,730  INFO: Deleting files
+2022-02-02 12:00:03,731 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 12:00:03,731  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 12:00:03,731  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 12:00:03 pm
+2022-02-02 12:00:03,731  INFO: Copying files
+2022-02-02 12:00:03,735 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 12:00:03,735  INFO: Transfered 1 files.
+2022-02-02 12:00:03,735  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 12:00:03 pm
+2022-02-02 12:00:03,773  INFO: Importing file moz_serpentine_20220202_0400.csv
+2022-02-02 12:00:04,890  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 12:00:04 pm
+2022-02-02 12:00:04,891  INFO: Deleting files
+2022-02-02 12:00:04,891 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 12:00:04,891  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 12:00:04,891  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 12:00:04 pm
+2022-02-02 12:00:04,891  INFO: Copying files
+2022-02-02 12:00:04,895 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 12:00:04,895  INFO: Transfered 1 files.
+2022-02-02 12:00:04,895  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 12:00:04 pm
+2022-02-02 12:00:04,943  INFO: Importing file moz_swan_river_garrat_road_20220202_0400.csv
+2022-02-02 12:00:05,899  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 12:00:05 pm
+2022-02-02 12:00:05,899  INFO: Deleting files
+2022-02-02 12:00:05,899 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 12:00:05,899  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 12:00:05,899  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 12:00:05 pm
+2022-02-02 12:00:05,899  INFO: Copying files
+2022-02-02 12:00:05,902 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 12:00:05,903  INFO: Transfered 1 files.
+2022-02-02 12:00:05,903  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 12:00:05 pm
+2022-02-02 12:00:05,937  INFO: Importing file moz_swan_river_guildford_20220202_0400.csv
+2022-02-02 12:00:06,676  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 12:00:06 pm
+2022-02-02 12:00:06,677  INFO: Deleting files
+2022-02-02 12:00:06,677 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 12:00:06,677  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 12:00:06,677  INFO:  -- END  -- Wed Feb 02 12:00:06 AWST 2022
+2022-02-02 14:00:01,555 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 14:00:01,912 DEBUG: Task list loaded.
+2022-02-02 14:00:01,912 DEBUG: Total number of tasks: 12
+2022-02-02 14:00:01,912  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 14:00:01,912  INFO:  -- Wed Feb 02 14:00:01 AWST 2022
+2022-02-02 14:00:01,912  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 2:00:01 pm
+2022-02-02 14:00:01,912  INFO: Copying files
+2022-02-02 14:00:02,490 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 14:00:02,516  INFO: Transfered 1 files.
+2022-02-02 14:00:02,516  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 2:00:02 pm
+2022-02-02 14:00:02,847  INFO: Importing file moz_canning_river_1_20220202_0600.csv
+2022-02-02 14:00:04,315  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 2:00:04 pm
+2022-02-02 14:00:04,316  INFO: Deleting files
+2022-02-02 14:00:04,316 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 14:00:04,317  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 14:00:04,317  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 2:00:04 pm
+2022-02-02 14:00:04,317  INFO: Copying files
+2022-02-02 14:00:04,390 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 14:00:04,411  INFO: Transfered 1 files.
+2022-02-02 14:00:04,411  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 2:00:04 pm
+2022-02-02 14:00:04,455  INFO: Importing file moz_serpentine_20220202_0600.csv
+2022-02-02 14:00:05,178  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 2:00:05 pm
+2022-02-02 14:00:05,178  INFO: Deleting files
+2022-02-02 14:00:05,179 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 14:00:05,179  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 14:00:05,179  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 2:00:05 pm
+2022-02-02 14:00:05,179  INFO: Copying files
+2022-02-02 14:00:05,275 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 14:00:05,286  INFO: Transfered 1 files.
+2022-02-02 14:00:05,286  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 2:00:05 pm
+2022-02-02 14:00:05,324  INFO: Importing file moz_swan_river_garrat_road_20220202_0600.csv
+2022-02-02 14:00:05,920  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 2:00:05 pm
+2022-02-02 14:00:05,921  INFO: Deleting files
+2022-02-02 14:00:05,921 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 14:00:05,921  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 14:00:05,921  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 2:00:05 pm
+2022-02-02 14:00:05,921  INFO: Copying files
+2022-02-02 14:00:05,989 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 14:00:05,992  INFO: Transfered 1 files.
+2022-02-02 14:00:05,993  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 2:00:05 pm
+2022-02-02 14:00:06,038  INFO: Importing file moz_swan_river_guildford_20220202_0600.csv
+2022-02-02 14:00:06,538  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 2:00:06 pm
+2022-02-02 14:00:06,538  INFO: Deleting files
+2022-02-02 14:00:06,539 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 14:00:06,539  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 14:00:06,539  INFO:  -- END  -- Wed Feb 02 14:00:06 AWST 2022
+2022-02-02 16:00:01,612 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-02-02 16:00:02,001 DEBUG: Task list loaded.
+2022-02-02 16:00:02,001 DEBUG: Total number of tasks: 12
+2022-02-02 16:00:02,001  INFO:  -- START  -- RT_MOZ_ALL.xml
+2022-02-02 16:00:02,002  INFO:  -- Wed Feb 02 16:00:02 AWST 2022
+2022-02-02 16:00:02,002  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 4:00:02 pm
+2022-02-02 16:00:02,002  INFO: Copying files
+2022-02-02 16:00:02,277 DEBUG: Copying moz_canning_river_1_20220202.csv
+2022-02-02 16:00:02,439  INFO: Transfered 1 files.
+2022-02-02 16:00:02,439  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 4:00:02 pm
+2022-02-02 16:00:02,655  INFO: Importing file moz_canning_river_1_20220202_0800.csv
+2022-02-02 16:00:03,568  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 4:00:03 pm
+2022-02-02 16:00:03,568  INFO: Deleting files
+2022-02-02 16:00:03,569 DEBUG: Deleting web/moz_canning_river_1_20220202.csv
+2022-02-02 16:00:03,569  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 16:00:03,569  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 4:00:03 pm
+2022-02-02 16:00:03,569  INFO: Copying files
+2022-02-02 16:00:04,040 DEBUG: Copying moz_serpentine_20220202.csv
+2022-02-02 16:00:04,065  INFO: Transfered 1 files.
+2022-02-02 16:00:04,066  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 4:00:04 pm
+2022-02-02 16:00:04,106  INFO: Importing file moz_serpentine_20220202_0800.csv
+2022-02-02 16:00:04,534  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 4:00:04 pm
+2022-02-02 16:00:04,534  INFO: Deleting files
+2022-02-02 16:00:04,534 DEBUG: Deleting web/moz_serpentine_20220202.csv
+2022-02-02 16:00:04,535  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 16:00:04,535  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 4:00:04 pm
+2022-02-02 16:00:04,535  INFO: Copying files
+2022-02-02 16:00:04,982 DEBUG: Copying moz_swan_river_garrat_road_20220202.csv
+2022-02-02 16:00:05,017  INFO: Transfered 1 files.
+2022-02-02 16:00:05,018  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 4:00:05 pm
+2022-02-02 16:00:05,057  INFO: Importing file moz_swan_river_garrat_road_20220202_0800.csv
+2022-02-02 16:00:05,726  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 4:00:05 pm
+2022-02-02 16:00:05,727  INFO: Deleting files
+2022-02-02 16:00:05,727 DEBUG: Deleting web/moz_swan_river_garrat_road_20220202.csv
+2022-02-02 16:00:05,727  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 16:00:05,727  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 4:00:05 pm
+2022-02-02 16:00:05,727  INFO: Copying files
+2022-02-02 16:00:05,766 DEBUG: Copying moz_swan_river_guildford_20220202.csv
+2022-02-02 16:00:05,766  INFO: Transfered 1 files.
+2022-02-02 16:00:05,766  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 4:00:05 pm
+2022-02-02 16:00:05,803  INFO: Importing file moz_swan_river_guildford_20220202_0800.csv
+2022-02-02 16:00:06,310  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 4:00:06 pm
+2022-02-02 16:00:06,310  INFO: Deleting files
+2022-02-02 16:00:06,311 DEBUG: Deleting web/moz_swan_river_guildford_20220202.csv
+2022-02-02 16:00:06,311  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2022-02-02 16:00:06,311  INFO:  -- END  -- Wed Feb 02 16:00:06 AWST 2022

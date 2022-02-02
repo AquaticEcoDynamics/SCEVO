@@ -1,0 +1,15 @@
+2021-11-18 19:26:26,371 ERROR: CAUGHT EXCEPTION: Error in format of config file: /ARMS/Workspaces/scevo/scevo/config/tasks/models/tuflow/forecast/launch.xml
+Expected root element: TaskListConfig
+Actual root element: TuflowRun
+cwr.arms.io.IOException: Error in format of config file: /ARMS/Workspaces/scevo/scevo/config/tasks/models/tuflow/forecast/launch.xml
+Expected root element: TaskListConfig
+Actual root element: TuflowRun
+	at cwr.config.XMLConfig.readFromInputStream_(XMLConfig.java:265)
+	at cwr.config.XMLConfig.readFromFile_(XMLConfig.java:196)
+	at cwr.config.XMLConfig.readXMLConfig(XMLConfig.java:133)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:142)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)

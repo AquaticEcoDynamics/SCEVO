@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TaskListConfig>
+	<!-- To Stop tasks put
+	<TaskConfig>
+		<taskName>stop</taskName>
+		<configFile></configFile>
+	</TaskConfig>
+	-->
+
+
+	<taskRootDir>config/tasks/data/dot/rt_tide/mandurah</taskRootDir>
+	<skipNTasks>0</skipNTasks>
+
+    <!-- Move DOT files downloaded from the web -->
+    <TaskConfig>
+        <taskName>Copy Files</taskName>
+        <configFile>web/copy_dot_file.xml</configFile>
+    </TaskConfig>
+	<!-- Import to DB -->     
+	<TaskConfig>
+		<taskName>Text File Import</taskName>
+		<configFile>web/import.xml</configFile>
+		<continueOnError>true</continueOnError>
+	</TaskConfig>
+
+    <!-- Delete files in the web download folder -->	
+    <TaskConfig>
+        <taskName>Delete Files</taskName>
+        <configFile>web/delete_dot_web_dl.xml</configFile>
+    </TaskConfig> 
+
+
+</TaskListConfig>
+

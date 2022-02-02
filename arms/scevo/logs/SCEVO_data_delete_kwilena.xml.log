@@ -1,0 +1,21 @@
+2021-11-16 13:08:54,408 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:08:54,411 DEBUG: Task list loaded.
+2021-11-16 13:08:54,411 DEBUG: Total number of tasks: 1
+2021-11-16 13:08:54,411  INFO:  -- START  -- data_delete_kwilena.xml
+2021-11-16 13:08:54,411  INFO:  -- Tue Nov 16 13:08:54 AWST 2021
+2021-11-16 13:08:54,411  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/utils/data_delete.xml 1:08:54 pm
+2021-11-16 13:08:56,033  INFO:  -- END  -- Tue Nov 16 13:08:56 AWST 2021
+2021-11-16 13:36:08,032 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:36:08,035 DEBUG: Task list loaded.
+2021-11-16 13:36:08,035 DEBUG: Total number of tasks: 1
+2021-11-16 13:36:08,036  INFO:  -- START  -- data_delete_kwilena.xml
+2021-11-16 13:36:08,036  INFO:  -- Tue Nov 16 13:36:08 AWST 2021
+2021-11-16 13:36:08,036  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/utils/data_delete.xml 1:36:08 pm
+2021-11-16 13:36:09,388  INFO:  -- END  -- Tue Nov 16 13:36:09 AWST 2021
+2021-12-18 00:16:36,434 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-18 00:16:36,455 DEBUG: Task list loaded.
+2021-12-18 00:16:36,455 DEBUG: Total number of tasks: 1
+2021-12-18 00:16:36,455  INFO:  -- START  -- data_delete_kwilena.xml
+2021-12-18 00:16:36,455  INFO:  -- Sat Dec 18 00:16:36 AWST 2021
+2021-12-18 00:16:36,455  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/utils/data_delete.xml 12:16:36 am
+2021-12-18 00:16:56,668  INFO:  -- END  -- Sat Dec 18 00:16:56 AWST 2021

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSQualityChecker>
+	<TimeSeries>
+	<sourceAddress>scevo.data.dbca.wq.6163950.raw</sourceAddress>
+	<destinationAddress>scevo.data.dbca.wq.6163950.raw</destinationAddress>
+	<sensorsFile>config/resources/data/dbca/wq/6163950/sensors.xml</sensorsFile>
+	<startDate>DBCA_WQ_6163950_DATAPROCESSING-START@timeline</startDate>
+	<endDate>DBCA_WQ_6163950_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+		<QualityChecker>
+		<type>min</type>
+	</QualityChecker>
+	<QualityChecker>
+		<type>max</type>
+	</QualityChecker>
+</PSTSQualityChecker>

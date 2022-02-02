@@ -1,0 +1,11 @@
+2021-07-24 13:09:04,968 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 13:09:04,972 ERROR: CAUGHT EXCEPTION: Unable to locate and initialise class: cwr.arms.tasks.FTP DWER Files From Server
+cwr.arms.tasks.TaskException: Unable to locate and initialise class: cwr.arms.tasks.FTP DWER Files From Server
+	at cwr.arms.tasks.TaskList.getTaskFactory(TaskList.java:303)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:273)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)

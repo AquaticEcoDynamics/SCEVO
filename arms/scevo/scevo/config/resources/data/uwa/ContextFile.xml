@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ARMSContextFile>
+	<ARMSContextConfig>
+		<address>data.uwa.aed.kwilena</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/uwa/aed/kwilena/station.xml</fileName>
+	</ARMSContextConfig>
+	<ARMSContextConfig>
+		<address>data.uwa.aed.matilda</address>
+		<resourceType>Station</resourceType>
+		<fileName>config/resources/data/uwa/aed/matilda/station.xml</fileName>
+	</ARMSContextConfig>
+</ARMSContextFile>

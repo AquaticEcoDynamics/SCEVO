@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InitialiseDB>
+	<comment>SCEVO Database Initialisation</comment>
+	<name>scevo</name>
+
+	<driver>org.postgresql.Driver</driver>
+	<urlRoot>jdbc:postgresql://localhost/</urlRoot>
+	<url>jdbc:postgresql://localhost/scevo</url>
+	<rootLookupKey>prompt</rootLookupKey>
+	<writeLookupKey>SCEVO_DB_WRITE</writeLookupKey>
+	<readLookupKey>SCEVO_DB_READ</readLookupKey>
+	<initialiseDB>true</initialiseDB>
+	<removeDB>false</removeDB>
+</InitialiseDB>

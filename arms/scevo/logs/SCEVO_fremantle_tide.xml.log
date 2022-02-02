@@ -1,0 +1,173 @@
+2021-01-20 16:00:34,153 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-01-20 16:00:34,165 DEBUG: Task list loaded.
+2021-01-20 16:00:34,165 DEBUG: Total number of tasks: 6
+2021-01-20 16:00:34,165  INFO:  -- START  -- fremantle_tide.xml
+2021-01-20 16:00:34,165  INFO:  -- Wed Jan 20 16:00:34 AWST 2021
+2021-01-20 16:00:34,166  INFO:  -- TASK 1/6 -- /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml 4:00:34 PM
+2021-01-20 16:00:34,167 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dot/tide/fremantle
+cwr.arms.io.IOException: File specified does not exist: data/dot/tide/fremantle
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 16:00:34,167 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-20 16:00:34,168  INFO:  -- END  -- Wed Jan 20 16:00:34 AWST 2021
+2021-01-20 16:00:34,168  INFO: Number of errors: 1
+2021-07-24 13:07:55,190 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 13:07:55,197 DEBUG: Task list loaded.
+2021-07-24 13:07:55,197 DEBUG: Total number of tasks: 6
+2021-07-24 13:07:55,197  INFO:  -- START  -- fremantle_tide.xml
+2021-07-24 13:07:55,198  INFO:  -- Sat Jul 24 13:07:55 AWST 2021
+2021-07-24 13:07:55,198  INFO:  -- TASK 1/6 -- /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml 1:07:55 pm
+2021-07-24 13:07:55,199 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dot/tide/fremantle
+cwr.arms.io.IOException: File specified does not exist: data/dot/tide/fremantle
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 13:07:55,199 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-24 13:07:55,199  INFO:  -- END  -- Sat Jul 24 13:07:55 AWST 2021
+2021-07-24 13:07:55,199  INFO: Number of errors: 1
+2021-07-24 17:15:16,072 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-07-24 17:15:16,084 DEBUG: Task list loaded.
+2021-07-24 17:15:16,084 DEBUG: Total number of tasks: 6
+2021-07-24 17:15:16,084  INFO:  -- START  -- fremantle_tide.xml
+2021-07-24 17:15:16,084  INFO:  -- Sat Jul 24 17:15:16 AWST 2021
+2021-07-24 17:15:16,084  INFO:  -- TASK 1/6 -- /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml 5:15:16 PM
+2021-07-24 17:15:16,086 ERROR: CAUGHT EXCEPTION: File specified does not exist: data/dot/tide/fremantle
+cwr.arms.io.IOException: File specified does not exist: data/dot/tide/fremantle
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-24 17:15:16,086 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: data/dot/tide/fremantle
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-07-24 17:15:16,087  INFO:  -- END  -- Sat Jul 24 17:15:16 AWST 2021
+2021-07-24 17:15:16,087  INFO: Number of errors: 1
+2021-10-15 17:15:37,802 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:15:37,840 DEBUG: Task list loaded.
+2021-10-15 17:15:37,840 DEBUG: Total number of tasks: 1
+2021-10-15 17:15:37,840  INFO:  -- START  -- fremantle_tide.xml
+2021-10-15 17:15:37,840  INFO:  -- Fri Oct 15 17:15:37 AWST 2021
+2021-10-15 17:15:37,841  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml 5:15:37 PM
+2021-10-15 17:15:37,879 ERROR: CAUGHT EXCEPTION: 
+ARMS Address supplied could not be found. Failed to find tide in scevo.data.dot.tide.fremantle.raw.tide
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+ARMS Address supplied could not be found. Failed to find tide in scevo.data.dot.tide.fremantle.raw.tide
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:223)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-15 17:15:37,880  INFO:  -- END  -- Fri Oct 15 17:15:37 AWST 2021
+2021-10-15 17:15:37,880  INFO: Number of errors: 1
+2021-10-15 17:16:35,315 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 17:16:35,327 DEBUG: Task list loaded.
+2021-10-15 17:16:35,327 DEBUG: Total number of tasks: 1
+2021-10-15 17:16:35,327  INFO:  -- START  -- fremantle_tide.xml
+2021-10-15 17:16:35,327  INFO:  -- Fri Oct 15 17:16:35 AWST 2021
+2021-10-15 17:16:35,327  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dot/tide/stations/fremantle/raw/import.xml 5:16:35 PM
+2021-10-15 17:16:35,332  INFO: Importing file FREO_Tide_5min.csv
+2021-10-16 08:16:18,898  INFO:  -- END  -- Sat Oct 16 08:16:18 AWST 2021

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSFiller>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.bickley.downsampled.15min</sourceAddress>
+		<sensorsFile>config/resources/data/bom/idy/bickley/sensors.xml</sensorsFile>
+		<startDate>IDY_BICKLEY_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_BICKLEY_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>100</maxSearch>
+	</Filler>
+	<Filler>
+		<type>default</type>
+		<maxSearch>0</maxSearch>
+	</Filler>
+</PTSFiller>

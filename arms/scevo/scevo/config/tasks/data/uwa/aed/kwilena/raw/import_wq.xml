@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TextFileImport>
+	<comment>Import Kwilena WQ data</comment>
+	<localFolder>data/uwa/aed/kwilena/wq</localFolder>
+	<fileName>*.csv</fileName>
+	<setImportedFlag>false</setImportedFlag>
+	<importLastFile>true</importLastFile>
+	<startDate>END_DATE@scevo.data.uwa.aed.kwilena.raw.wq.water_temperature</startDate>
+	<timeZone>+8.0</timeZone>
+	<destinationAddress>scevo.data.uwa.aed.kwilena.raw.wq</destinationAddress>
+	<dateFormat>dd/MM/yyyy HH:mm</dateFormat> <!-- 22/10/2021 04:00,-->
+	<nHeaderLines>1</nHeaderLines>
+	<nTailLines>0</nTailLines>
+	<continueOnError>true</continueOnError>
+	<separator>,</separator>
+	<dateColumn>2</dateColumn>
+	<!-- <datum>AHD</datum> -->
+	<sensorsFile>config/resources/data/uwa/aed/kwilena/sensors_wq.xml</sensorsFile>
+</TextFileImport>

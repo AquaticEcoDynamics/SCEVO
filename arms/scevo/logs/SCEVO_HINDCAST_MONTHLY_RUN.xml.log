@@ -1,0 +1,80 @@
+2021-08-07 13:48:06,627 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-08-07 13:48:06,752 DEBUG: Task list loaded.
+2021-08-07 13:48:06,752 DEBUG: Total number of tasks: 15
+2021-08-07 13:48:06,752  INFO:  -- START  -- HINDCAST_MONTHLY_RUN.xml
+2021-08-07 13:48:06,752  INFO:  -- Sat Aug 07 13:48:06 AWST 2021
+2021-08-07 13:48:06,753  INFO:  -- TASK 1/15 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/start_realtime.xml 1:48:06 PM
+2021-08-07 13:48:06,756  INFO:  -- TASK 2/15 -- /scevo/config/tasks/models/wrf/hindcast/month/timeline/end_realtime.xml 1:48:06 PM
+2021-08-07 13:48:06,759  INFO:  -- TASK 3/15 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d1.xml 1:48:06 PM
+2021-08-07 13:48:06,760  INFO: Copying files
+2021-08-07 13:48:06,760  INFO: Transfered 0 files.
+2021-08-07 13:48:06,761  INFO:  -- TASK 4/15 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/copy_history_d2.xml 1:48:06 PM
+2021-08-07 13:48:06,761  INFO: Copying files
+2021-08-07 13:48:06,761  INFO: Transfered 0 files.
+2021-08-07 13:48:06,761  INFO:  -- TASK 5/15 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d1.xml 1:48:06 PM
+2021-08-07 13:48:06,761  INFO: Deleting files
+2021-08-07 13:48:06,762  INFO: Folder: Domain1 - Deleted 0 files. Failed to delete 0.
+2021-08-07 13:48:06,762  INFO:  -- TASK 6/15 -- /scevo/config/tasks/models/wrf/hindcast/month/archive/delete_history_d2.xml 1:48:06 PM
+2021-08-07 13:48:06,762  INFO: Deleting files
+2021-08-07 13:48:06,762  INFO: Folder: Domain2 - Deleted 0 files. Failed to delete 0.
+2021-08-07 13:48:06,762  INFO:  -- TASK 7/15 -- /scevo/config/tasks/models/wrf/hindcast/month/launch.xml 1:48:06 PM
+2021-08-07 13:48:06,763 DEBUG: WRF: Start Date (UTC): 2018-01-31 00:00:00, End Date (UTC): 2018-02-10 00:00:00
+2021-08-07 13:48:08,231  INFO: WRF: Locating GFS data sources
+2021-08-07 13:48:23,732  INFO: WRF: Downloading grib files.
+2021-08-07 13:48:23,732  INFO: WRF: Downloaded grib files in: 0.0 days, 0.0 hours, 0.0 minutes.
+2021-08-07 13:48:23,733  INFO: WRF: Staging grib files.
+2021-08-07 13:48:23,733  INFO: WRF: Start Run 'link_grib.csh'
+2021-08-07 13:48:23,765 ERROR: foreach: No match.
+2021-08-07 13:48:24,765  INFO: WRF: End Run 'link_grib.csh'. Exit value: 1
+2021-08-07 13:48:24,766 ERROR: CAUGHT EXCEPTION: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+cwr.arms.tasks.TaskException: 
+Error encountered running WRF model:
+ 
+Error encountered running WRF model:
+ WRF: Run. Process 'link_grib.csh' Exit Value not 0: 1
+foreach: No match.
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/models/wrf/hindcast/month/launch.xml
+Method: runExecutable
+
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.runExecutable(WRFRunTask.java:1266)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.linkWebFiles(WRFRunTask.java:2128)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.doProcessWPS(WRFRunTask.java:584)
+	at cwr.arms.tasks.models.wrf.run.WRFRunTask.executeTask(WRFRunTask.java:123)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2021-08-07 13:48:24,769  INFO:  -- END  -- Sat Aug 07 13:48:24 AWST 2021
+2021-08-07 13:48:24,769  INFO: Number of errors: 1

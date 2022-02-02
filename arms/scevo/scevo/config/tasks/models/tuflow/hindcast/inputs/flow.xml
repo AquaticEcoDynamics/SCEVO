@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TUFLOWBCFileGenerator>
+	<TimeSeries>
+		<sourceAddress></sourceAddress>
+		<destinationAddress>/models/tuflow/scenarioFull2016OxyTest/BCs/Flow/Ave_Upper_Swan_Inflow_2016to2026.csv</destinationAddress>
+		<startDate>TUFLOW_HINDCAST_MONTHLY-START@timeline</startDate>
+		<endDate>TUFLOW_HINDCAST_MONTHLY-END@timeline</endDate>
+		<processingTimestep>3600</processingTimestep>
+	</TimeSeries>
+
+	<timeZone>8</timeZone>
+
+    <overWrite>true</overWrite>
+    
+	<fillToEnd>false</fillToEnd>
+	<repeatNDays>1</repeatNDays>
+
+	<TUFLOWBcCsvData>
+		<sourceAddress>scevo.data.dwer.walyunga.raw.flow</sourceAddress>
+		<header>Flow</header>
+	</TUFLOWBcCsvData>
+</TUFLOWBCFileGenerator>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSDownsampler>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.geraldton_airport.raw</sourceAddress>
+		<destinationAddress>scevo.data.bom.idy.geraldton_airport.downsampled.12hr</destinationAddress>
+		<sensorsFile>config/resources/data/bom/idy/geraldton_airport/sensors.xml</sensorsFile>
+		<startDate>IDY_GERALDTONAIRPORT_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_GERALDTONAIRPORT_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>43200</processingTimestep>
+	</TimeSeries>
+</PTSDownsampler>

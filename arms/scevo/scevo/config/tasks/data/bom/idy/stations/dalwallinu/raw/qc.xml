@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PSTSQualityChecker>
+	<TimeSeries>
+	<sourceAddress>scevo.data.bom.idy.dalwallinu.raw</sourceAddress>
+	<destinationAddress>scevo.data.bom.idy.dalwallinu.raw</destinationAddress>
+	<sensorsFile>config/resources/data/bom/idy/dalwallinu/sensors.xml</sensorsFile>
+	<startDate>IDY_DALWALLINU_DATAPROCESSING-START@timeline</startDate>
+	<endDate>IDY_DALWALLINU_DATAPROCESSING-END@timeline</endDate>
+	<processingTimestep>0</processingTimestep>
+	</TimeSeries>
+		<QualityChecker>
+		<type>min</type>
+	</QualityChecker>
+	<QualityChecker>
+		<type>max</type>
+	</QualityChecker>
+</PSTSQualityChecker>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImportDB>
+	<rootAddress>scevo.data.uwa</rootAddress>
+	<readLookupKey>SCEVO_DB_READ</readLookupKey>
+	<writeLookupKey>SCEVO_DB_WRITE</writeLookupKey>
+</ImportDB>

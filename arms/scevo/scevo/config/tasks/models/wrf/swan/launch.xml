@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WRFRun>
+  <comment>SWAN WRF model</comment>
+  <topLevel>models/wrf/swan</topLevel>
+  
+  <startDate>DPAW_WRF_SWAN-START@timeline</startDate>
+  <endDate>DPAW_WRF_SWAN-END@timeline</endDate>
+  <runTimeMinMinutes>360</runTimeMinMinutes>
+  <runTimeMaxMinutes>1440</runTimeMaxMinutes>
+  
+  <RunConfiguration>
+    <interval>21600</interval> <!-- Data source (WPS Input) frequency in seconds - 6 Hours -->
+
+    <timestep>50</timestep>
+    <restart>true</restart>
+    
+    <historyInterval>30</historyInterval> <!-- Output frequency of frames in minutes -->
+    
+    <!-- The follow 2 will be set automatically from the runTimeMaxMinutes -->
+    <framesPerOutfile>-1</framesPerOutfile> <!-- Max frames written to output NetCDF file before rotating to new file. Great for long running simulations -->
+    <restartInterval>-1</restartInterval> <!-- Output frequency of restart files in minutes -->
+    
+    <DomainConfiguration>
+      <locNorth>-31.7</locNorth>
+      <locSouth>-33.0</locSouth>
+      <locEast>116.1</locEast>
+      <locWest>115.5</locWest>
+      
+      <maxDom>2</maxDom>
+      
+      <dx>2000</dx>
+      <dy>2000</dy>
+      <gridRatio>5</gridRatio>
+      <timestepRatio>5</timestepRatio>
+      
+      <feedback>true</feedback>
+      <feedbackSmoothing>1</feedbackSmoothing>
+    </DomainConfiguration>
+  </RunConfiguration>
+  
+  <ArchiveLocations>
+    <!-- Filters use a RegEx expression -->
+    <RestartDomain>
+      <filter>wrfrst_d.*</filter>
+      <destinationDirectory>models/wrf/swan/Archive/Restart</destinationDirectory>
+    </RestartDomain>
+    <ArchiveDomain>
+      <filter>wrfout_d01.*</filter>
+      <destinationDirectory>models/wrf/swan/Archive/Domain1</destinationDirectory>
+    </ArchiveDomain>
+    <ArchiveDomain>
+      <filter>wrfout_d02.*</filter>
+      <destinationDirectory>models/wrf/swan/Archive/Domain2</destinationDirectory>
+    </ArchiveDomain>
+    <ArchiveDomain>
+      <filter>wrfout_d03.*</filter>
+      <destinationDirectory>models/wrf/swan/Archive/Domain3</destinationDirectory>
+    </ArchiveDomain>
+  </ArchiveLocations>
+  
+  <!-- 
+    Provide the data source to minimise download time (otherwise defaults will 
+    be used that capture everything).
+  -->
+  <GFSSources>
+    <dataSources>
+        <name>UCAR-manual</name>
+        <type>manual</type>
+        <protocol>unknown</protocol>
+        <url></url>
+        <dateFormat>'fnl'_yyyyMMdd_HH_mm'.grib2'</dateFormat>
+    </dataSources>
+    <dataSources>
+        <name>NCDC-gfsanl</name>
+        <type>reanalysed</type>
+        <protocol>gfs-ncdc</protocol>
+        <url>https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/</url>
+    </dataSources>
+  </GFSSources>
+</WRFRun>

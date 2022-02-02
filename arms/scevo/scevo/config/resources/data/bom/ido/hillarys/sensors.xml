@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SensorFile>
+
+	<comment>Hillarys</comment>
+
+	<Sensor1D>
+		<name>sea_level</name>
+		<longname>Sea Level</longname>
+		<SensorInfo>
+			<title>Water Level (m)</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>2</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>-0.763</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>5.0</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>.7</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>water_temp</name>
+		<longname>Water Temperature</longname>
+		<SensorInfo>
+			<title>Water Temperature</title>
+			<units>º C</units>
+			<FileInfo>
+				<fileColumn>3</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>air_temp</name>
+		<longname>Air Temperature</longname>
+		<SensorInfo>
+			<title>Air Temperature</title>
+			<units>º C</units>
+			<FileInfo>
+				<fileColumn>4</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-10</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>10</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+     <Sensor1D>
+		<name>atm_press</name>
+		<longname>Atmospheric Pressure</longname>
+		<SensorInfo>
+			<title>Atmospheric Pressure</title>
+			<units>hPa</units>
+			<FileInfo>
+				<fileColumn>5</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>990</minValue>
+				<maxValue>1100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>residuals</name>
+		<longname>Residuals</longname>
+		<SensorInfo>
+			<title>Residuals</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>6</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-2</minValue>
+				<maxValue>2</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+	
+	<Sensor1D>
+		<name>adj_residuals</name>
+		<longname>Adjusted Residuals</longname>
+		<SensorInfo>
+			<title>Adjusted Residuals</title>
+			<units>m</units>
+			<FileInfo>
+				<fileColumn>7</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>LWM</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>-2</minValue>
+				<maxValue>2</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>wind_dir</name>
+		<longname>Wind Direction</longname>
+		<SensorInfo>
+			<title>Wind Direction</title>
+			<units>º True</units>
+			<FileInfo>
+				<fileColumn>8</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>360</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>wind_gust</name>
+		<longname>Wind Gust</longname>
+		<SensorInfo>
+			<title>Wind Gust</title>
+			<units>m/s</units>
+			<FileInfo>
+				<fileColumn>9</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>10.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>100</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>0</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	<Sensor1D>
+		<name>wind_speed</name>
+		<longname>Wind Speed</longname>
+		<SensorInfo>
+			<title>Wind Speed</title>
+			<units>m/s</units>
+			<FileInfo>
+				<fileColumn>10</fileColumn>
+			</FileInfo>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>10.0</zOffset>
+			</Location>
+			<Limits>
+				<minValue>0</minValue>
+				<maxValue>50</maxValue>
+			</Limits>
+			<Defaults>
+				<defaultValue>2</defaultValue>
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor1D>
+
+	
+	<Sensor2D>
+		<name>wind_vector</name>
+		<longname>Wind Vector</longname>
+		<SensorInfo>
+			<title>Wind Vector</title>
+			<units>m/s</units>
+			<Location>
+				<datum>AHD</datum>
+				<zOffset>0.0</zOffset>
+			</Location>
+			<Limits>
+				<minXValue>0</minXValue>
+				<maxXValue>100</maxXValue>
+				<minYValue>0</minYValue>
+				<maxYValue>100</maxYValue>
+			</Limits>
+			<Defaults>
+				<defaultXValue>0</defaultXValue>
+				<defaultYValue>0</defaultYValue>		
+			</Defaults>
+		</SensorInfo>
+		<PlotProperties>
+			
+		</PlotProperties>
+	</Sensor2D>
+	
+</SensorFile>

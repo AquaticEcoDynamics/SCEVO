@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PTSFiller>
+	<TimeSeries>
+		<sourceAddress>scevo.data.bom.idy.garden_island.downsampled.15min</sourceAddress>
+		<sensorsFile>config/resources/data/bom/idy/garden_island/sensors.xml</sensorsFile>
+		<startDate>IDY_GARDENISLAND_DATAPROCESSING-START@timeline</startDate>
+		<endDate>IDY_GARDENISLAND_DATAPROCESSING-END@timeline</endDate>
+		<processingTimestep>900</processingTimestep>
+	</TimeSeries>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>8</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearest</type>
+		<maxSearch>4</maxSearch>
+	</Filler>
+	<Filler>
+		<type>nearestDay</type>
+		<maxSearch>400</maxSearch>
+	</Filler>
+	<Filler>
+		<type>linear</type>
+		<maxSearch>800</maxSearch>
+	</Filler>
+	<Filler>
+		<type>default</type>
+		<maxSearch>0</maxSearch>
+	</Filler>
+</PTSFiller>
