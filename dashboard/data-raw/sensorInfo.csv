@@ -1,0 +1,9 @@
+﻿group,sensorCode,label,icon,colour
+hydro,sensor_repository_00748,Avon,circle,#66c2a5
+hydro,sensor_repository_00756,Bennett Brook,circle,#fc8d62
+hydro,sensor_repository_00768,Upper Swan,circle,#8da0cb
+hydro,sensor_repository_00784,Jane Brook,circle,#e78ac3
+hydro,sensor_repository_00796,Susannah Brook,circle,#a6d854
+hydro,sensor_repository_00800,Ellen Brook,circle,#ffd92f
+hydro,sensor_repository_00804,Canning River,circle,#e5c494
+hydro,sensor_repository_00812,Helena River,circle,#b3b3b3

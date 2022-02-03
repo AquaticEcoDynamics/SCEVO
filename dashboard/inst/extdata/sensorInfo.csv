@@ -1,0 +1,34 @@
+﻿group,subGroup,sensorCode,label,icon,colour,lat,lon,agency
+hydro,Flow,sensor_repository_00748,Avon,circle,#66c2a5,-32.065556,115.748056,DWER
+hydro,Flow,sensor_repository_00756,Bennett Brook,circle,#fc8d62,-32.87770254,115.9595256,DWER
+hydro,Flow,sensor_repository_00768,Upper Swan,circle,#8da0cb,-31.86270096,116.0139846,DWER
+hydro,Flow,sensor_repository_00784,Jane Brook,circle,#e78ac3,-31.88396119,116.094791,DWER
+hydro,Flow,sensor_repository_00796,Susannah Brook,circle,#a6d854,-31.81771154,116.0140509,DWER
+hydro,Flow,sensor_repository_00800,Ellen Brook,circle,#ffd92f,-31.75107132,116.0248301,DWER
+hydro,Flow,sensor_repository_00804,Canning River,circle,#e5c494,-32.09230454,116.0167718,DWER
+hydro,Flow,sensor_repository_00812,Helena River,circle,#b3b3b3,-31.90008109,116.0076115,DWER
+hydro,Tide,sensor_repository_00933,Barrack St Jetty,circle,#66c2a5,-31.959694,115.85725,DOT
+hydro,Tide,sensor_repository_01080,Fremantle,circle,#fc8d62,-32.065556,115.748056,DOT
+wq,Conductivity,sensor_repository_01056,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,Conductivity,sensor_repository_01070,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,Conductivity,,SCERM v6,circle,#636363,,,
+wq,Salinity,sensor_repository_01055,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,Salinity,sensor_repository_01069,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,Salinity,,SCERM v6,circle,#636363,,,
+wq,pH,sensor_repository_01057,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,pH,sensor_repository_01071,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,pH,,SCERM v6,circle,#636363,,,
+wq,Temp,sensor_repository_01054,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,Temp,sensor_repository_01068,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,Temp,,SCERM v6,circle,#636363,,,
+wq,DO,sensor_repository_01052,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,DO,sensor_repository_01066,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,DO,,SCERM v6,circle,#636363,,,
+wq,DOSaturation,sensor_repository_01053,Guildford Downstream (Surface),circle,#66c2a5,-31.901,115.9618,DBCA
+wq,DOSaturation,sensor_repository_01067,Guildford Downstream (Bottom),circle,#fc8d62,-31.901,115.9618,DBCA
+wq,DOSaturation,,SCERM v6,circle,#636363,,,
+weather,Temp,sensor_repository_00234,Garden Is,circle,#66c2a5,-32.227073,115.682991,BOM
+weather,Temp,sensor_repository_00627,Rottnest,circle,#fc8d62,-32.0064404,115.5122858,BOM
+weather,Temp,sensor_repository_00676,Swanbourne,circle,#e78ac3,-31.9857066,115.7607396,BOM
+weather,Temp,sensor_repository_00599,Perth Metro,circle,#e5c494,-31.9497688,115.8491908,BOM
+weather,Temp,sensor_repository_00339,Jandakot,circle,#b3b3b3,-32.094593,115.87849,BOM
