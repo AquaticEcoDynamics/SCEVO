@@ -7,44 +7,19 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+
 <!-- badges: end -->
 
-## To do:
+## Deplying with Docker:
 
-### Database (Amina/Matt)
+1\) `cd` to the docker file
 
--   ?
+2\) `docker build -t scevo-dashboard .`
 
-### R shiny back-end (Amina/Giles)
+3\) `docker save scevo-dashboard > scevo-dashboard.tar`
 
--   Interface with database
--   Decide on appropirate data sub-sampling to pre-process for plotting
+4\) Deploy to ARMS via `ssh`
 
-### R shiny front-end (Giles)
+5\) `docker load < scevo-dashboard.tar`
 
--   Metabolism estimation tab
-    -   Timeseries plots
-        -   GPP + Ecosystem Respiration (+CI) multiline plot
-        -   DO predicted + DO observed multiline plot
-            -   Optional: add temperature and solar radiation lines to
-                plot
-        -   Cloud plot of GPP and ER
-            -   Optional: add K600 to plot
--   Visulisation tab
-    -   WQ variable timeseries plots
-        -   DO
-        -   Salinity
-        -   DO_sat
-        -   Temperature
-        -   Turbidity
-        -   Specific conductivity
-        -   Chlorophyll A
-        -   fDOM
-    -   Weather timeseries plots
-        -   Rainfall
-        -   Solar radiation
-        -   Air temperature
-        -   Relative humidity
-        -   Wind speed (wind rose and/or timeseries)
-    -   Tide timeseries plots
-        -   Water height
+6\) `docker run -d -p 3838:3838 scevo-dashboard`

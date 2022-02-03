@@ -18,7 +18,13 @@
 usethis::use_package( "thinkr" )
 usethis::use_package( "magrittr" )
 usethis::use_package( "RPostgreSQL" )
+usethis::use_package( "DBI" )
 usethis::use_package( "leaflet" )
+usethis::use_package( "remotes" )
+usethis::use_package( "shinyjs" )
+usethis::use_package( "shinydashboard" )
+usethis::use_package( "dplyr" )
+usethis::use_package( "bslib" )
 usethis::use_pipe() 
 
 
