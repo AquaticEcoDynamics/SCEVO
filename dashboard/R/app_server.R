@@ -10,7 +10,7 @@ app_server <- function( input, output, session ) {
   #sensorInfo <- base::load("inst/extdata/sensorInfo.rda")
   #### WEATHER ####
   
- 
+  sensorInfo <- scevo::sensorInfo
   
   #### HYDRO ####
   
