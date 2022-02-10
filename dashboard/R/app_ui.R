@@ -2,7 +2,7 @@
 #' 
 #' @param request Internal parameter for `{shiny}`. 
 #'     DO NOT REMOVE.
-#' @import shiny leaflet
+#' @import shiny leaflet scevo
 #' @noRd
 app_ui <- function(request) {
   tagList(

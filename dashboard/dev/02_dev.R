@@ -25,6 +25,7 @@ usethis::use_package( "shinyjs" )
 usethis::use_package( "shinydashboard" )
 usethis::use_package( "dplyr" )
 usethis::use_package( "bslib" )
+usethis::use_package( "scevo" )
 usethis::use_pipe() 
 
 
