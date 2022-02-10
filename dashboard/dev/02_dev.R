@@ -18,6 +18,7 @@
 usethis::use_package( "magrittr" )
 usethis::use_package( "RPostgreSQL" )
 usethis::use_package( "DBI" )
+usethis::use_package( "dbplyr" )
 usethis::use_package( "leaflet" )
 usethis::use_package( "remotes" )
 usethis::use_package( "shinyjs" )
