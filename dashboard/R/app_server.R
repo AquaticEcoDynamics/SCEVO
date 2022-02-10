@@ -6,7 +6,7 @@
 #' @noRd
 app_server <- function( input, output, session ) {
   # Your application server logic 
-  sensorInfo <- read.csv("inst/extdata/sensorInfo.csv")
+  #sensorInfo <- read.csv("inst/extdata/sensorInfo.csv")
   #### WEATHER ####
   
  
