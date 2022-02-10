@@ -7,6 +7,7 @@
 #' @noRd
 
 databaseConnect <- function(sensorCodes){
+  library("RPostgreSQL") 
   driver <- DBI::dbDriver("PostgreSQL")
   connection <- DBI::dbConnect(
     drv = driver,
