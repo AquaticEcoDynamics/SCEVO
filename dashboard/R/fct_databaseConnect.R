@@ -3,7 +3,7 @@
 #' @description Establishes connection to the scevo PostgreSQL database and fetches data for one or more sensor codes
 #'
 #' @return The return value, if any, from executing the function.
-#'
+#' @import RPostgreSQL DBI
 #' @noRd
 
 databaseConnect <- function(sensorCodes){
