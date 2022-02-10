@@ -3,7 +3,6 @@
 export("%>%")
 export(run_app)
 import(leaflet)
-import(scevo)
 import(shiny)
 importFrom(golem,activate_js)
 importFrom(golem,add_resource_path)
