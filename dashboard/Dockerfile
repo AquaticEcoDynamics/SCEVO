@@ -20,6 +20,7 @@ RUN mkdir /build_zone
 ADD . /build_zone
 WORKDIR /build_zone
 RUN R -e 'renv::install("remotes");remotes::install_local(upgrade="never")'
+RUN R -e 'library(scevo)'
 #RUN R -e 'remotes::install_local(upgrade="never")'
 RUN rm -rf /build_zone
 EXPOSE 3838
