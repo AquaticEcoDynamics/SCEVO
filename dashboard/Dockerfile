@@ -20,9 +20,7 @@ RUN mkdir /build_zone
 ADD . /build_zone
 WORKDIR /build_zone
 #RUN R -e 'renv::install("remotes");remotes::install_local(upgrade="never")'
-
 RUN R -e 'remotes::install_local(upgrade="never")'
-RUN R -e 'library(scevo)'
 RUN rm -rf /build_zone
 EXPOSE 3838
 CMD R -e "options('shiny.port'=3838,shiny.host='0.0.0.0');scevo::run_app()"
