@@ -13,6 +13,7 @@ app_ui <- function(request) {
     navbarPage(
       theme = bslib::bs_theme(bootswatch = "litera"),
       title = "SCEVO",
+      id = 'navbar',
       tabPanel(
         "Hydrology",
         icon = icon("water"),
@@ -74,20 +75,7 @@ app_ui <- function(request) {
             8,
             tabsetPanel(
               id = "weatherTabset",
-              type = "tabs",
-              tabPanel(
-                title = "Temperature",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "weatherTemp",
-                  sensorInfo = sensorInfo, 
-                  group = "weather", 
-                  subGroup = "Temp"
-                ),
-                dateRangeUI(namespace = "weatherTemp"),
-                plotOutput("weatherTempPlot", height = "400px"),
-                dateSliderUI(namespace = "weatherTemp")
-              )
+              type = "tabs"
             )
           )
         )
@@ -183,6 +171,23 @@ app_ui <- function(request) {
                 plotOutput("wqDOSatPlot", height = "400px"),
                 dateSliderUI(namespace = "wqDOSat")
               )
+            )
+          )
+        )
+      ),
+      tabPanel(
+        "Mooring",
+        icon = icon("ship"),
+        fluidRow(
+          column(
+            4,
+            leaflet::leafletOutput("moorMap", height = '700px')
+          ),
+          column(
+            8,
+            tabsetPanel(
+              id = "moorTabset",
+              type = "tabs"
             )
           )
         )

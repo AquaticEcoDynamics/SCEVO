@@ -129,109 +129,148 @@ app_server <- function( input, output, session ) {
   
   #### WEATHER #### 
   
-  # Filter sensorInfo data to only weather quality sensors
-  weatherSensorInfo <- sensorInfo[sensorInfo[["group"]]=="weather",]
-  weathersubGroupData <- weatherSensorInfo[weatherSensorInfo[["subGroup"]]=="Temp",]
+  # Fetch weather station data from config to map
+  weatherMapStations <- data.frame(
+    name = configList(get_golem_config("name", config = "mod_weather_temp")),
+    colour = configList(get_golem_config("colour", config = "mod_weather_temp")),
+    source = configList(get_golem_config("source", config = "mod_weather_temp")),
+    lat = configList(get_golem_config("lat", config = "mod_weather_temp")),
+    lon = configList(get_golem_config("lon", config = "mod_weather_temp"))
+  )
   # Generates blank weather tab web-map
   output$weatherMap <- leaflet::renderLeaflet({
     leaflet::leaflet() %>%
       leaflet::addTiles(urlTemplate = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}') %>%
-      leaflet::setView(115.8613, -31.9523, 8) %>% 
-      leaflet::addCircleMarkers(
-        lng = weathersubGroupData[["lon"]], 
-        lat = weathersubGroupData[["lat"]], 
-        color = "white", 
-        radius = 7, 
-        weight = 2, 
-        fillColor = weathersubGroupData[["colour"]], 
-        opacity = 1, 
-        fillOpacity = 1,
-        popup = paste0("<b>Station Name: </b>",weathersubGroupData[["label"]], "<br><b>Agency: </b>", weathersubGroupData[["agency"]])
-      )
-    
+      leaflet::setView(115.8613, -31.9523, 8) 
+  })
+  #outputOptions(output, "weatherMap", suspendWhenHidden = FALSE)
+  
+  observe({
+    input$navbar
+    input$weatherTabset
+    if(input$navbar=="Weather" && input$weatherTabset=="Temperature"){
+      leaflet::leafletProxy(
+        mapId = 'weatherMap'
+      ) %>% 
+        leaflet::clearMarkers() %>% 
+        leaflet::addCircleMarkers(
+          lng = as.numeric(weatherMapStations[["lon"]]), 
+          lat = as.numeric(weatherMapStations[["lat"]]), 
+          color = "white", 
+          radius = 7, 
+          weight = 2, 
+          fillColor = weatherMapStations[["colour"]], 
+          opacity = 1, 
+          fillOpacity = 1,
+          popup = paste0("<b>Station Name: </b>",weatherMapStations[["name"]], "<br><b>Agency: </b>", weatherMapStations[["source"]])
+        )
+    }
   })
   
-  # sensorMapMarkers(
-  #   mapID = "weatherMap", 
-  #   data = weatherSensorInfo, 
-  #   subGroup = "Temp"
-  # )
-  
-  #On panel change within the Hydro tabset, update map markers to reflect graphable sensors
-  # observeEvent(input$weatherTabset,{
-  #   print(input$weatherTabset)
-  #   # switch(
-  #   #   input$weatherTabset,
-  #   #   "Temperature" = sensorMapMarkers(
-  #   #     mapID = "weatherMap",
-  #   #     data = weatherSensorInfo,
-  #   #     subGroup = "Temp"
-  #   #   ),
-  #   #   NULL
-  #   # )
-  #   
-  # 
-  #     sensorMapMarkers(
-  #       mapID = "weatherMap",
-  #       data = weatherSensorInfo,
-  #       subGroup = "Temp"
-  #     )
-  #   
-  # })
-  
-  # weathersubGroupData <- weatherSensorInfo[weatherSensorInfo[["subGroup"]]=="Temp",]
-  # leaflet::leafletProxy(
-  #   mapId =  "weatherMap",
-  #   data = weathersubGroupData
-  # ) %>% 
-  #   leaflet::clearMarkers() %>% 
-  #   leaflet::addCircleMarkers(
-  #     lng = weathersubGroupData[["lon"]], 
-  #     lat = weathersubGroupData[["lat"]], 
-  #     color = "white", 
-  #     radius = 7, 
-  #     weight = 2, 
-  #     fillColor = weathersubGroupData[["colour"]], 
-  #     opacity = 1, 
-  #     fillOpacity = 1,
-  #     popup = paste0("<b>Station Name: </b>",weathersubGroupData[["label"]], "<br><b>Agency: </b>", weathersubGroupData[["agency"]])
-  #   )
-
   
   
   ##### WEATHER - TEMPERATURE ####
   
-  # Update slider from calendar date inputs
-  output$weatherTempDateSlider <- renderUI({
-    plotSlider(
-      inputID = "weatherTempDateSlider",
-      minDate = input$weatherTempDateRange[1],
-      maxDate = input$weatherTempDateRange[2]
+  modWeatherEnable <- as.logical(
+    get_golem_config("enable", config = "mod_weather")
+    )
+  
+  modWeatherTempEnable <- as.logical(
+    get_golem_config("enable", config = "mod_weather_temp")
+  )
+  modWeatherTempName <- configList(
+    get_golem_config("name", config = "mod_weather_temp")
+  )
+  modWeatherTempCode <- configList(
+    get_golem_config("sensor_code", config = "mod_weather_temp")
+  )
+  modWeatherTempColour <- configList(
+    get_golem_config("colour", config = "mod_weather_temp")
+  )
+  
+ 
+  if(isTRUE(modWeatherTempEnable))
+    {
+
+    print(paste0("modWeatherTempEnable: ", modWeatherTempEnable))
+      
+      insertTab(
+        inputId = "weatherTabset",
+        select = TRUE,
+        tabPanel(
+          title = "Temperature",
+          tags$summary(HTML("Select sites and date range:")),
+          checkboxGroupInput(
+            inputId = "weatherTempSiteCheckBox",
+            label = NULL,
+            inline = TRUE,
+            choiceNames = modWeatherTempName,
+            choiceValues =  modWeatherTempCode
+          ),
+          fluidRow(
+            column(
+              8,
+              dateRangeInput(
+                inputId = "weatherTempDateRange",
+                label = NULL,
+                start = Sys.Date()-7,
+                end = Sys.Date()
+              )
+            ),
+            column(
+              4,
+              actionButton(
+                inputId = "weatherTempFetchData",
+                label = "Plot"
+              )
+            )
+          ),
+          plotOutput("weatherTempPlot", height = "400px"),
+          uiOutput("weatherTempDateSliderUI")
+        )
+      )
+      
+  } else {
+      print('no tab')
+      return(NULL)
+    }
+  
+  output$weatherTempDateSliderUI <- renderUI({
+    sliderInput(
+      inputId = "weatherTempDateSlider",
+      "Filter dates:",
+      min = as.Date(input$weatherTempDateRange[1]),
+      max = as.Date(input$weatherTempDateRange[2]),
+      value = c(
+        as.Date(input$weatherTempDateRange[1]),
+        as.Date(input$weatherTempDateRange[2])
+      ),
+      timeFormat="%Y-%m-%d",
+      width = '95%',
+      animate = animationOptions(1000)
     )
   })
   
-  shinyjs::hide("weatherTempDateSliderBox")
   
-  # On button click, fetch sensor data from SCEVO and graph
   observeEvent(input$weatherTempFetchData,{ 
-    shinyjs::show("weatherTempDateSliderBox", anim = TRUE, animType = "fade")
-    weatherTempData <- databaseConnect(sensorCodes = input$weatherTempSiteCheckBox) 
-    
+    #browser()
+    weatherTempData <- databaseConnect(
+      sensorCodes = input$weatherTempSiteCheckBox
+      )
+   
     # Get line plot colours for selected sensors
-    weatherTempDataColours <- activeSensorColours(
-      checkBoxInputs = input$weatherTempSiteCheckBox,
-      sensorInfo = weatherSensorInfo
+    weatherTempDataColours <- sensorColours(
+      allCodes = modWeatherTempCode,
+      allColours = modWeatherTempColour,
+      selectedCodes = input$weatherTempSiteCheckBox
     )
-    
     # Generate line graph from fetched data and display between slider dates
     output$weatherTempPlot <- renderPlot({
-      
       weatherTempData <- dplyr::filter(
         weatherTempData,
         datetime >= as.POSIXct(input$weatherTempDateSlider[1]),
         datetime <= as.POSIXct(input$weatherTempDateSlider[2])
       )
-      
       # Plot the graph    
       plotLine(
         plotData = weatherTempData,
@@ -243,7 +282,54 @@ app_server <- function( input, output, session ) {
         plotDataColours = weatherTempDataColours
       )
     })
-  })
+    
+  })  
+  
+  
+  
+  # # Update slider from calendar date inputs
+  # output$weatherTempDateSlider <- renderUI({
+  #   plotSlider(
+  #     inputID = "weatherTempDateSlider",
+  #     minDate = input$weatherTempDateRange[1],
+  #     maxDate = input$weatherTempDateRange[2]
+  #   )
+  # })
+  # 
+  # shinyjs::hide("weatherTempDateSliderBox")
+  
+  # # On button click, fetch sensor data from SCEVO and graph
+  # observeEvent(input$weatherTempFetchData,{ 
+  #   shinyjs::show("weatherTempDateSliderBox", anim = TRUE, animType = "fade")
+  #   weatherTempData <- databaseConnect(sensorCodes = input$weatherTempSiteCheckBox) 
+  #   
+  #   # Get line plot colours for selected sensors
+  #   weatherTempDataColours <- activeSensorColours(
+  #     checkBoxInputs = input$weatherTempSiteCheckBox,
+  #     sensorInfo = weatherSensorInfo
+  #   )
+  #   
+  #   # Generate line graph from fetched data and display between slider dates
+  #   output$weatherTempPlot <- renderPlot({
+  #     
+  #     weatherTempData <- dplyr::filter(
+  #       weatherTempData,
+  #       datetime >= as.POSIXct(input$weatherTempDateSlider[1]),
+  #       datetime <= as.POSIXct(input$weatherTempDateSlider[2])
+  #     )
+  #     
+  #     # Plot the graph    
+  #     plotLine(
+  #       plotData = weatherTempData,
+  #       plotDataX = "datetime",
+  #       plotDataY = "st_value_1",
+  #       plotDataGroup = "st_sensor_code",
+  #       plotLabelX = "Date",
+  #       plotLabelY = "Temperature (°C)",
+  #       plotDataColours = weatherTempDataColours
+  #     )
+  #   })
+  # })
   
   
   
@@ -558,5 +644,114 @@ app_server <- function( input, output, session ) {
       )
     })
   })
+  
+  #### MOORING ####
+  
+  # Generates blank mooring tab web-map
+  output$moorMap <- leaflet::renderLeaflet({
+    webMap()
+  })
+  
+  moorConfig <-  configFetch(
+    configName = "mod_mooring",
+    valueNames = "enable"
+  )
+
+  moorSysBatConfig <-  configFetch(
+    configName = "mod_mooring_sysBatt", 
+    valueNames = c('enable', 'name', 'sensor_code', 'colour')
+    )
+  
+  
+  if(isTRUE(as.logical(moorConfig$enable))){
+    if(isTRUE(as.logical(moorSysBatConfig$enable))){
+      insertTab(
+        inputId = "moorTabset",
+        select = TRUE,
+        tabPanel(
+          title = "System Battery",
+          tags$summary(HTML("Select sites and date range:")),
+          checkboxGroupInput(
+            inputId = "moorSysBatSiteCheckBox",
+            label = NULL,
+            inline = TRUE,
+            choiceNames = moorSysBatConfig$name,
+            choiceValues =  moorSysBatConfig$sensor_code
+          ),
+          fluidRow(
+            column(
+              8,
+              dateRangeInput(
+                inputId = "moorSysBatDateRange",
+                label = NULL,
+                start = Sys.Date()-7,
+                end = Sys.Date()
+              )
+            ),
+            column(
+              4,
+              actionButton(
+                inputId = "moorSysBatFetchData",
+                label = "Plot"
+              )
+            )
+          ),
+          plotOutput("moorSysBatPlot", height = "400px"),
+          uiOutput("moorSysBatDateSliderUI")
+        )
+      )
+    }
+    
+    output$moorSysBatDateSliderUI <- renderUI({
+      sliderInput(
+        inputId = "moorSysBatDateSlider",
+        "Filter dates:",
+        min = as.Date(input$moorSysBatDateRange[1]),
+        max = as.Date(input$moorSysBatDateRange[2]),
+        value = c(
+          as.Date(input$moorSysBatDateRange[1]),
+          as.Date(input$moorSysBatDateRange[2])
+        ),
+        timeFormat="%Y-%m-%d",
+        width = '95%',
+        animate = animationOptions(1000)
+      )
+    })
+    
+    observeEvent(input$moorSysBatFetchData,{ 
+      moorSysBatData <- databaseConnect(
+        sensorCodes = input$moorSysBatSiteCheckBox
+      )
+      
+      # Get line plot colours for selected sensors
+      moorSysBatDataColours <- sensorColours(
+        allCodes = moorSysBatConfig$sensor_code,
+        allColours = moorSysBatConfig$colour,
+        selectedCodes = input$moorSysBatSiteCheckBox
+      )
+      # Generate line graph from fetched data and display between slider dates
+      output$moorSysBatPlot <- renderPlot({
+        moorSysBatData <- dplyr::filter(
+          moorSysBatData,
+          datetime >= as.POSIXct(input$moorSysBatDateSlider[1]),
+          datetime <= as.POSIXct(input$moorSysBatDateSlider[2])
+        )
+        # Plot the graph    
+        plotLine(
+          plotData = moorSysBatData,
+          plotDataX = "datetime",
+          plotDataY = "st_value_1",
+          plotDataGroup = "st_sensor_code",
+          plotLabelX = "Date",
+          plotLabelY = "Volts",
+          plotDataColours = moorSysBatDataColours
+        )
+      })
+    })
+    
+    
+  }
+ 
    
 }
+

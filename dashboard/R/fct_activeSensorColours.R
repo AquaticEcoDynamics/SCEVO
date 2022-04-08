@@ -12,3 +12,14 @@ activeSensorColours <- function(checkBoxInputs, sensorInfo){
   sensorColours <- sensorInfo[filteredSensorInfo, "colour"]
   return(sensorColours)
 }
+
+
+sensorColours <- function(allCodes, allColours, selectedCodes) {
+  lookup <- data.frame(
+    codes = allCodes,
+    colours = allColours
+  )
+  lookup <- lookup[lookup$codes %in% selectedCodes,]
+  selectedColours <- lookup$colours
+  return(selectedColours)
+}

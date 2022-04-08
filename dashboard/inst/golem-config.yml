@@ -5,4 +5,37 @@ default:
 production:
   app_prod: yes
 dev:
-  golem_wd: /Users/gilesknight/Documents/GitHub/SCEVO/dashboard
+  golem_wd: !expr here::here()
+database:
+  host: 130.95.204.63
+  port: '5433'
+  dbname: scevo
+  user: dpaw_write
+  password: dpaw_write
+database_data:
+  sensor_code_field: st_sensor_code
+  data_value_field: st_value_1
+  data_date_field: st_feed_date_jdn
+mod_weather:
+  enable: 'true'
+mod_weather_temp:
+  enable: 'true'
+  name: Garden Is, Rottnest, Swanbourne, Perth Metro, Jandakot
+  sensor_code: sensor_repository_00234, sensor_repository_00627, sensor_repository_00676,
+    sensor_repository_00599, sensor_repository_00339
+  icon: circle, circle, circle, circle, circle
+  colour: '#66c2a5, #fc8d62, #e78ac3, #e5c494, #b3b3b3'
+  lat: -32.227073, -32.0064404, -31.9857066, -31.9497688, -32.094593
+  lon: 115.682991, 115.5122858, 115.7607396, 115.8491908, 115.87849
+  source: BOM, BOM, BOM, BOM, BOM
+mod_mooring:
+  enable: 'true'
+mod_mooring_sysBatt:
+  enable: 'true'
+  name: Kwilena
+  sensor_code: sensor_repository_01180
+  icon: circle
+  colour: '#66c2a5'
+  lat: '-32.078355232'
+  lon: '115.978799149'
+  source: UWA

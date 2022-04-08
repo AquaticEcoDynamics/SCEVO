@@ -12,22 +12,26 @@ databaseConnect <- function(sensorCodes){
   driver <- DBI::dbDriver("PostgreSQL")
   connection <- DBI::dbConnect(
     drv = driver,
-    host = '130.95.204.63', 
-    port='5433', 
-    dbname='scevo',
-    user='dpaw_write', 
-    password='dpaw_write'
+    host = get_golem_config("host", config = "database"), 
+    port= get_golem_config("port", config = "database"), 
+    dbname= get_golem_config("dbname", config = "database"),
+    user= get_golem_config("user", config = "database"), 
+    password= get_golem_config("password", config = "database")
   )
   
+  sensorCodeField <- get_golem_config("sensor_code_field", config = "database_data")
+  dataValueField <- get_golem_config("data_value_field", config = "database_data")
+  dataDateField <- get_golem_config("data_date_field", config = "database_data")
+  
   fetchedData  <- data.frame(
-    "st_sensor_code" = integer(),
-    "st_value_1" = double(),
+    sensorCodeField = integer(),
+    dataValueField = double(),
     "datetime" = as.POSIXlt(character())
   )
   
   for(i in sensorCodes){
     sensorData <- dplyr::tbl(connection, i) %>% as.data.frame()
-    sensorData  <- sensorData[,c("st_sensor_code","st_value_1","st_feed_date_jdn")]
+    sensorData  <- sensorData[,c(sensorCodeField,dataValueField,dataDateField)]
     fetchedData <- rbind(fetchedData, sensorData)
   }
   

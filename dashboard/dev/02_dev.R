@@ -47,7 +47,10 @@ golem::add_fct( "sensorCheckBoxUI" )
 golem::add_fct( "activeSensorColours" )
 golem::add_fct( "sensorMapMarkers" )
 golem::add_fct( "webMap" )
+golem::add_fct( "configFetch" )
+
 golem::add_utils( "helpers" )
+golem::add_utils( "configList" )
 
 ## External resources
 ## Creates .js and .css files at inst/app/www
