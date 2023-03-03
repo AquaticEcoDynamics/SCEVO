@@ -39,3 +39,7 @@ mod_mooring_sysBatt:
   lat: '-32.078355232'
   lon: '115.978799149'
   source: UWA
+mod_init:
+  name: Module 1, Module 2
+  id: mod1, mod2
+  icon: water, cloud-sun

@@ -9,7 +9,6 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     shinyjs::useShinyjs(),  
-    # Your application UI logic 
     navbarPage(
       theme = bslib::bs_theme(bootswatch = "litera"),
       title = "SCEVO",
@@ -75,118 +74,6 @@ app_ui <- function(request) {
             8,
             tabsetPanel(
               id = "weatherTabset",
-              type = "tabs"
-            )
-          )
-        )
-      ),
-      tabPanel(
-        "Water Quality",
-        icon = icon("vial"),
-        fluidRow(
-          column(
-            4,
-            leaflet::leafletOutput("wqMap", height = '700px')
-          ),
-          column(
-            8,
-            tabsetPanel(
-              id = "wqTabset",
-              type = "tabs",
-              tabPanel(
-                title = "Conductivity",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqConductivity",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "Conductivity"
-                ),
-                dateRangeUI(namespace = "wqConductivity"),
-                plotOutput("wqConductivityPlot", height = "400px"),
-                dateSliderUI(namespace = "wqConductivity")
-              ),
-              tabPanel(
-                title = "Salinity",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqSalinity",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "Salinity"
-                ),
-                dateRangeUI(namespace = "wqSalinity"),
-                plotOutput("wqSalinityPlot", height = "400px"),
-                dateSliderUI(namespace = "wqSalinity")
-              ),
-              tabPanel(
-                title = "pH",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqpH",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "pH"
-                ),
-                dateRangeUI(namespace = "wqpH"),
-                plotOutput("wqpHPlot", height = "400px"),
-                dateSliderUI(namespace = "wqpH")
-              ),
-              tabPanel(
-                title = "Temperature",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqTemp",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "Temp"
-                ),
-                dateRangeUI(namespace = "wqTemp"),
-                plotOutput("wqTempPlot", height = "400px"),
-                dateSliderUI(namespace = "wqTemp")
-              ),
-              tabPanel(
-                title = "Dissolved Oxygen",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqDO",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "DO"
-                ),
-                dateRangeUI(namespace = "wqDO"),
-                plotOutput("wqDOPlot", height = "400px"),
-                dateSliderUI(namespace = "wqDO")
-              ),
-              tabPanel(
-                title = "Dissolved Oxygen - Saturation",
-                tags$summary(HTML("Select sites and date range:")),
-                sensorCheckBoxUI(
-                  namespace = "wqDOSat",
-                  sensorInfo = sensorInfo, 
-                  group = "wq", 
-                  subGroup = "DOSaturation"
-                ),
-                dateRangeUI(namespace = "wqDOSat"),
-                plotOutput("wqDOSatPlot", height = "400px"),
-                dateSliderUI(namespace = "wqDOSat")
-              )
-            )
-          )
-        )
-      ),
-      tabPanel(
-        "Mooring",
-        icon = icon("ship"),
-        fluidRow(
-          column(
-            4,
-            leaflet::leafletOutput("moorMap", height = '700px')
-          ),
-          column(
-            8,
-            tabsetPanel(
-              id = "moorTabset",
               type = "tabs"
             )
           )
