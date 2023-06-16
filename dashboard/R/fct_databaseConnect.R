@@ -13,7 +13,7 @@ databaseConnect <- function(sensorCodes){
   connection <- DBI::dbConnect(
     drv = driver,
     host = get_golem_config("host", config = "database"), 
-    port= get_golem_config("port", config = "database"), 
+    #port= get_golem_config("port", config = "database"), # commented to use the default port
     dbname= get_golem_config("dbname", config = "database"),
     user= get_golem_config("user", config = "database"), 
     password= get_golem_config("password", config = "database")
