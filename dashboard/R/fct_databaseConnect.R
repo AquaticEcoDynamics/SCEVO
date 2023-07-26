@@ -12,8 +12,8 @@ databaseConnect <- function(sensorCodes){
   driver <- DBI::dbDriver("PostgreSQL")
   connection <- DBI::dbConnect(
     drv = driver,
-    host = '130.95.204.63', 
-    port='5433', 
+    host = '130.95.44.39', 
+    #port='3838', 
     dbname='scevo',
     user='dpaw_write', 
     password='dpaw_write'
